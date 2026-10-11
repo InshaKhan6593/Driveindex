@@ -556,3 +556,155 @@ def gaussian_smooth(points: list[tuple[float, float]]) -> list[tuple[float, floa
         tot = sum(w for w, _ in ws)
         out.append((t, sum(w * p for w, p in ws) / tot if tot > 0 else price))
     return out
+
+
+# ---------------------------------------------------------------------------
+# 9. Data sources (bundle module 3992 / registry near line 81141)
+# ---------------------------------------------------------------------------
+
+# Source code -> display name, exactly as the client maps sale/listing `source` fields.
+SOURCES = {
+    "bat": "Bring a Trailer", "bring-a-trailer": "Bring a Trailer", "bat_auction": "Bring a Trailer",
+    "rm": "RM Sotheby's", "rms": "RM Sotheby's", "rm-sothebys": "RM Sotheby's",
+    "sms": "Sotheby's Motorsport", "cab": "Cars & Bids", "carsandbids": "Cars & Bids",
+    "good": "Gooding", "gooding": "Gooding", "pcar": "PCAR Market", "mecum": "Mecum",
+    "bj": "Barrett-Jackson", "barrett-jackson": "Barrett-Jackson", "bon": "Bonhams",
+    "bonhams": "Bonhams", "broadarrow": "Broad Arrow", "broad-arrow": "Broad Arrow",
+    "dupont": "DuPont Registry", "dupont-registry": "DuPont Registry",
+    "dupontregistry": "duPont REGISTRY", "hagerty": "Hagerty Marketplace",
+    "hagerty-marketplace": "Hagerty Marketplace", "collectingcars": "Collecting Cars",
+    "collecting-cars": "Collecting Cars", "carscom": "Cars.com", "classic": "Classic.com",
+    "saratoga": "Saratoga Motorcar Auction", "premier": "Premier Auction Group",
+    "ccag": "Classic Car Auction Group", "freije": "Freije & Freije Big Boy Toy",
+    "mccormick": "McCormick's Palm Springs", "acc": "ACC Auctions",
+    "henderson": "Henderson Collector Motor Series", "branson": "The Branson Auction",
+    "classiccars": "ClassicCars.com", "kruse": "Kruse Auctions", "hemmings": "Hemmings Auctions",
+    "artcurial": "Artcurial Motorcars", "autohunter": "AutoHunter", "autotrader": "AutoTrader",
+    "cargurus": "CarGurus", "ebay": "eBay Motors",
+}
+# Platforms whose listings are auctions, excluded from retail price-cut analysis (`tF`).
+AUCTION_PLATFORMS = {
+    "bat", "bat_auction", "bring-a-trailer", "cab", "collectingcars", "collecting-cars", "pcar",
+    "hagerty", "hagerty-marketplace", "dupont", "sms", "rms", "rm-sothebys", "good", "gooding",
+    "mecum", "bj", "barrett-jackson", "bon", "bonhams", "broadarrow", "broad-arrow",
+}
+# Retail listing feeds shown without a venue name. "dealer", "dealer_direct" and "marketcheck"
+# are hidden too, so dealer inventory most likely comes from the MarketCheck listings API.
+RETAIL_FEEDS = {"carscom", "autotrader", "cargurus", "dupontregistry", "classiccars"}
+
+
+# ---------------------------------------------------------------------------
+# 10. Buy timing call (fn `cS`, line ~14966)
+# ---------------------------------------------------------------------------
+
+def buy_timing_call(signal: str | None, annual_return: float = 0.0,
+                    confidence: float = 0.0) -> tuple[str, str]:
+    if signal is None:
+        return "Watch", "Insufficient data"
+    if signal == "bottomed" and confidence > 0.6:
+        return "Buy Now", "Prices have bottomed. Strong entry point."
+    if signal == "bottomed":
+        return "Likely Entry", "Prices look bottomed, though the call rests on thinner data."
+    if signal == "approaching":
+        return "Wait for Better Entry", "Still declining, but the fall is slowing."
+    if signal == "depreciating":
+        return "Wait", "Actively depreciating: waiting is cheaper than buying the decline."
+    if signal == "appreciating" and annual_return > 0.08:
+        return "Buy Now (Rising Fast)", "Strong appreciation. Delaying will cost more."
+    if signal == "appreciating":
+        return "Buy Soon", "Prices rising. Good for long-term hold."
+    if signal == "stable":
+        return "Fair Entry", "Stable prices. Negotiate on spec and condition."
+    if signal == "insufficient":
+        return "Watch", "Not enough sold data for a timing call yet."
+    return "Watch Closely", "Mixed signals: check back as new sales land."
+
+
+# ---------------------------------------------------------------------------
+# 11. 12-month value change and market temperature (module 1471, fns `o`, `u`, `m`)
+# ---------------------------------------------------------------------------
+
+def value_change_12m(market_value, value_year_ago, value_year_ago_at=None, latest_sale_at=None,
+                     newest_sale_at=None, value_first=None, value_first_at=None) -> dict:
+    """Compare today's market value with the value a year ago (dates as epoch ms).
+
+    Falls back to the first computed value ("since <month>") when there is no year-ago value,
+    and reports "no sales" when nothing has sold since the comparison point."""
+    if not market_value or market_value <= 0:
+        return {"kind": "notEnough"}
+    if not value_year_ago or value_year_ago <= 0:
+        if not value_first or value_first <= 0 or value_first_at is None:
+            return {"kind": "notEnough"}
+        if (value_year_ago_at is not None and value_first_at < value_year_ago_at
+                and (latest_sale_at is None or latest_sale_at <= value_year_ago_at)):
+            return {"kind": "noSales",
+                    "comparable": newest_sale_at is None or newest_sale_at > value_year_ago_at}
+        if latest_sale_at is None or latest_sale_at <= value_first_at:
+            return {"kind": "notEnough"}
+        return {"kind": "change", "pct": market_value / value_first - 1, "since": value_first_at}
+    if (latest_sale_at is not None and value_year_ago_at is not None
+            and latest_sale_at <= value_year_ago_at):
+        return {"kind": "noSales",
+                "comparable": newest_sale_at is None or newest_sale_at > value_year_ago_at}
+    return {"kind": "change", "pct": market_value / value_year_ago - 1, "since": None}
+
+
+def market_temperature(change: dict) -> str | None:
+    """'Heating up' above +1%, 'Cooling off' below -1% (rounded to 0.1 pt), else 'Holding flat'."""
+    if change.get("kind") != "change":
+        return None
+    pct = round(change["pct"] * 100, 1)
+    return "Heating up" if pct > 1 else "Cooling off" if pct < -1 else "Holding flat"
+
+
+# ---------------------------------------------------------------------------
+# 12. Class percentile vs peers (memo `l4`, line ~13490)
+# ---------------------------------------------------------------------------
+
+def class_percentile(my_rate: float | None, my_basis_price: float, peers: list[dict]) -> dict | None:
+    """Rank a car's annual return among peers priced within +/-40% (by MSRP if known, else value).
+
+    Each peer: {"price": basis price, "sales": n, "confidence": c, "ann_ret": r, "signal": s}.
+    Peers need n >= 8, confidence >= 0.45 and a real signal. At least 8 peers are required."""
+    rates = sorted(p["ann_ret"] for p in peers
+                   if p.get("sales", 0) >= 8 and p.get("confidence", 0) >= 0.45
+                   and p.get("ann_ret") is not None and p.get("signal") not in (None, "insufficient")
+                   and 0.6 * my_basis_price <= p["price"] <= 1.4 * my_basis_price)
+    if len(rates) < 8:
+        return None
+    n = len(rates)
+    mid = n // 2
+    med = rates[mid] if n % 2 else (rates[mid - 1] + rates[mid]) / 2
+    pct = None
+    if my_rate is not None:
+        pct = _js_round(100 * (sum(r < my_rate for r in rates)
+                               + 0.5 * sum(r == my_rate for r in rates)) / n)
+    return {"n": n, "median": med, "p25": rates[int(0.25 * n)], "p75": rates[int(0.75 * n)],
+            "percentile": pct}
+
+
+# ---------------------------------------------------------------------------
+# 13. Sellability factors: cadence and retail price-cut pressure (fn `cj`)
+# ---------------------------------------------------------------------------
+
+def trading_cadence_days(sales_last_24m: int) -> int | None:
+    return _js_round(730 / sales_last_24m) if sales_last_24m >= 4 else None
+
+
+def price_cut_pressure(listings: list[dict]) -> dict | None:
+    """listings: {"platform": code, "price": ask, "changes": [price deltas]}.
+    Over 40% of retail listings (3+) with cuts reads as 'Price-cut pressure';
+    3+ retail listings with no cuts reads as 'Asks holding'."""
+    retail = [l for l in listings if str(l.get("platform", "")).lower() not in AUCTION_PLATFORMS]
+    cuts = []
+    for l in retail:
+        neg = [c for c in l.get("changes", []) if c < 0]
+        if neg:
+            total = -sum(neg)
+            cuts.append(total / ((l.get("price") or 0) + total))
+    if len(retail) > 2 and len(cuts) / len(retail) > 0.4:
+        return {"label": "Price-cut pressure", "cut": len(cuts), "of": len(retail),
+                "median_cut": sorted(cuts)[len(cuts) // 2]}
+    if len(retail) >= 3 and not cuts:
+        return {"label": "Asks holding", "of": len(retail)}
+    return None

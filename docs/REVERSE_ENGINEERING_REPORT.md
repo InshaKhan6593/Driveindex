@@ -74,6 +74,44 @@ min/max, sales count, 12-month change and average mileage.
    recency, bound against outliers. With too few clean sales the car shows "Limited Data".
 5. **Recompute twice a day.**
 
+## 3a. Data sources and ingestion (what their scrapers must do)
+
+Their scrapers run on their servers and never reach the browser. They can't be downloaded,
+and no tool, REA included, can extract them from outside. What the client does reveal is
+what the scrapers collect and from where.
+
+**Source registry** (client map from `source` code to display name; `client_math.SOURCES`):
+
+| Kind | Sources |
+|---|---|
+| Online auctions | Bring a Trailer (`bat`), Cars & Bids (`cab`), PCAR Market (`pcar`), Collecting Cars, Hagerty Marketplace, AutoHunter, Hemmings Auctions, eBay Motors |
+| Live auction houses | RM Sotheby's (`rms`), Sotheby's Motorsport (`sms`), Gooding, Mecum, Barrett-Jackson (`bj`), Bonhams, Broad Arrow, Artcurial, Saratoga, Premier Auction Group, Classic Car Auction Group, Freije & Freije, McCormick's Palm Springs, ACC, Henderson, Branson, Kruse |
+| Aggregator | Classic.com (`classic`, shown as "Other venues") |
+| Retail listings | Cars.com, AutoTrader, CarGurus, duPont REGISTRY, ClassicCars.com, plus `dealer`, `dealer_direct`, `marketcheck` |
+
+* **Dealer listings most likely come from the MarketCheck API**, a paid feed of US dealer
+  inventory: `marketcheck` is a source code the client hides from view. The many small auction
+  houses (Kruse, Freije, Branson …) also suggest that part of the sales history comes through
+  an aggregator such as Classic.com rather than one scraper per house.
+* **Images are hotlinked from the sources**, so scrapers store the source's image URL: BaT
+  (`bringatrailer.com/wp-content`, `?w=` resize), RM Sotheby's (`cdn.rmsothebys.com`), Cars & Bids
+  (`media.carsandbids.com/cdn-cgi/image`), Mecum (`res.cloudinary.com/mecum`), Bonhams
+  (`images1.bonhams.com`), imgix hosts, and one CloudFront bucket (`d2niwqq19lf86s`).
+* **Fields per sale record** (keys the client reads): `p` price, `currency`, `d`/`ts` sale
+  date, `mi` mileage, `t`/`trans` transmission, `v` venue, `source`, `url` lot page, `vin`,
+  `color` (exterior/interior), `options`, `sellerType`, `loc`, `views`, plus quality flags
+  `reserveNotMet`, `withdrawn`, `isOutlier`, `carfaxDamage`, `nonUsSale`.
+* **Fields per listing:** `pl` platform, `p` ask, `priceHistory[].change` (price cuts are
+  tracked over time), `lastSeen`, `listingUrl`.
+* **VIN handling:** 17-character VIN for 1981 and later, 8+ characters for earlier chassis
+  numbers. Placeholders like "N/A", "TBD" or "ON FILE" are rejected.
+* **Currencies:** USD, EUR, GBP, CHF, JPY, AUD, CAD, HKD, AED and NZD are stored. Only USD
+  sales feed the dollar statistics.
+
+To rebuild this you need one scraper per source that pulls completed lots (price, date,
+mileage, VIN, transmission, colours, options, lot URL, reserve status). Each site's terms of
+service and robots.txt apply.
+
 ## 4. Published statistics (reproduced exactly: `estimators.py` Part A)
 
 | Number | Definition |
@@ -199,10 +237,68 @@ the server.
   client mileage curve. Weights decay exponentially (half-life 365 d) and the last 5 sales count
   double. The value is the weighted median, bounded to P25–P75. GT350R with 15 of 78 sales:
   **$111,402 against the site's $114,593**.
-* **Value Signal:** OLS of log(normalised price) on time gives `annualReturn`. The 12-month
+* **Trend inputs:** OLS of log(normalised price) on time gives `annualReturn`. The 12-month
   median change gives `recentReturn`. Confidence comes from R², sample size and CV, capped by
-  sample size (n < 8 → 0.3, < 15 → 0.5, < 25 → 0.7). Classification thresholds are ±3%/yr.
-  All of these constants are assumptions; DriveIndex doesn't publish them.
+  sample size (n < 8 → 0.3, < 15 → 0.5, < 25 → 0.7).
+
+### 6.1 How they classify cars (Value Signal)
+
+Six labels: `appreciating`, `stable`, `depreciating`, `approaching` (shown as "Near Bottom"),
+`bottomed` ("Bottomed Out") and `insufficient` ("Limited Data"). The classifier runs on their
+server. The evidence pins down its shape:
+
+1. **It is not the long-run trend.** /depreciation lists the 2015 McLaren P1 as *Bottomed* at
+   **+1.6%/yr** long-run and the 1987 Porsche 959 at **+5.4%/yr**. A long-run slope can't call
+   a rising car bottomed, so the label must come from a recent window measured against a
+   past peak.
+2. **Their own definitions:** bottomed = "the fall has levelled off", approaching = "the
+   decline is slowing". Inputs are mileage-normalised verified US sales.
+3. **The API sends `peakPrice` and `fromPeak`** with each car, which fits a drawdown-based rule.
+4. **Published mix:** 538 appreciating / 5,395 stable / 427 bottomed / 506 depreciating
+   (approaching not stated). About 79% of classified cars are stable, so the "move"
+   thresholds are wide.
+5. **Confidence is capped by sample size.** Cars with too few clean sales get `insufficient`
+   and no call.
+
+Reconstruction (`estimators.classify_signal`; thresholds are assumptions to calibrate):
+
+```
+yearly = median mileage-normalised price per year (years with 2+ sales)
+drawdown = 1 − latest / peak
+r_now  = log-linear slope over the last 3 years
+r_prev = slope over the 4 years before that
+bottomed     if drawdown ≥ 12% and r_now > −2%/yr and r_prev < −4%/yr
+approaching  if drawdown ≥ 12% and r_now < −2%/yr and the decline slowed by at least a third
+appreciating if r_now ≥ +4%/yr
+depreciating if r_now ≤ −4%/yr
+stable       otherwise; insufficient if fewer than 5 clean sales
+```
+
+### 6.2 What the label drives (client code, exact)
+
+| Signal | Buy timing call |
+|---|---|
+| bottomed, confidence > 0.6 | **Buy Now** |
+| bottomed | Likely Entry |
+| approaching | Wait for Better Entry |
+| depreciating | Wait |
+| appreciating, annual return > 8% | Buy Now (Rising Fast) |
+| appreciating | Buy Soon |
+| stable | Fair Entry |
+| insufficient / none | Watch |
+
+* **Market temperature:** market value against the value 12 months ago. Above +1% is
+  "Heating up", below −1% is "Cooling off", otherwise "Holding flat". When there is no
+  year-ago value it compares against the first computed value ("since Mar 2024"), and it
+  says "No (comparable) sales in the last 12 months" when nothing has sold.
+* **Class percentile:** your car's annual return ranked among peers priced within ±40% (by
+  MSRP, else value) that have 8+ sales, confidence ≥ 0.45 and a real signal. At least 8 peers
+  are needed.
+* **Market factors:** trading cadence (730 / sales in 24 months, in days; "Liquid market" at
+  12+ sales a year). "Price-cut pressure" when over 40% of 3+ retail listings (auction
+  platforms excluded) have cut their price. "Asks holding" when none have.
+* **Owner (Dealer Desk) actions:** Hold, Set an ask, Re-price down, Room to move up, Move it.
+  These are computed server-side; only the labels ship to the client.
 
 ## 7. Product and pricing (from the page copy)
 
@@ -216,8 +312,10 @@ Note: projections and option tables ship to every visitor's browser. Only the in
 
 ## 8. Limits
 
-* The Value Signal classifier, outlier thresholds, the exact market-value estimator and the
-  seasonality decomposition are server-side and were not observed. Part B is a reconstruction.
+* The Value Signal classifier, the scrapers, outlier thresholds, the exact market-value
+  estimator and the seasonality decomposition ("strips out the underlying price trend") are
+  server-side and were not observed. No source maps are published (the `.map` URLs return 404).
+  Sections 3a and 6 are built from evidence and are reconstructions, not recovered code.
 * The bundle is a snapshot (`dpl_Eu5aFvEGZiXEmJ41x2ihPzoRdALQ`). Constants may change on
   any deploy.
 * Reusing DriveIndex's data or code commercially raises legal questions (their terms,

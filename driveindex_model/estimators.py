@@ -201,14 +201,63 @@ def value_signal(sales, as_of: date, collect_score=None, age=None) -> TrendFit |
     size_cap = 0.3 if n < 8 else 0.5 if n < 15 else 0.7 if n < 25 else 0.9
     confidence = min(size_cap, 0.5 * r2 + 0.3 * min(1, n / 40) + 0.2 * max(0, 1 - cv / 0.5))
 
-    if ann >= 0.03 and (recent is None or recent > -0.02):
-        signal = "appreciating"
-    elif ann <= -0.03 and recent is not None and recent >= 0:
-        signal = "bottomed"
-    elif ann <= -0.03 and recent is not None and recent > ann / 2:
-        signal = "approaching"
-    elif ann <= -0.03:
-        signal = "depreciating"
-    else:
-        signal = "stable"
+    signal = classify_signal(clean, as_of, ann, typical, collect_score, age)
     return TrendFit(ann, recent, r2, cv, n, round(confidence, 3), signal)
+
+
+def _yearly_values(sales, typical, collect_score, age):
+    by_year: dict[int, list[float]] = {}
+    for s in sales:
+        by_year.setdefault(s.sold.year, []).append(
+            normalize_to_typical_mileage(s, typical, collect_score, age))
+    return [(y, statistics.median(v)) for y, v in sorted(by_year.items()) if len(v) >= 2]
+
+
+def _slope(points) -> float:
+    """Annualised log-linear slope of (year, value) points."""
+    if len(points) < 2:
+        return 0.0
+    xs = [p[0] for p in points]
+    ys = [math.log(p[1]) for p in points]
+    mx, my = sum(xs) / len(xs), sum(ys) / len(ys)
+    sxx = sum((x - mx) ** 2 for x in xs) or 1e-9
+    return math.exp(sum((x - mx) * (y - my) for x, y in zip(xs, ys)) / sxx) - 1
+
+
+def classify_signal(sales, as_of, long_run, typical=None, collect_score=None, age=None,
+                    min_sales: int = 5, drawdown_min: float = 0.12, move: float = 0.04) -> str:
+    """Value Signal reconstruction from the published definitions:
+
+      * bottomed     "verified sales show the fall has levelled off"
+      * approaching  "the decline is slowing"
+      * appreciating / depreciating / stable on the recent trend
+
+    Evidence the label is NOT the long-run trend: /depreciation lists 2015 McLaren P1 as
+    Bottomed at +1.6%/yr long-run and 1987 Porsche 959 as Bottomed at +5.4%/yr. So "bottomed"
+    means drawn down from a peak and now flat. The client also receives `peakPrice` and
+    `fromPeak` per car, which fits that. ASSUMPTIONS: thresholds `drawdown_min` (12% off peak),
+    `move` (+/-4%/yr), "slowing" = decline rate down by at least a third, the 3-year recent
+    window and the year-median smoothing. Calibrate against the published mix (latest recompute: 538 appreciating, 5,395 stable, 427 bottomed,
+    506 depreciating, approaching not stated).
+    """
+    if len(sales) < min_sales:
+        return "insufficient"
+    yearly = _yearly_values(sales, typical, collect_score, age)
+    if len(yearly) < 2:
+        return "stable" if abs(long_run) < move else ("appreciating" if long_run > 0 else "depreciating")
+    peak = max(v for _, v in yearly)
+    last = yearly[-1][1]
+    drawdown = 1 - last / peak
+    recent = [p for p in yearly if p[0] >= as_of.year - 3]
+    prev = [p for p in yearly if as_of.year - 6 <= p[0] < as_of.year - 2]
+    r_now, r_prev = _slope(recent), _slope(prev)
+
+    if drawdown >= drawdown_min and r_now > -move / 2 and r_prev < -move:
+        return "bottomed"
+    if drawdown >= drawdown_min and r_now < -move / 2 and r_now > (2 / 3) * r_prev:
+        return "approaching"
+    if r_now >= move:
+        return "appreciating"
+    if r_now <= -move:
+        return "depreciating"
+    return "stable"
