@@ -1,0 +1,4525 @@
+[
+ {
+  "name": "2024 Chevrolet Camaro ZL1 Convertible",
+  "url": "https://driveindex.com/cars/chevrolet/camaro-zl1-convertible/2024",
+  "market_value": 72761,
+  "median": 114250,
+  "p25": 75000,
+  "p75": 145000,
+  "min": 71500,
+  "max": 170500,
+  "sales_count": 10,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 582,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 76790,
+  "latest_sale": "2025-11-12",
+  "listed_sales": [
+   {
+    "date": "2025-11-12",
+    "price": 71500,
+    "miles": 2500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-11",
+    "price": 74300,
+    "miles": 138,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-09",
+    "price": 75000,
+    "miles": 2100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-30",
+    "price": 78700,
+    "miles": 429,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-06-08",
+    "price": 96500,
+    "miles": 5,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-05-16",
+    "price": 154000,
+    "miles": 5,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-20",
+    "price": 132000,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-03-15",
+    "price": 145000,
+    "miles": 18,
+    "gearbox": null
+   },
+   {
+    "date": "2024-03-08",
+    "price": 170500,
+    "miles": 30,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-01-14",
+    "price": 132000,
+    "miles": 9,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 74300,
+    "n": 3
+   },
+   "2024": {
+    "median": 132000,
+    "n": 7
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1961 Ferrari 250 GT Cabriolet Series II",
+  "url": "https://driveindex.com/cars/ferrari/250-gt-cabriolet-series-ii/1961",
+  "market_value": 1169625,
+  "median": 1448750,
+  "p25": 1105000,
+  "p75": 1792500,
+  "min": 231000,
+  "max": 2090000,
+  "sales_count": 15,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": null,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-04-25",
+  "listed_sales": [
+   {
+    "date": "2022-08-18",
+    "price": 1105000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2021-08-12",
+    "price": 1407500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2021-05-22",
+    "price": 1490000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2020-03-06",
+    "price": 1352500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2019-08-15",
+    "price": 1517500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-08-24",
+    "price": 1792500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2015-08-15",
+    "price": 1842500,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2015-03-13",
+    "price": 2090000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2013-11-21",
+    "price": 2035000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2013-08-16",
+    "price": 1100000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2009-01-17",
+    "price": 385000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2006-01-20",
+    "price": 231000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "2009 Ferrari 430 Scuderia Spider 16M",
+  "url": "https://driveindex.com/cars/ferrari/430-scuderia-spider-16m/2009",
+  "market_value": 987351,
+  "median": 596400,
+  "p25": 339995,
+  "p75": 916000,
+  "min": 230000,
+  "max": 1980000,
+  "sales_count": 42,
+  "sales_12m": 16,
+  "change_12m_pct": 34.4,
+  "avg_miles": 7213,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 314000,
+  "latest_sale": "2026-09-25",
+  "listed_sales": [
+   {
+    "date": "2026-09-25",
+    "price": 983850,
+    "miles": 10634,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-25",
+    "price": 916000,
+    "miles": 8000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-15",
+    "price": 1050000,
+    "miles": 11000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-14",
+    "price": 1001000,
+    "miles": 12914,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-04",
+    "price": 994350,
+    "miles": 5789,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-28",
+    "price": 1050000,
+    "miles": 10000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-06",
+    "price": 940000,
+    "miles": 6684,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-20",
+    "price": 596400,
+    "miles": 33162,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-14",
+    "price": 1105000,
+    "miles": 5941,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-23",
+    "price": 907000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-17",
+    "price": 1980000,
+    "miles": 141,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-27",
+    "price": 831000,
+    "miles": 3800,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 994350,
+    "n": 11
+   },
+   "2025": {
+    "median": 745000,
+    "n": 5
+   },
+   "2023": {
+    "median": 339995,
+    "n": 5
+   },
+   "2021": {
+    "median": 299350,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2019 Ford Mustang Shelby GT350R",
+  "url": "https://driveindex.com/cars/ford/mustang-shelby-gt350r/2019",
+  "market_value": 97742,
+  "median": 80000,
+  "p25": 74500,
+  "p75": 86000,
+  "min": 57500,
+  "max": 100000,
+  "sales_count": 53,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 4127,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 73435,
+  "latest_sale": "2026-05-12",
+  "listed_sales": [
+   {
+    "date": "2026-05-12",
+    "price": 72500,
+    "miles": 28000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-23",
+    "price": 73500,
+    "miles": 5600,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-22",
+    "price": 75500,
+    "miles": 4900,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-06-05",
+    "price": 60000,
+    "miles": 28100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-28",
+    "price": 74750,
+    "miles": 9000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-13",
+    "price": 84000,
+    "miles": 1700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-05",
+    "price": 63000,
+    "miles": 27300,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-21",
+    "price": 75000,
+    "miles": 3300,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-12-19",
+    "price": 99500,
+    "miles": 24,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-09-20",
+    "price": 75500,
+    "miles": 3500,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-04-26",
+    "price": 74000,
+    "miles": 5000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-04-06",
+    "price": 71500,
+    "miles": 3800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-01-08",
+    "price": 78500,
+    "miles": 2800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-12-09",
+    "price": 73000,
+    "miles": 13000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-10-04",
+    "price": 73000,
+    "miles": 6000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 74875,
+    "n": 6
+   },
+   "2024": {
+    "median": 75500,
+    "n": 5
+   },
+   "2023": {
+    "median": 79500,
+    "n": 13
+   },
+   "2022": {
+    "median": 85000,
+    "n": 14
+   },
+   "2021": {
+    "median": 80000,
+    "n": 13
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "1957 Porsche 356A Race Car",
+  "url": "https://driveindex.com/cars/porsche/356a-race-car/1957",
+  "market_value": 59000,
+  "median": 59000,
+  "p25": null,
+  "p75": null,
+  "min": null,
+  "max": null,
+  "sales_count": 1,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 10,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2019-05-28",
+  "listed_sales": [
+   {
+    "date": "2019-05-28",
+    "price": 59000,
+    "miles": 10,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2020 Porsche 718 Spyder",
+  "url": "https://driveindex.com/cars/porsche/718-spyder/2020",
+  "market_value": 114619,
+  "median": 115000,
+  "p25": 106000,
+  "p75": 123200,
+  "min": 55000,
+  "max": 130000,
+  "sales_count": 23,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 8807,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 97300,
+  "latest_sale": "2025-12-22",
+  "listed_sales": [
+   {
+    "date": "2025-12-22",
+    "price": 112718,
+    "miles": 7000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-29",
+    "price": 127470,
+    "miles": 385,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-23",
+    "price": 106000,
+    "miles": 11000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-07-14",
+    "price": 120000,
+    "miles": 2000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-24",
+    "price": 103000,
+    "miles": 10000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-12",
+    "price": 112000,
+    "miles": 3500,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-07",
+    "price": 91000,
+    "miles": 49250,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-10-21",
+    "price": 55000,
+    "miles": 10800,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-20",
+    "price": 126500,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-04-11",
+    "price": 110000,
+    "miles": 12000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-03-19",
+    "price": 125000,
+    "miles": 6100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-11-04",
+    "price": 120750,
+    "miles": 1800,
+    "gearbox": null
+   },
+   {
+    "date": "2023-07-26",
+    "price": 121000,
+    "miles": 3200,
+    "gearbox": null
+   },
+   {
+    "date": "2023-06-22",
+    "price": 106000,
+    "miles": 13000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-05-23",
+    "price": 103000,
+    "miles": 9000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 112000,
+    "n": 7
+   },
+   "2024": {
+    "median": 117500,
+    "n": 4
+   },
+   "2023": {
+    "median": 117777,
+    "n": 7
+   },
+   "2022": {
+    "median": 115000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2003 Porsche 911 Carrera 4 Cabriolet (996.2)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-4-cabriolet/2003",
+  "market_value": 29123,
+  "median": 29000,
+  "p25": 24150,
+  "p75": 32996,
+  "min": 17500,
+  "max": 45000,
+  "sales_count": 31,
+  "sales_12m": 6,
+  "change_12m_pct": -14.4,
+  "avg_miles": 63834,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 82700,
+  "latest_sale": "2026-09-10",
+  "listed_sales": [
+   {
+    "date": "2026-09-10",
+    "price": 27500,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-22",
+    "price": 38788,
+    "miles": 34500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-22",
+    "price": 25996,
+    "miles": 76000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-30",
+    "price": 30000,
+    "miles": 49000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-22",
+    "price": 29000,
+    "miles": 73000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-20",
+    "price": 20296,
+    "miles": 109000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-24",
+    "price": 32996,
+    "miles": 33400,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-12",
+    "price": 24150,
+    "miles": 114100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-01-20",
+    "price": 36300,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-07-13",
+    "price": 31000,
+    "miles": 58000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-06-06",
+    "price": 25750,
+    "miles": 56900,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-11-27",
+    "price": 21000,
+    "miles": 110600,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-09-26",
+    "price": 30430,
+    "miles": 31200,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-06-13",
+    "price": 17500,
+    "miles": 84683,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-02-08",
+    "price": 33000,
+    "miles": 47000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 29000,
+    "n": 5
+   },
+   "2025": {
+    "median": 28573,
+    "n": 4
+   },
+   "2023": {
+    "median": 25715,
+    "n": 4
+   },
+   "2022": {
+    "median": 26500,
+    "n": 5
+   },
+   "2021": {
+    "median": 31000,
+    "n": 3
+   },
+   "2018": {
+    "median": 25300,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2017 Porsche 911 Carrera 4S Cabriolet (991.2)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-4s-cabriolet/2017",
+  "market_value": 103435,
+  "median": 97750,
+  "p25": 89000,
+  "p75": 115000,
+  "min": 82199,
+  "max": 137000,
+  "sales_count": 16,
+  "sales_12m": 5,
+  "change_12m_pct": null,
+  "avg_miles": 24404,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 118500,
+  "latest_sale": "2026-05-26",
+  "listed_sales": [
+   {
+    "date": "2026-05-26",
+    "price": 100000,
+    "miles": 22000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-01",
+    "price": 126000,
+    "miles": 7000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-09",
+    "price": 89000,
+    "miles": 37200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-29",
+    "price": 87500,
+    "miles": 46655,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-26",
+    "price": 115000,
+    "miles": 12000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-29",
+    "price": 120000,
+    "miles": 7197,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-04-02",
+    "price": 112500,
+    "miles": 16000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-30",
+    "price": 106500,
+    "miles": 39000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-03-12",
+    "price": 87000,
+    "miles": 32000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-05-06",
+    "price": 82500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2022-09-25",
+    "price": 137000,
+    "miles": 17000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-06-24",
+    "price": 116000,
+    "miles": 12000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-04-30",
+    "price": 90000,
+    "miles": 33000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-12-24",
+    "price": 90500,
+    "miles": 28000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-11-09",
+    "price": 95500,
+    "miles": 20007,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 100000,
+    "n": 3
+   },
+   "2025": {
+    "median": 113750,
+    "n": 4
+   },
+   "2020": {
+    "median": 90500,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2011 Porsche 911 Carrera 4S Coupe (997.2)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-4s-coupe/2011",
+  "market_value": 91043,
+  "median": 70999,
+  "p25": 62750,
+  "p75": 80000,
+  "min": 48888,
+  "max": 126000,
+  "sales_count": 24,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 41953,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 95300,
+  "latest_sale": "2026-08-11",
+  "listed_sales": [
+   {
+    "date": "2026-08-11",
+    "price": 126000,
+    "miles": 38000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-13",
+    "price": 62750,
+    "miles": 66000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-11",
+    "price": 83000,
+    "miles": 60000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-02-10",
+    "price": 60500,
+    "miles": 38200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-02-05",
+    "price": 69997,
+    "miles": 43158,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-07",
+    "price": 65000,
+    "miles": 39300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-10-19",
+    "price": 51555,
+    "miles": 44000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-09-16",
+    "price": 94500,
+    "miles": 49000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-09-10",
+    "price": 65000,
+    "miles": 74000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-05",
+    "price": 74000,
+    "miles": 37000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-02-22",
+    "price": 72500,
+    "miles": 29325,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-01-22",
+    "price": 68000,
+    "miles": 29538,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-01",
+    "price": 75750,
+    "miles": 31050,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-07-31",
+    "price": 69250,
+    "miles": 31756,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-10-28",
+    "price": 95000,
+    "miles": 44000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 67499,
+    "n": 4
+   },
+   "2024": {
+    "median": 70250,
+    "n": 6
+   },
+   "2022": {
+    "median": 85500,
+    "n": 3
+   },
+   "2021": {
+    "median": 72500,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2017 Porsche 911 Carrera 4S Coupe (991.2)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-4s-coupe/2017",
+  "market_value": 124321,
+  "median": 99000,
+  "p25": 90000,
+  "p75": 109502,
+  "min": 74911,
+  "max": 128500,
+  "sales_count": 36,
+  "sales_12m": 11,
+  "change_12m_pct": null,
+  "avg_miles": 27109,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 105300,
+  "latest_sale": "2026-10-02",
+  "listed_sales": [
+   {
+    "date": "2026-10-02",
+    "price": 74911,
+    "miles": 146800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-09-19",
+    "price": 128500,
+    "miles": 14000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-08-12",
+    "price": 108000,
+    "miles": 38000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-07-13",
+    "price": 89500,
+    "miles": 58800,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-18",
+    "price": 98000,
+    "miles": 30400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-12",
+    "price": 117075,
+    "miles": 20045,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-30",
+    "price": 119115,
+    "miles": 9000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-23",
+    "price": 119000,
+    "miles": 11000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-12-15",
+    "price": 90000,
+    "miles": 27000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-13",
+    "price": 93500,
+    "miles": 32000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-21",
+    "price": 97100,
+    "miles": 23000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-16",
+    "price": 109502,
+    "miles": 25000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-18",
+    "price": 91000,
+    "miles": 28600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-12-26",
+    "price": 103000,
+    "miles": 12000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-11-25",
+    "price": 85500,
+    "miles": 32000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 112538,
+    "n": 8
+   },
+   "2025": {
+    "median": 93500,
+    "n": 5
+   },
+   "2023": {
+    "median": 89875,
+    "n": 11
+   },
+   "2022": {
+    "median": 108500,
+    "n": 6
+   },
+   "2021": {
+    "median": 105000,
+    "n": 6
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2019 Porsche 911 Carrera 4S Coupe (991.2)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-4s-coupe/2019",
+  "market_value": 105644,
+  "median": 99500,
+  "p25": null,
+  "p75": null,
+  "min": 90500,
+  "max": 121000,
+  "sales_count": 4,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 21600,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-04-28",
+  "listed_sales": [
+   {
+    "date": "2025-04-28",
+    "price": 92000,
+    "miles": 59600,
+    "gearbox": null
+   },
+   {
+    "date": "2024-02-02",
+    "price": 107000,
+    "miles": 5000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-09-29",
+    "price": 90500,
+    "miles": 19000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-12-19",
+    "price": 121000,
+    "miles": 2800,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2016 Porsche 911 Carrera Cabriolet (991.1)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-cabriolet/2016",
+  "market_value": 70702,
+  "median": 67750,
+  "p25": null,
+  "p75": null,
+  "min": 56000,
+  "max": 73500,
+  "sales_count": 3,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 48868,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-05-24",
+  "listed_sales": [
+   {
+    "date": "2025-05-24",
+    "price": 73500,
+    "miles": 49000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-02-17",
+    "price": 56000,
+    "miles": 69000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-10-08",
+    "price": 67750,
+    "miles": 28604,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2025 Porsche 911 Carrera Cabriolet (992.2)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-cabriolet/2025",
+  "market_value": 153000,
+  "median": 153000,
+  "p25": null,
+  "p75": null,
+  "min": null,
+  "max": null,
+  "sales_count": 1,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 633,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 135200,
+  "latest_sale": "2025-10-22",
+  "listed_sales": [
+   {
+    "date": "2025-10-22",
+    "price": 153000,
+    "miles": 633,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2016 Porsche 911 Carrera Coupe (991.1)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-coupe/2016",
+  "market_value": 83524,
+  "median": 63000,
+  "p25": 56500,
+  "p75": 74991,
+  "min": 49250,
+  "max": 92500,
+  "sales_count": 13,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 38625,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 89400,
+  "latest_sale": "2026-09-12",
+  "listed_sales": [
+   {
+    "date": "2026-09-12",
+    "price": 85500,
+    "miles": 35000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-01-02",
+    "price": 76076,
+    "miles": 45000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-27",
+    "price": 73500,
+    "miles": 23500,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-02",
+    "price": 56500,
+    "miles": 50157,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-01",
+    "price": 63000,
+    "miles": 31000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-10-14",
+    "price": 56500,
+    "miles": 34000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-13",
+    "price": 52000,
+    "miles": 70700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-03-01",
+    "price": 49250,
+    "miles": 40441,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-12-18",
+    "price": 58000,
+    "miles": 60000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-06-25",
+    "price": 92500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2021-09-27",
+    "price": 74991,
+    "miles": 11600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-01-28",
+    "price": 50000,
+    "miles": 61000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2017-10-20",
+    "price": 72500,
+    "miles": 1100,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 63000,
+    "n": 3
+   },
+   "2024": {
+    "median": 52000,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2016 Porsche 911 Carrera GTS Coupe (991.1)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-gts-coupe/2016",
+  "market_value": 116659,
+  "median": 109300,
+  "p25": 100800,
+  "p75": 129000,
+  "min": 67250,
+  "max": 162000,
+  "sales_count": 30,
+  "sales_12m": 8,
+  "change_12m_pct": 9.6,
+  "avg_miles": 20381,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 116200,
+  "latest_sale": "2026-08-27",
+  "listed_sales": [
+   {
+    "date": "2026-08-27",
+    "price": 158000,
+    "miles": 2039,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-06",
+    "price": 67250,
+    "miles": 107478,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-29",
+    "price": 89000,
+    "miles": 42006,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-24",
+    "price": 110000,
+    "miles": 49679,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-02",
+    "price": 133350,
+    "miles": 13604,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-04",
+    "price": 160000,
+    "miles": 11000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-06",
+    "price": 140000,
+    "miles": 9000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-14",
+    "price": 108600,
+    "miles": 21000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-26",
+    "price": 129000,
+    "miles": 16000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-14",
+    "price": 120991,
+    "miles": 11000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-04-28",
+    "price": 132000,
+    "miles": 16000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-04-10",
+    "price": 111000,
+    "miles": 14000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-10",
+    "price": 107000,
+    "miles": 7000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-07",
+    "price": 103000,
+    "miles": 26000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-12-13",
+    "price": 100000,
+    "miles": 31000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 133350,
+    "n": 7
+   },
+   "2025": {
+    "median": 111000,
+    "n": 7
+   },
+   "2024": {
+    "median": 101396,
+    "n": 4
+   },
+   "2021": {
+    "median": 113000,
+    "n": 3
+   },
+   "2020": {
+    "median": 95501,
+    "n": 6
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "1986 Porsche 911 Carrera Targa (G-Series)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-targa/1986",
+  "market_value": 53074,
+  "median": 57500,
+  "p25": 46750,
+  "p75": 70500,
+  "min": 18700,
+  "max": 105000,
+  "sales_count": 69,
+  "sales_12m": 8,
+  "change_12m_pct": -15,
+  "avg_miles": 91309,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 36510,
+  "latest_sale": "2026-08-28",
+  "listed_sales": [
+   {
+    "date": "2026-08-28",
+    "price": 46750,
+    "miles": 180400,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-08-05",
+    "price": 71500,
+    "miles": 73000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-08-01",
+    "price": 68411,
+    "miles": 62000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-07-22",
+    "price": 100000,
+    "miles": 18000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-07-01",
+    "price": 62500,
+    "miles": 107000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-05-31",
+    "price": 73500,
+    "miles": 133000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-15",
+    "price": 64911,
+    "miles": 96000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-02-13",
+    "price": 63000,
+    "miles": 98000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-09-19",
+    "price": 77000,
+    "miles": 42000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-29",
+    "price": 60000,
+    "miles": 176231,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-27",
+    "price": 62500,
+    "miles": 74000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-31",
+    "price": 87411,
+    "miles": 1019,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-19",
+    "price": 80641,
+    "miles": 141000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-12-24",
+    "price": 79911,
+    "miles": 38000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-10-10",
+    "price": 71000,
+    "miles": 119000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 66661,
+    "n": 8
+   },
+   "2025": {
+    "median": 77000,
+    "n": 5
+   },
+   "2024": {
+    "median": 67250,
+    "n": 12
+   },
+   "2023": {
+    "median": 58000,
+    "n": 14
+   },
+   "2022": {
+    "median": 59860,
+    "n": 8
+   },
+   "2021": {
+    "median": 43500,
+    "n": 6
+   },
+   "2020": {
+    "median": 37911,
+    "n": 3
+   },
+   "2019": {
+    "median": 38250,
+    "n": 4
+   },
+   "2018": {
+    "median": 36200,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2002 Porsche 911 Carrera Targa (996.2)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-targa/2002",
+  "market_value": 33269,
+  "median": 27875,
+  "p25": 23750,
+  "p75": 36250,
+  "min": 14300,
+  "max": 64960,
+  "sales_count": 41,
+  "sales_12m": 8,
+  "change_12m_pct": 13.2,
+  "avg_miles": 76514,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 76300,
+  "latest_sale": "2026-06-30",
+  "listed_sales": [
+   {
+    "date": "2026-06-30",
+    "price": 33000,
+    "miles": 84409,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-06-09",
+    "price": 23750,
+    "miles": 88000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-25",
+    "price": 64960,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-19",
+    "price": 35250,
+    "miles": 84000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-10",
+    "price": 22000,
+    "miles": 46643,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-28",
+    "price": 27250,
+    "miles": 89294,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-21",
+    "price": 31350,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-11-02",
+    "price": 17200,
+    "miles": 157000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-07-26",
+    "price": 36250,
+    "miles": 69000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-11",
+    "price": 14300,
+    "miles": 146839,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-06-11",
+    "price": 27750,
+    "miles": 157000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-31",
+    "price": 24000,
+    "miles": 129518,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-10-07",
+    "price": 33583,
+    "miles": 50000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-09-30",
+    "price": 30500,
+    "miles": 50000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-04-17",
+    "price": 41996,
+    "miles": 30000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 31350,
+    "n": 7
+   },
+   "2025": {
+    "median": 24000,
+    "n": 5
+   },
+   "2024": {
+    "median": 33583,
+    "n": 5
+   },
+   "2023": {
+    "median": 27250,
+    "n": 3
+   },
+   "2022": {
+    "median": 38625,
+    "n": 6
+   },
+   "2021": {
+    "median": 34750,
+    "n": 4
+   },
+   "2020": {
+    "median": 23250,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "1998 Porsche 911 GT1 Strassenversion (993)",
+  "url": "https://driveindex.com/cars/porsche/911-gt1-strassenversion/1998",
+  "market_value": 3420000,
+  "median": 3420000,
+  "p25": null,
+  "p75": null,
+  "min": 1175000,
+  "max": 5665000,
+  "sales_count": 2,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 4909,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 800000,
+  "latest_sale": "2017-03-10",
+  "listed_sales": [
+   {
+    "date": "2017-03-10",
+    "price": 5665000,
+    "miles": 4909,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2012-08-17",
+    "price": 1175000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2003 Porsche 911 GT2 (996.2)",
+  "url": "https://driveindex.com/cars/porsche/911-gt2/2003",
+  "market_value": 296400,
+  "median": 183000,
+  "p25": 137500,
+  "p75": 245000,
+  "min": 48500,
+  "max": 387000,
+  "sales_count": 29,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 15114,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 192560,
+  "latest_sale": "2026-08-27",
+  "listed_sales": [
+   {
+    "date": "2026-08-27",
+    "price": 262777,
+    "miles": 45000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-06-18",
+    "price": 342300,
+    "miles": 20155,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-04-25",
+    "price": 212800,
+    "miles": 20221,
+    "gearbox": null
+   },
+   {
+    "date": "2023-11-08",
+    "price": 192000,
+    "miles": 20000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-21",
+    "price": 228000,
+    "miles": 4900,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-07-14",
+    "price": 145000,
+    "miles": 13239,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-06-19",
+    "price": 179000,
+    "miles": 18485,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-04-04",
+    "price": 201000,
+    "miles": 10651,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-01-29",
+    "price": 249996,
+    "miles": 4000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-12",
+    "price": 250000,
+    "miles": 19811,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-09",
+    "price": 262996,
+    "miles": 10000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-06-27",
+    "price": 387000,
+    "miles": 86,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-03-31",
+    "price": 245000,
+    "miles": 20000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2023": {
+    "median": 196500,
+    "n": 6
+   },
+   "2022": {
+    "median": 256498,
+    "n": 4
+   },
+   "2021": {
+    "median": 185498,
+    "n": 4
+   },
+   "2019": {
+    "median": 120000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2019 Porsche 911 Targa 4 GTS (991.2)",
+  "url": "https://driveindex.com/cars/porsche/911-targa-4-gts/2019",
+  "market_value": 214865,
+  "median": 156500,
+  "p25": 150000,
+  "p75": 173000,
+  "min": 115000,
+  "max": 257000,
+  "sales_count": 24,
+  "sales_12m": 7,
+  "change_12m_pct": 2.5,
+  "avg_miles": 12436,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 139900,
+  "latest_sale": "2026-10-02",
+  "listed_sales": [
+   {
+    "date": "2026-10-02",
+    "price": 167000,
+    "miles": 32000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-07-28",
+    "price": 223000,
+    "miles": 15000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-27",
+    "price": 139000,
+    "miles": 39700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-25",
+    "price": 184800,
+    "miles": 8072,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-30",
+    "price": 175000,
+    "miles": 7000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-14",
+    "price": 153333,
+    "miles": 10000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-22",
+    "price": 115000,
+    "miles": 16615,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-05-16",
+    "price": 257000,
+    "miles": 4500,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-02",
+    "price": 163000,
+    "miles": 18000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-02-13",
+    "price": 134500,
+    "miles": 9226,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-08-10",
+    "price": 148000,
+    "miles": 8000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-10",
+    "price": 151000,
+    "miles": 3844,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-11-22",
+    "price": 156000,
+    "miles": 7800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-05-08",
+    "price": 152000,
+    "miles": 2700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-04-20",
+    "price": 177000,
+    "miles": 14000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 175000,
+    "n": 5
+   },
+   "2025": {
+    "median": 153333,
+    "n": 5
+   },
+   "2023": {
+    "median": 154000,
+    "n": 6
+   },
+   "2022": {
+    "median": 169000,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2016 Porsche 911 Targa 4S (991.1)",
+  "url": "https://driveindex.com/cars/porsche/911-targa-4s/2016",
+  "market_value": 120851,
+  "median": 127000,
+  "p25": null,
+  "p75": null,
+  "min": 100000,
+  "max": 152000,
+  "sales_count": 7,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 15376,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-12-11",
+  "listed_sales": [
+   {
+    "date": "2025-12-11",
+    "price": 100000,
+    "miles": 32600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-02-04",
+    "price": 123000,
+    "miles": 4200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-11-29",
+    "price": 130000,
+    "miles": 5000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-11-22",
+    "price": 127000,
+    "miles": 8453,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-05-07",
+    "price": 152000,
+    "miles": 5000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-02-08",
+    "price": 124000,
+    "miles": 37000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-11-14",
+    "price": 135000,
+    "miles": null,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2019 Porsche 911 Targa 4S (991.2)",
+  "url": "https://driveindex.com/cars/porsche/911-targa-4s/2019",
+  "market_value": 120929,
+  "median": 125000,
+  "p25": null,
+  "p75": null,
+  "min": 116000,
+  "max": 143000,
+  "sales_count": 6,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 17807,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 124300,
+  "latest_sale": "2026-08-09",
+  "listed_sales": [
+   {
+    "date": "2026-08-09",
+    "price": 116000,
+    "miles": 28638,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-02-18",
+    "price": 122000,
+    "miles": 30000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-04",
+    "price": 143000,
+    "miles": 9000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-24",
+    "price": 135000,
+    "miles": 21000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-22",
+    "price": 127500,
+    "miles": 13600,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-01-10",
+    "price": 122500,
+    "miles": 4605,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1967 Porsche 911 Targa (Long Hood)",
+  "url": "https://driveindex.com/cars/porsche/911-targa/1967",
+  "market_value": 112983,
+  "median": 95200,
+  "p25": 78500,
+  "p75": 195250,
+  "min": 17967,
+  "max": 428500,
+  "sales_count": 23,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 54485,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 6490,
+  "latest_sale": "2026-08-14",
+  "listed_sales": [
+   {
+    "date": "2026-08-14",
+    "price": 257600,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-15",
+    "price": 302000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-08-03",
+    "price": 115000,
+    "miles": 73000,
+    "gearbox": null
+   },
+   {
+    "date": "2022-09-23",
+    "price": 85000,
+    "miles": 100000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-03-03",
+    "price": 17967,
+    "miles": 12581,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-08-13",
+    "price": 428500,
+    "miles": 65000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-02-03",
+    "price": 58500,
+    "miles": 74000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-08-20",
+    "price": 78500,
+    "miles": 14000,
+    "gearbox": null
+   },
+   {
+    "date": "2019-04-08",
+    "price": 80000,
+    "miles": 97000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "2003 Porsche 911 Turbo Coupe (996)",
+  "url": "https://driveindex.com/cars/porsche/911-turbo-coupe/2003",
+  "market_value": 126089,
+  "median": 60385,
+  "p25": 50000,
+  "p75": 77500,
+  "min": 28750,
+  "max": 156800,
+  "sales_count": 113,
+  "sales_12m": 9,
+  "change_12m_pct": 32.9,
+  "avg_miles": 47697,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 121200,
+  "latest_sale": "2026-09-29",
+  "listed_sales": [
+   {
+    "date": "2026-09-29",
+    "price": 124000,
+    "miles": 23000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-09-21",
+    "price": 155925,
+    "miles": 3235,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-09-08",
+    "price": 70000,
+    "miles": 34000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-24",
+    "price": 108000,
+    "miles": 39000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-08-13",
+    "price": 156800,
+    "miles": 10591,
+    "gearbox": null
+   },
+   {
+    "date": "2026-07-15",
+    "price": 88000,
+    "miles": 36000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-07",
+    "price": 93000,
+    "miles": 33000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-02-23",
+    "price": 87500,
+    "miles": 39000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-10-17",
+    "price": 47000,
+    "miles": 97000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-27",
+    "price": 41996,
+    "miles": 141000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-18",
+    "price": 65000,
+    "miles": 43000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-09-02",
+    "price": 71000,
+    "miles": 32401,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-31",
+    "price": 39500,
+    "miles": 83800,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-27",
+    "price": 81000,
+    "miles": 72000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-07-22",
+    "price": 80500,
+    "miles": 21000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 100500,
+    "n": 8
+   },
+   "2025": {
+    "median": 65000,
+    "n": 13
+   },
+   "2024": {
+    "median": 67650,
+    "n": 14
+   },
+   "2023": {
+    "median": 68998,
+    "n": 12
+   },
+   "2022": {
+    "median": 59014,
+    "n": 18
+   },
+   "2021": {
+    "median": 53475,
+    "n": 12
+   },
+   "2020": {
+    "median": 46575,
+    "n": 6
+   },
+   "2019": {
+    "median": 42500,
+    "n": 9
+   },
+   "2018": {
+    "median": 43550,
+    "n": 8
+   },
+   "2017": {
+    "median": 63500,
+    "n": 6
+   },
+   "2016": {
+    "median": 50000,
+    "n": 3
+   },
+   "2014": {
+    "median": 63800,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2012 Porsche 911 Turbo Coupe (997.2)",
+  "url": "https://driveindex.com/cars/porsche/911-turbo-coupe/2012",
+  "market_value": 140084,
+  "median": 107269,
+  "p25": 95000,
+  "p75": 137997,
+  "min": 62250,
+  "max": 230000,
+  "sales_count": 17,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 33616,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-09-01",
+  "listed_sales": [
+   {
+    "date": "2026-09-01",
+    "price": 135975,
+    "miles": 28261,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-28",
+    "price": 152000,
+    "miles": 74700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-24",
+    "price": 132500,
+    "miles": 59810,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-12-10",
+    "price": 230000,
+    "miles": 2000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-07-09",
+    "price": 125000,
+    "miles": 37082,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-05-23",
+    "price": 156500,
+    "miles": 20000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-07-26",
+    "price": 97000,
+    "miles": 14447,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-10-08",
+    "price": 173000,
+    "miles": 15000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-07-18",
+    "price": 95000,
+    "miles": 17911,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-05-23",
+    "price": 102000,
+    "miles": 14000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-01-20",
+    "price": 137997,
+    "miles": 38000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-08-05",
+    "price": 107269,
+    "miles": 41917,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-04-29",
+    "price": 62250,
+    "miles": 70900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-12-04",
+    "price": 97500,
+    "miles": 39000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-10-26",
+    "price": 83000,
+    "miles": 51820,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2024": {
+    "median": 156500,
+    "n": 3
+   },
+   "2022": {
+    "median": 119999,
+    "n": 4
+   },
+   "2020": {
+    "median": 83000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2021 Porsche 911 Turbo S Cabriolet (992.1)",
+  "url": "https://driveindex.com/cars/porsche/911-turbo-s-cabriolet/2021",
+  "market_value": 219377,
+  "median": 229500,
+  "p25": 215000,
+  "p75": 260250,
+  "min": 206000,
+  "max": 290000,
+  "sales_count": 10,
+  "sales_12m": 3,
+  "change_12m_pct": null,
+  "avg_miles": 4779,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 220800,
+  "latest_sale": "2026-09-15",
+  "listed_sales": [
+   {
+    "date": "2026-09-15",
+    "price": 215000,
+    "miles": 5000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-26",
+    "price": 220000,
+    "miles": 12791,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-20",
+    "price": 210000,
+    "miles": 7000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-12-23",
+    "price": 206000,
+    "miles": 4400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-08-16",
+    "price": 232000,
+    "miles": 8000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-07-11",
+    "price": 227000,
+    "miles": 764,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-05-20",
+    "price": 260000,
+    "miles": 1400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-07-22",
+    "price": 262000,
+    "miles": 1600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-02-24",
+    "price": 260250,
+    "miles": 5132,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-08-13",
+    "price": 290000,
+    "miles": 1700,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2024 Porsche 911 Turbo S Coupe (992.1)",
+  "url": "https://driveindex.com/cars/porsche/911-turbo-s-coupe/2024",
+  "market_value": 268175,
+  "median": 270000,
+  "p25": 264000,
+  "p75": 280000,
+  "min": 230000,
+  "max": 405000,
+  "sales_count": 12,
+  "sales_12m": 7,
+  "change_12m_pct": 2.3,
+  "avg_miles": 3690,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 230400,
+  "latest_sale": "2026-08-06",
+  "listed_sales": [
+   {
+    "date": "2026-08-06",
+    "price": 270000,
+    "miles": 3200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-28",
+    "price": 256000,
+    "miles": 9000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-20",
+    "price": 230000,
+    "miles": 4692,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-16",
+    "price": 270000,
+    "miles": 1300,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-17",
+    "price": 268800,
+    "miles": 5579,
+    "gearbox": null
+   },
+   {
+    "date": "2025-12-18",
+    "price": 280000,
+    "miles": 5000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-18",
+    "price": 405000,
+    "miles": 2900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-06",
+    "price": 264000,
+    "miles": 3800,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-05-28",
+    "price": 287000,
+    "miles": 1472,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-23",
+    "price": 230000,
+    "miles": 4650,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-17",
+    "price": 280000,
+    "miles": 1870,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-07",
+    "price": 272000,
+    "miles": 811,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 268800,
+    "n": 5
+   },
+   "2025": {
+    "median": 280000,
+    "n": 5
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1969 Porsche 912 Coupe",
+  "url": "https://driveindex.com/cars/porsche/912-coupe/1969",
+  "market_value": 36526,
+  "median": 54500,
+  "p25": 40000,
+  "p75": 67500,
+  "min": 14500,
+  "max": 134400,
+  "sales_count": 74,
+  "sales_12m": 11,
+  "change_12m_pct": -13.5,
+  "avg_miles": 49454,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-09-16",
+  "listed_sales": [
+   {
+    "date": "2026-09-16",
+    "price": 30500,
+    "miles": 85100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-08-28",
+    "price": 40000,
+    "miles": 18000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-07-13",
+    "price": 57912,
+    "miles": 72000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-05-10",
+    "price": 45500,
+    "miles": 59000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-20",
+    "price": 59950,
+    "miles": 99000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-04",
+    "price": 70912,
+    "miles": 5000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-02",
+    "price": 33250,
+    "miles": 70000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-26",
+    "price": 57912,
+    "miles": 10000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-03",
+    "price": 69750,
+    "miles": 73000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-12-19",
+    "price": 59000,
+    "miles": 49000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-01",
+    "price": 71912,
+    "miles": 74000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-06-24",
+    "price": 88000,
+    "miles": 8000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-06-12",
+    "price": 43000,
+    "miles": 155000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-01-05",
+    "price": 66912,
+    "miles": 75000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-12-09",
+    "price": 46000,
+    "miles": 67000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 57912,
+    "n": 9
+   },
+   "2025": {
+    "median": 66912,
+    "n": 5
+   },
+   "2024": {
+    "median": 53500,
+    "n": 9
+   },
+   "2023": {
+    "median": 46206,
+    "n": 6
+   },
+   "2022": {
+    "median": 57750,
+    "n": 10
+   },
+   "2021": {
+    "median": 60412,
+    "n": 15
+   },
+   "2019": {
+    "median": 37750,
+    "n": 4
+   },
+   "2018": {
+    "median": 55100,
+    "n": 6
+   },
+   "2016": {
+    "median": 38500,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "1988 Porsche 924S Special Edition",
+  "url": "https://driveindex.com/cars/porsche/924s-special-edition/1988",
+  "market_value": 14631,
+  "median": 14575,
+  "p25": null,
+  "p75": null,
+  "min": 10500,
+  "max": 17924,
+  "sales_count": 6,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 63283,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2024-09-24",
+  "listed_sales": [
+   {
+    "date": "2024-09-24",
+    "price": 14400,
+    "miles": 64000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-10-03",
+    "price": 14750,
+    "miles": 58000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-07-10",
+    "price": 17924,
+    "miles": 49000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-12-02",
+    "price": 17500,
+    "miles": 73000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-12-11",
+    "price": 10500,
+    "miles": 77000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2019-09-17",
+    "price": 10924,
+    "miles": 58700,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1990 Porsche 944 S2 Cabriolet",
+  "url": "https://driveindex.com/cars/porsche/944-s2-cabriolet/1990",
+  "market_value": 20350,
+  "median": 18700,
+  "p25": 14000,
+  "p75": 24750,
+  "min": 10000,
+  "max": 42750,
+  "sales_count": 94,
+  "sales_12m": 12,
+  "change_12m_pct": -16.3,
+  "avg_miles": 68169,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 51800,
+  "latest_sale": "2026-07-01",
+  "listed_sales": [
+   {
+    "date": "2026-07-01",
+    "price": 20500,
+    "miles": 57000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-06-10",
+    "price": 16318,
+    "miles": 72000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-06-02",
+    "price": 30000,
+    "miles": 31616,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-21",
+    "price": 19000,
+    "miles": 34000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-16",
+    "price": 16500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-13",
+    "price": 27500,
+    "miles": 48000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-05",
+    "price": 13750,
+    "miles": 111000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-10",
+    "price": 26000,
+    "miles": 48556,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-12-28",
+    "price": 14800,
+    "miles": 71000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-12-01",
+    "price": 19750,
+    "miles": 29000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-29",
+    "price": 15500,
+    "miles": 56000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-26",
+    "price": 15500,
+    "miles": 109000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-09-01",
+    "price": 21500,
+    "miles": 53000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-08-05",
+    "price": 19500,
+    "miles": 33000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-07-21",
+    "price": 30500,
+    "miles": 16000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 19750,
+    "n": 8
+   },
+   "2025": {
+    "median": 19625,
+    "n": 14
+   },
+   "2024": {
+    "median": 18700,
+    "n": 12
+   },
+   "2023": {
+    "median": 21000,
+    "n": 13
+   },
+   "2022": {
+    "median": 21507,
+    "n": 6
+   },
+   "2021": {
+    "median": 20000,
+    "n": 11
+   },
+   "2020": {
+    "median": 16625,
+    "n": 12
+   },
+   "2019": {
+    "median": 14000,
+    "n": 9
+   },
+   "2018": {
+    "median": 16600,
+    "n": 4
+   },
+   "2017": {
+    "median": 12750,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2005 Porsche Boxster S",
+  "url": "https://driveindex.com/cars/porsche/boxster-s/2005",
+  "market_value": 19766,
+  "median": 22039,
+  "p25": 18757,
+  "p75": 27750,
+  "min": 10200,
+  "max": 38000,
+  "sales_count": 54,
+  "sales_12m": 7,
+  "change_12m_pct": 15.9,
+  "avg_miles": 63431,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 53800,
+  "latest_sale": "2026-08-24",
+  "listed_sales": [
+   {
+    "date": "2026-08-24",
+    "price": 18500,
+    "miles": 72000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-05",
+    "price": 24005,
+    "miles": 36000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-07-15",
+    "price": 26500,
+    "miles": 40700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-07-13",
+    "price": 23000,
+    "miles": 85500,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-19",
+    "price": 23500,
+    "miles": 100600,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-19",
+    "price": 32250,
+    "miles": 67800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-10-13",
+    "price": 34000,
+    "miles": 23000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-29",
+    "price": 16500,
+    "miles": 90900,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-09-18",
+    "price": 28000,
+    "miles": 35000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-07",
+    "price": 11800,
+    "miles": 133000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-06-04",
+    "price": 21777,
+    "miles": 54126,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-04-24",
+    "price": 21250,
+    "miles": 54000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-02-17",
+    "price": 21050,
+    "miles": 66000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-10",
+    "price": 20375,
+    "miles": 46100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-12-18",
+    "price": 24000,
+    "miles": 96000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 23753,
+    "n": 6
+   },
+   "2025": {
+    "median": 21150,
+    "n": 8
+   },
+   "2024": {
+    "median": 19050,
+    "n": 8
+   },
+   "2023": {
+    "median": 23000,
+    "n": 7
+   },
+   "2022": {
+    "median": 27750,
+    "n": 7
+   },
+   "2021": {
+    "median": 24369,
+    "n": 6
+   },
+   "2020": {
+    "median": 19004,
+    "n": 4
+   },
+   "2019": {
+    "median": 18150,
+    "n": 5
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2012 Porsche Boxster",
+  "url": "https://driveindex.com/cars/porsche/boxster/2012",
+  "market_value": 26477,
+  "median": 25250,
+  "p25": 23500,
+  "p75": 33000,
+  "min": 17600,
+  "max": 36300,
+  "sales_count": 9,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 50503,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 49500,
+  "latest_sale": "2026-04-08",
+  "listed_sales": [
+   {
+    "date": "2026-04-08",
+    "price": 25250,
+    "miles": 60064,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-07",
+    "price": 33000,
+    "miles": 20000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-05-17",
+    "price": 25000,
+    "miles": 22955,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-02-27",
+    "price": 23500,
+    "miles": 104000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-01-08",
+    "price": 19500,
+    "miles": 63000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-05-09",
+    "price": 27500,
+    "miles": 33000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2016-01-19",
+    "price": 17600,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2015-01-23",
+    "price": 35750,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2015-01-18",
+    "price": 36300,
+    "miles": null,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2015 Porsche Cayenne Diesel",
+  "url": "https://driveindex.com/cars/porsche/cayenne-diesel/2015",
+  "market_value": 20046,
+  "median": 29000,
+  "p25": 24500,
+  "p75": 37750,
+  "min": 12500,
+  "max": 60500,
+  "sales_count": 111,
+  "sales_12m": 21,
+  "change_12m_pct": -17.9,
+  "avg_miles": 96241,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 61700,
+  "latest_sale": "2026-10-04",
+  "listed_sales": [
+   {
+    "date": "2026-10-04",
+    "price": 12500,
+    "miles": 178000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-09-23",
+    "price": 41000,
+    "miles": 45000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-09-18",
+    "price": 15500,
+    "miles": 130000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-28",
+    "price": 24714,
+    "miles": 137000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-24",
+    "price": 35500,
+    "miles": 57000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-19",
+    "price": 22830,
+    "miles": 110200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-12",
+    "price": 15500,
+    "miles": 123900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-24",
+    "price": 30250,
+    "miles": 76100,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-22",
+    "price": 23000,
+    "miles": 112000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-06-22",
+    "price": 20800,
+    "miles": 101000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-20",
+    "price": 25888,
+    "miles": 114000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-06-02",
+    "price": 17000,
+    "miles": 134000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-29",
+    "price": 21250,
+    "miles": 142000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-28",
+    "price": 34000,
+    "miles": 100000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-27",
+    "price": 28950,
+    "miles": 94000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 22915,
+    "n": 12
+   },
+   "2025": {
+    "median": 26625,
+    "n": 42
+   },
+   "2024": {
+    "median": 33063,
+    "n": 32
+   },
+   "2023": {
+    "median": 36000,
+    "n": 19
+   },
+   "2022": {
+    "median": 41279,
+    "n": 6
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2010 Porsche Cayenne S Transsyberia",
+  "url": "https://driveindex.com/cars/porsche/cayenne-s-transsyberia/2010",
+  "market_value": 16800,
+  "median": 39000,
+  "p25": 29000,
+  "p75": 52180,
+  "min": 13000,
+  "max": 60000,
+  "sales_count": 19,
+  "sales_12m": 4,
+  "change_12m_pct": null,
+  "avg_miles": 99759,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 89000,
+  "latest_sale": "2026-08-20",
+  "listed_sales": [
+   {
+    "date": "2026-08-20",
+    "price": 13000,
+    "miles": 134300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-09",
+    "price": 17250,
+    "miles": 189600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-06",
+    "price": 21000,
+    "miles": 81400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-21",
+    "price": 34000,
+    "miles": 56000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-27",
+    "price": 44000,
+    "miles": 86000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-20",
+    "price": 25000,
+    "miles": 104900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-08-28",
+    "price": 18250,
+    "miles": 172854,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-08-16",
+    "price": 46000,
+    "miles": 91000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-28",
+    "price": 40000,
+    "miles": 102000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-29",
+    "price": 54888,
+    "miles": 69000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-07-30",
+    "price": 54500,
+    "miles": 78000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-07-22",
+    "price": 52179,
+    "miles": 98000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-06-21",
+    "price": 53000,
+    "miles": 46000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-04-14",
+    "price": 60000,
+    "miles": 78000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-10-21",
+    "price": 39000,
+    "miles": 105000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 17250,
+    "n": 3
+   },
+   "2025": {
+    "median": 34000,
+    "n": 3
+   },
+   "2024": {
+    "median": 40000,
+    "n": 3
+   },
+   "2023": {
+    "median": 54500,
+    "n": 5
+   },
+   "2022": {
+    "median": 39000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2011 Porsche Cayenne",
+  "url": "https://driveindex.com/cars/porsche/cayenne/2011",
+  "market_value": 16021,
+  "median": 24600,
+  "p25": 20000,
+  "p75": 28600,
+  "min": 10500,
+  "max": 35200,
+  "sales_count": 16,
+  "sales_12m": 6,
+  "change_12m_pct": null,
+  "avg_miles": 115489,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 46850,
+  "latest_sale": "2026-08-03",
+  "listed_sales": [
+   {
+    "date": "2026-08-03",
+    "price": 10500,
+    "miles": 170000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-20",
+    "price": 20000,
+    "miles": 123000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-27",
+    "price": 11000,
+    "miles": 161100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-20",
+    "price": 20500,
+    "miles": 114300,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-12-03",
+    "price": 28958,
+    "miles": 95000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-04",
+    "price": 33957,
+    "miles": 99000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-15",
+    "price": 13500,
+    "miles": 119000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-17",
+    "price": 24700,
+    "miles": 23000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-03-30",
+    "price": 35200,
+    "miles": 84745,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-06-23",
+    "price": 26750,
+    "miles": 89700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-04-10",
+    "price": 24500,
+    "miles": 115000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-04-08",
+    "price": 25000,
+    "miles": 112700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-02-15",
+    "price": 32250,
+    "miles": 100300,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-09-17",
+    "price": 22250,
+    "miles": 210000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-03-14",
+    "price": 16500,
+    "miles": null,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 15500,
+    "n": 4
+   },
+   "2021": {
+    "median": 25875,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2012 Porsche Cayenne",
+  "url": "https://driveindex.com/cars/porsche/cayenne/2012",
+  "market_value": 20387,
+  "median": 22000,
+  "p25": 17800,
+  "p75": 25999,
+  "min": 11000,
+  "max": 37958,
+  "sales_count": 28,
+  "sales_12m": 7,
+  "change_12m_pct": -34.3,
+  "avg_miles": 102350,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 48200,
+  "latest_sale": "2026-10-06",
+  "listed_sales": [
+   {
+    "date": "2026-10-06",
+    "price": 22500,
+    "miles": 82000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-09-11",
+    "price": 11111,
+    "miles": 175700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-08-11",
+    "price": 13400,
+    "miles": 117600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-20",
+    "price": 32000,
+    "miles": 82000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-06",
+    "price": 16275,
+    "miles": 86300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-12",
+    "price": 25999,
+    "miles": 118000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-10-16",
+    "price": 11000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-09-24",
+    "price": 18250,
+    "miles": 150300,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-06-23",
+    "price": 27000,
+    "miles": 104900,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-14",
+    "price": 25900,
+    "miles": 116600,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-08",
+    "price": 18500,
+    "miles": 19000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-04-10",
+    "price": 28500,
+    "miles": 102400,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-31",
+    "price": 24780,
+    "miles": 146000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-12",
+    "price": 11500,
+    "miles": 96000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-18",
+    "price": 21750,
+    "miles": 107000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 19388,
+    "n": 6
+   },
+   "2025": {
+    "median": 24780,
+    "n": 7
+   },
+   "2024": {
+    "median": 21750,
+    "n": 3
+   },
+   "2023": {
+    "median": 22000,
+    "n": 3
+   },
+   "2022": {
+    "median": 21650,
+    "n": 4
+   },
+   "2021": {
+    "median": 23945,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2014 Porsche Cayenne",
+  "url": "https://driveindex.com/cars/porsche/cayenne/2014",
+  "market_value": 15400,
+  "median": 23414,
+  "p25": 19250,
+  "p75": 40350,
+  "min": 10450,
+  "max": 51000,
+  "sales_count": 15,
+  "sales_12m": 4,
+  "change_12m_pct": null,
+  "avg_miles": 65580,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 50550,
+  "latest_sale": "2026-09-10",
+  "listed_sales": [
+   {
+    "date": "2026-09-10",
+    "price": 10450,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-01",
+    "price": 19250,
+    "miles": 30000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-25",
+    "price": 14000,
+    "miles": 95000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-10-17",
+    "price": 42000,
+    "miles": 79100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-04-08",
+    "price": 23414,
+    "miles": 55600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-12-13",
+    "price": 40350,
+    "miles": 35000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-09-30",
+    "price": 10800,
+    "miles": 120000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-07",
+    "price": 18300,
+    "miles": 70400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-05-15",
+    "price": 22550,
+    "miles": 41713,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-02",
+    "price": 37250,
+    "miles": 31000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-09-30",
+    "price": 46500,
+    "miles": 44000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-03-10",
+    "price": 30500,
+    "miles": 102000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-09-27",
+    "price": 21500,
+    "miles": 106200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-08-10",
+    "price": 40000,
+    "miles": 51100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-05-10",
+    "price": 51000,
+    "miles": 57000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 14000,
+    "n": 3
+   },
+   "2024": {
+    "median": 22550,
+    "n": 5
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2020 Porsche Cayenne",
+  "url": "https://driveindex.com/cars/porsche/cayenne/2020",
+  "market_value": 38619,
+  "median": 47750,
+  "p25": 36300,
+  "p75": 56000,
+  "min": 22750,
+  "max": 102000,
+  "sales_count": 13,
+  "sales_12m": 5,
+  "change_12m_pct": 1.6,
+  "avg_miles": 48444,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 67500,
+  "latest_sale": "2026-10-01",
+  "listed_sales": [
+   {
+    "date": "2026-10-01",
+    "price": 32750,
+    "miles": 65700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-21",
+    "price": 62000,
+    "miles": 60500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-29",
+    "price": 56000,
+    "miles": 20000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-16",
+    "price": 39000,
+    "miles": 46900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-27",
+    "price": 22750,
+    "miles": 132600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-06",
+    "price": 27500,
+    "miles": 82000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-16",
+    "price": 40505,
+    "miles": 27800,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-22",
+    "price": 36300,
+    "miles": 76420,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-11-06",
+    "price": 53555,
+    "miles": 36000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-17",
+    "price": 47750,
+    "miles": 31000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-12-09",
+    "price": 47750,
+    "miles": 8850,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-02-15",
+    "price": 96000,
+    "miles": 29000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-01-12",
+    "price": 102000,
+    "miles": 13000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 47500,
+    "n": 4
+   },
+   "2025": {
+    "median": 31900,
+    "n": 4
+   },
+   "2023": {
+    "median": 96000,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2016 Porsche Cayman GT4 Clubsport",
+  "url": "https://driveindex.com/cars/porsche/cayman-gt4-clubsport/2016",
+  "market_value": 96956,
+  "median": 130000,
+  "p25": 100000,
+  "p75": 155000,
+  "min": 90000,
+  "max": 218400,
+  "sales_count": 15,
+  "sales_12m": 3,
+  "change_12m_pct": -9.8,
+  "avg_miles": 5469,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 165000,
+  "latest_sale": "2026-09-21",
+  "listed_sales": [
+   {
+    "date": "2026-09-21",
+    "price": 109000,
+    "miles": 1300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-29",
+    "price": 92000,
+    "miles": 9500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-03",
+    "price": 90000,
+    "miles": 14000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-07-25",
+    "price": 104000,
+    "miles": 411,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-06-04",
+    "price": 90000,
+    "miles": 8000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-05-02",
+    "price": 155000,
+    "miles": 24,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-04-04",
+    "price": 100000,
+    "miles": 11000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-02-21",
+    "price": 137000,
+    "miles": 1600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-22",
+    "price": 100000,
+    "miles": 11085,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-02-22",
+    "price": 132000,
+    "miles": 8000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-01-11",
+    "price": 130000,
+    "miles": 9000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-12-06",
+    "price": 172000,
+    "miles": 922,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-03-03",
+    "price": 168000,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-08-06",
+    "price": 137000,
+    "miles": 1690,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2018-03-09",
+    "price": 218400,
+    "miles": 40,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 92000,
+    "n": 3
+   },
+   "2025": {
+    "median": 102000,
+    "n": 6
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2010 Porsche Cayman",
+  "url": "https://driveindex.com/cars/porsche/cayman/2010",
+  "market_value": 23511,
+  "median": 27000,
+  "p25": 24250,
+  "p75": 31000,
+  "min": 18750,
+  "max": 44500,
+  "sales_count": 13,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 76045,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 50950,
+  "latest_sale": "2026-08-02",
+  "listed_sales": [
+   {
+    "date": "2026-08-02",
+    "price": 44500,
+    "miles": 22000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-02-15",
+    "price": 18750,
+    "miles": 122000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-09-28",
+    "price": 29750,
+    "miles": 57000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-14",
+    "price": 27000,
+    "miles": 56700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-12",
+    "price": 20000,
+    "miles": 103200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-10-30",
+    "price": 31750,
+    "miles": 56800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-06-03",
+    "price": 20250,
+    "miles": 91300,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-02-13",
+    "price": 30000,
+    "miles": 60084,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-07-26",
+    "price": 33500,
+    "miles": 39000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-11-04",
+    "price": 25500,
+    "miles": 123700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-09-28",
+    "price": 24250,
+    "miles": 77800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-03-11",
+    "price": 25000,
+    "miles": 116000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-11-19",
+    "price": 31000,
+    "miles": 63000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 27000,
+    "n": 3
+   },
+   "2024": {
+    "median": 30000,
+    "n": 3
+   },
+   "2021": {
+    "median": 25000,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2024 Porsche Macan Electric",
+  "url": "https://driveindex.com/cars/porsche/macan-electric/2024",
+  "market_value": null,
+  "median": null,
+  "p25": null,
+  "p75": null,
+  "min": null,
+  "max": null,
+  "sales_count": null,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": null,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": 80000,
+  "latest_sale": null,
+  "listed_sales": [],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "2020 Porsche Macan GTS",
+  "url": "https://driveindex.com/cars/porsche/macan-gts/2020",
+  "market_value": 43997,
+  "median": 53000,
+  "p25": null,
+  "p75": null,
+  "min": 38750,
+  "max": 66000,
+  "sales_count": 5,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 27557,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 71300,
+  "latest_sale": "2026-07-15",
+  "listed_sales": [
+   {
+    "date": "2026-07-15",
+    "price": 38750,
+    "miles": 40100,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-29",
+    "price": 66000,
+    "miles": 3500,
+    "gearbox": null
+   },
+   {
+    "date": "2024-12-06",
+    "price": 53000,
+    "miles": 22586,
+    "gearbox": null
+   },
+   {
+    "date": "2024-07-23",
+    "price": 59500,
+    "miles": 10300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-03-07",
+    "price": 49000,
+    "miles": 61300,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2013 Porsche Panamera 4",
+  "url": "https://driveindex.com/cars/porsche/panamera-4/2013",
+  "market_value": 23200,
+  "median": 29625,
+  "p25": 23750,
+  "p75": 31900,
+  "min": 11024,
+  "max": 81000,
+  "sales_count": 12,
+  "sales_12m": 3,
+  "change_12m_pct": null,
+  "avg_miles": 79319,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 78900,
+  "latest_sale": "2026-08-26",
+  "listed_sales": [
+   {
+    "date": "2026-08-26",
+    "price": 29000,
+    "miles": 9000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-10",
+    "price": 30250,
+    "miles": 31000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-21",
+    "price": 11024,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-10-03",
+    "price": 30500,
+    "miles": 26000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-09-27",
+    "price": 18500,
+    "miles": 77900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-02-29",
+    "price": 23750,
+    "miles": 83300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-11-18",
+    "price": 12985,
+    "miles": 166000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-02-25",
+    "price": 24380,
+    "miles": 162031,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-04-10",
+    "price": 40150,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-01-05",
+    "price": 31900,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2017-01-15",
+    "price": 45100,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2014-01-25",
+    "price": 81000,
+    "miles": null,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2022 Porsche Taycan 4S Cross Turismo",
+  "url": "https://driveindex.com/cars/porsche/taycan-4s-cross-turismo/2022",
+  "market_value": 77950,
+  "median": 86000,
+  "p25": null,
+  "p75": null,
+  "min": 74500,
+  "max": 97500,
+  "sales_count": 2,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 8700,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-06-18",
+  "listed_sales": [
+   {
+    "date": "2026-06-18",
+    "price": 74500,
+    "miles": 14400,
+    "gearbox": null
+   },
+   {
+    "date": "2023-04-26",
+    "price": 97500,
+    "miles": 3000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ }
+]

@@ -233,10 +233,11 @@ the server.
 
 ## 6. Server-side reconstruction (`estimators.py` Part B, inference)
 
-* **Market value:** each sale is normalised to the model's median mileage by inverting the
-  client mileage curve. Weights decay exponentially (half-life 365 d) and the last 5 sales count
-  double. The value is the weighted median, bounded to P25–P75. GT350R with 15 of 78 sales:
-  **$111,402 against the site's $114,593**.
+* **Market value** (calibrated on fully listed cars; see [VALIDATION.md](VALIDATION.md)): 1.5×IQR
+  outlier fence, each sale normalised to the published average mileage, recency-weighted mean
+  with a ~0.3-year half-life, plain median when the newest sale is 3+ years old. 1.7% median
+  error on the calibration set, 7.3% on a holdout of fast movers. Percentiles use
+  `sorted[Math.round((n−1)·q)]` and medians round half up; both match every page tested.
 * **Trend inputs:** OLS of log(normalised price) on time gives `annualReturn`. The 12-month
   median change gives `recentReturn`. Confidence comes from R², sample size and CV, capped by
   sample size (n < 8 → 0.3, < 15 → 0.5, < 25 → 0.7).

@@ -41,13 +41,14 @@ def _clean_usd(sales):
 
 
 def percentile(xs: list[float], q: float) -> float:
-    """Linear-interpolation percentile (q in 0..1). DriveIndex does not state its method."""
+    """Nearest-rank percentile with a JavaScript-rounded index: sorted[Math.round((n-1)*q)].
+
+    Verified: reproduces the published P25/P75 on 10/10 fully listed car pages (linear
+    interpolation matches only 4/10; Python's banker's rounding breaks the .5 cases)."""
     xs = sorted(xs)
     if not xs:
         raise ValueError("no data")
-    pos = (len(xs) - 1) * q
-    lo, hi = math.floor(pos), math.ceil(pos)
-    return xs[lo] + (xs[hi] - xs[lo]) * (pos - lo)
+    return xs[math.floor((len(xs) - 1) * q + 0.5)]
 
 
 # ---------------------------------------------------------------------------
@@ -55,8 +56,9 @@ def percentile(xs: list[float], q: float) -> float:
 # ---------------------------------------------------------------------------
 
 def median_sale(sales) -> float:
-    """'Median sale: the middle verified USD sale for that model-year.'"""
-    return statistics.median(s.price for s in _clean_usd(sales))
+    """'Median sale: the middle verified USD sale for that model-year.' Rounded to whole
+    dollars, half up (e.g. 68,511.5 is published as 68,512)."""
+    return math.floor(statistics.median(s.price for s in _clean_usd(sales)) + 0.5)
 
 
 def typical_range(sales) -> tuple[float, float] | None:
@@ -123,38 +125,45 @@ def normalize_to_typical_mileage(sale: Sale, typical_miles: float, collect_score
     return sale.price / unit if unit > 0 else sale.price
 
 
-def market_value(sales, as_of: date, half_life_days: float = 365.0, recent_n_boost: int = 5,
-                 collect_score=None, age=None) -> float | None:
-    """'Sold prices are first normalised to the model's typical mileage ... then weighted toward
-    the most recent sales ... and bounded so that one unusual result cannot drag the value.'
+def iqr_fence(sales, k: float = 1.5):
+    """Drop prices outside [Q1 - k*IQR, Q3 + k*IQR] (only with 4+ sales)."""
+    if len(sales) < 4:
+        return list(sales)
+    px = [s.price for s in sales]
+    q1, q3 = percentile(px, 0.25), percentile(px, 0.75)
+    kept = [s for s in sales if q1 - k * (q3 - q1) <= s.price <= q3 + k * (q3 - q1)]
+    return kept or list(sales)
 
-    ASSUMPTIONS: exponential recency decay (half_life_days), double weight for the last
-    `recent_n_boost` sales ("weight the last few sales most heavily"), and a weighted median
-    bounded to the clean P25..P75 band (the "bounded" step).
+
+def market_value(sales, as_of: date, typical_miles: float | None = None,
+                 half_life_years: float = 0.3, stale_years: float = 3.0,
+                 collect_score=None, age=None) -> float | None:
+    """Market value, calibrated against cars whose public page lists every sale.
+
+    1. Outlier fence: 1.5 x IQR on raw prices.
+    2. Each sale normalised to the car's average mileage (the published "Avg Mileage")
+       by inverting the client mileage curve.
+    3. Exponential recency weights with a ~0.3-year half-life, weighted mean.
+    4. If the newest sale is more than `stale_years` old, the plain median of all sales.
+    One sale = that sale. Fit: 3.2% MAPE / 1.9% median error on 18 cars;
+    holdout on 35 fast-moving labelled cars: 10.2% MAPE / 7.3% median (docs/VALIDATION.md).
     """
     clean = [s for s in _clean_usd(sales) if s.sold <= as_of]
-    if len(clean) < 3:
-        return None  # 'Limited Data'
-    miles = [s.miles for s in clean if s.miles]
-    typical = statistics.median(miles) if miles else None
-    clean.sort(key=lambda s: s.sold, reverse=True)
-    pts = []
-    for i, s in enumerate(clean):
-        w = 0.5 ** ((as_of - s.sold).days / half_life_days)
-        if i < recent_n_boost:
-            w *= 2
-        pts.append((normalize_to_typical_mileage(s, typical, collect_score, age), w))
-    pts.sort()
-    half, acc, wmed = sum(w for _, w in pts) / 2, 0.0, pts[-1][0]
-    for v, w in pts:
-        acc += w
-        if acc >= half:
-            wmed = v
-            break
-    if len(clean) >= 8:
-        lo, hi = percentile([v for v, _ in pts], 0.25), percentile([v for v, _ in pts], 0.75)
-        wmed = min(hi, max(lo, wmed))
-    return round(wmed)
+    if not clean:
+        return None
+    latest = max(s.sold for s in clean)
+    if (as_of - latest).days > stale_years * 365.25:
+        return round(statistics.median(s.price for s in clean))
+    kept = iqr_fence(clean)
+    if typical_miles is None:
+        miles = [s.miles for s in kept if s.miles]
+        typical_miles = statistics.mean(miles) if miles else None
+    num = den = 0.0
+    for s in kept:
+        w = 0.5 ** ((as_of - s.sold).days / (half_life_years * 365.25))
+        num += w * normalize_to_typical_mileage(s, typical_miles, collect_score, age)
+        den += w
+    return round(num / den)
 
 
 @dataclass

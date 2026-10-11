@@ -10,11 +10,15 @@ math, captured with [REA (Reverse Engineer Anything)](https://github.com/morluto
 * **Server-side statistics:** [driveindex_model/estimators.py](driveindex_model/estimators.py):
   published rules (median, P25–P75, yearly medians, 12-month change) plus a reconstructed
   market-value estimator and Value Signal
-* **Capture:** [scripts/rea_capture.sh](scripts/rea_capture.sh)
+* **Validation against live pages:** [docs/VALIDATION.md](docs/VALIDATION.md): median 54/54
+  and typical range 32/32 exact, market value 1.7% median error, signal label 26/35
+* **Capture:** [scripts/rea_capture.sh](scripts/rea_capture.sh), page parser
+  [scripts/parse_car_page.py](scripts/parse_car_page.py), estimator fitting
+  [scripts/calibrate_market_value.py](scripts/calibrate_market_value.py)
 
 ```bash
 pip install pytest
-pytest            # 2,404 tests, including parity with the original JS on 2,400 random cases
+pytest            # 2,504 tests: JS parity (2,400 cases) + checks against live car pages
 ```
 
 ```python

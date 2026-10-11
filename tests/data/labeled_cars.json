@@ -1,0 +1,5537 @@
+[
+ {
+  "name": "2011 Audi S5 Cabriolet",
+  "url": "https://driveindex.com/cars/audi/s5-cabriolet/2011",
+  "market_value": 15105,
+  "median": 20375,
+  "p25": null,
+  "p75": null,
+  "min": 10300,
+  "max": 27200,
+  "sales_count": 6,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 52000,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-05-05",
+  "listed_sales": [
+   {
+    "date": "2025-05-05",
+    "price": 10300,
+    "miles": 88000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-02-18",
+    "price": 12500,
+    "miles": 89000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-08",
+    "price": 22000,
+    "miles": 14000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-10-21",
+    "price": 18750,
+    "miles": 67000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-05",
+    "price": 23500,
+    "miles": 32000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-05-21",
+    "price": 27200,
+    "miles": 22000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 12500,
+    "n": 3
+   },
+   "2024": {
+    "median": 23500,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2008 Audi TT Roadster",
+  "url": "https://driveindex.com/cars/audi/tt-roadster/2008",
+  "market_value": 12082,
+  "median": 15125,
+  "p25": null,
+  "p75": null,
+  "min": 10000,
+  "max": 19750,
+  "sales_count": 6,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 33433,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-06-13",
+  "listed_sales": [
+   {
+    "date": "2025-06-13",
+    "price": 11250,
+    "miles": 52000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-04-17",
+    "price": 10000,
+    "miles": 56000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-25",
+    "price": 15250,
+    "miles": 10000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-04-10",
+    "price": 15000,
+    "miles": 43000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-02-23",
+    "price": 18285,
+    "miles": 25600,
+    "gearbox": null
+   },
+   {
+    "date": "2024-02-17",
+    "price": 19750,
+    "miles": 14000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 11250,
+    "n": 3
+   },
+   "2024": {
+    "median": 18285,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2006 BMW 530xi Sports Wagon",
+  "url": "https://driveindex.com/cars/bmw/530xi-sports-wagon/2006",
+  "market_value": 14067,
+  "median": 14625,
+  "p25": 13200,
+  "p75": 21750,
+  "min": 11056,
+  "max": 32500,
+  "sales_count": 8,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 73125,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2024-11-29",
+  "listed_sales": [
+   {
+    "date": "2024-11-29",
+    "price": 14750,
+    "miles": 47000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-12-05",
+    "price": 11250,
+    "miles": 105000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-10-28",
+    "price": 11056,
+    "miles": 87000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-06-28",
+    "price": 14500,
+    "miles": 80000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-03-30",
+    "price": 13200,
+    "miles": 83000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-01-06",
+    "price": 21750,
+    "miles": 113000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-07-05",
+    "price": 32500,
+    "miles": 1000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-04-07",
+    "price": 26260,
+    "miles": 69000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2016 BMW 750i xDrive",
+  "url": "https://driveindex.com/cars/bmw/750i-xdrive/2016",
+  "market_value": 20327,
+  "median": 28500,
+  "p25": 23500,
+  "p75": 30500,
+  "min": 17500,
+  "max": 32250,
+  "sales_count": 8,
+  "sales_12m": 5,
+  "change_12m_pct": -23,
+  "avg_miles": 42750,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-08-26",
+  "listed_sales": [
+   {
+    "date": "2026-08-26",
+    "price": 18000,
+    "miles": 61000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-28",
+    "price": 32250,
+    "miles": 28000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-07-02",
+    "price": 17500,
+    "miles": 61000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-07",
+    "price": 23500,
+    "miles": 49000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-25",
+    "price": 30000,
+    "miles": 25000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-30",
+    "price": 30500,
+    "miles": 32000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-23",
+    "price": 27000,
+    "miles": 49000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-06-03",
+    "price": 32000,
+    "miles": 37000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 23500,
+    "n": 5
+   },
+   "2025": {
+    "median": 30500,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1972 Chevrolet C10 Cheyenne Super Pickup",
+  "url": "https://driveindex.com/cars/chevrolet/c10-cheyenne-super-pickup/1972",
+  "market_value": 69938,
+  "median": 56650,
+  "p25": null,
+  "p75": null,
+  "min": 25000,
+  "max": 115500,
+  "sales_count": 6,
+  "sales_12m": 4,
+  "change_12m_pct": null,
+  "avg_miles": 37333,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-09-24",
+  "listed_sales": [
+   {
+    "date": "2026-09-24",
+    "price": 69300,
+    "miles": 64926,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-20",
+    "price": 44000,
+    "miles": 80510,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-01",
+    "price": 69300,
+    "miles": 4560,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-01",
+    "price": 115500,
+    "miles": 2,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-12-13",
+    "price": 27500,
+    "miles": 57000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-11-04",
+    "price": 25000,
+    "miles": 17000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1971 Chevrolet C10 Pickup",
+  "url": "https://driveindex.com/cars/chevrolet/c10-pickup/1971",
+  "market_value": 60060,
+  "median": 37000,
+  "p25": 20100,
+  "p75": 60500,
+  "min": 12000,
+  "max": 93500,
+  "sales_count": 23,
+  "sales_12m": 12,
+  "change_12m_pct": 56.1,
+  "avg_miles": 23421,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-09-25",
+  "listed_sales": [
+   {
+    "date": "2026-09-25",
+    "price": 93500,
+    "miles": 2374,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-09-24",
+    "price": 44000,
+    "miles": 1674,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-13",
+    "price": 33000,
+    "miles": 3300,
+    "gearbox": null
+   },
+   {
+    "date": "2026-05-16",
+    "price": 73700,
+    "miles": 17153,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-14",
+    "price": 46200,
+    "miles": 3666,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-20",
+    "price": 66000,
+    "miles": 525,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-20",
+    "price": 55000,
+    "miles": 65,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-16",
+    "price": 60500,
+    "miles": 71984,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-15",
+    "price": 72600,
+    "miles": 5650,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-31",
+    "price": 51700,
+    "miles": 3318,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-31",
+    "price": 66000,
+    "miles": 4765,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-30",
+    "price": 14300,
+    "miles": 75,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-07",
+    "price": 37000,
+    "miles": 22000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-16",
+    "price": 40700,
+    "miles": 25,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-12-09",
+    "price": 15250,
+    "miles": 18000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 57750,
+    "n": 8
+   },
+   "2025": {
+    "median": 46200,
+    "n": 6
+   },
+   "2024": {
+    "median": 20100,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2024 Chevrolet Camaro ZL1 Convertible",
+  "url": "https://driveindex.com/cars/chevrolet/camaro-zl1-convertible/2024",
+  "market_value": 72761,
+  "median": 114250,
+  "p25": 75000,
+  "p75": 145000,
+  "min": 71500,
+  "max": 170500,
+  "sales_count": 10,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 582,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 76790,
+  "latest_sale": "2025-11-12",
+  "listed_sales": [
+   {
+    "date": "2025-11-12",
+    "price": 71500,
+    "miles": 2500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-11",
+    "price": 74300,
+    "miles": 138,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-09",
+    "price": 75000,
+    "miles": 2100,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-30",
+    "price": 78700,
+    "miles": 429,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-06-08",
+    "price": 96500,
+    "miles": 5,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-05-16",
+    "price": 154000,
+    "miles": 5,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-20",
+    "price": 132000,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-03-15",
+    "price": 145000,
+    "miles": 18,
+    "gearbox": null
+   },
+   {
+    "date": "2024-03-08",
+    "price": 170500,
+    "miles": 30,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-01-14",
+    "price": 132000,
+    "miles": 9,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 74300,
+    "n": 3
+   },
+   "2024": {
+    "median": 132000,
+    "n": 7
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1965 Chevrolet Corvair Corsa Sport Coupe",
+  "url": "https://driveindex.com/cars/chevrolet/corvair-corsa-sport-coupe/1965",
+  "market_value": 23182,
+  "median": 25521,
+  "p25": null,
+  "p75": null,
+  "min": 11687,
+  "max": 30000,
+  "sales_count": 4,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 44000,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-05-03",
+  "listed_sales": [
+   {
+    "date": "2026-05-03",
+    "price": 11687,
+    "miles": 73000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-04-01",
+    "price": 22000,
+    "miles": 26000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-05-13",
+    "price": 30000,
+    "miles": 9000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-04-01",
+    "price": 29041,
+    "miles": 68000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1971 Chevrolet Corvette Convertible 4-Speed",
+  "url": "https://driveindex.com/cars/chevrolet/corvette-convertible-4-speed/1971",
+  "market_value": 56583,
+  "median": 36250,
+  "p25": null,
+  "p75": null,
+  "min": 25750,
+  "max": 61000,
+  "sales_count": 7,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 49886,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 5259,
+  "latest_sale": "2026-05-07",
+  "listed_sales": [
+   {
+    "date": "2026-05-07",
+    "price": 55000,
+    "miles": 93000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-12-21",
+    "price": 61000,
+    "miles": 1200,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-08-19",
+    "price": 43525,
+    "miles": 37000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-06-16",
+    "price": 33500,
+    "miles": 4000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-04-24",
+    "price": 36250,
+    "miles": 93000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-22",
+    "price": 27250,
+    "miles": 85000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-10-27",
+    "price": 25750,
+    "miles": 36000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1966 Chevrolet Nova Sport Coupe",
+  "url": "https://driveindex.com/cars/chevrolet/nova-sport-coupe/1966",
+  "market_value": 50350,
+  "median": 46500,
+  "p25": null,
+  "p75": null,
+  "min": 41000,
+  "max": 52000,
+  "sales_count": 2,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 42500,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-03-01",
+  "listed_sales": [
+   {
+    "date": "2026-03-01",
+    "price": 52000,
+    "miles": 82000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-07-18",
+    "price": 41000,
+    "miles": 3000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1999 Chevrolet Tahoe LT 2-Door",
+  "url": "https://driveindex.com/cars/chevrolet/tahoe-lt-2-door/1999",
+  "market_value": 18738,
+  "median": 14475,
+  "p25": null,
+  "p75": null,
+  "min": 10000,
+  "max": 36000,
+  "sales_count": 4,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 136750,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-10-02",
+  "listed_sales": [
+   {
+    "date": "2025-10-02",
+    "price": 10000,
+    "miles": 137000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-02-15",
+    "price": 15250,
+    "miles": 163000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-09-01",
+    "price": 13700,
+    "miles": 132000,
+    "gearbox": null
+   },
+   {
+    "date": "2023-04-02",
+    "price": 36000,
+    "miles": 115000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1971 Datsun 240Z Series I",
+  "url": "https://driveindex.com/cars/datsun/240z-series-i/1971",
+  "market_value": 17734,
+  "median": 31500,
+  "p25": 20000,
+  "p75": 36000,
+  "min": 13250,
+  "max": 310000,
+  "sales_count": 15,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 55933,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": true,
+  "msrp": 3526,
+  "latest_sale": "2026-06-24",
+  "listed_sales": [
+   {
+    "date": "2026-06-24",
+    "price": 17000,
+    "miles": 95000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-26",
+    "price": 20000,
+    "miles": 79000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-09-22",
+    "price": 16000,
+    "miles": 50000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-31",
+    "price": 13250,
+    "miles": 7000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-18",
+    "price": 31000,
+    "miles": 9000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-07-15",
+    "price": 33250,
+    "miles": 78000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-10-21",
+    "price": 17500,
+    "miles": 98000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-03-12",
+    "price": 37250,
+    "miles": 82000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-01-31",
+    "price": 31500,
+    "miles": 67000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-10-14",
+    "price": 23000,
+    "miles": 34000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-01-12",
+    "price": 36000,
+    "miles": 77000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-06-22",
+    "price": 31750,
+    "miles": 37000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-09-06",
+    "price": 32240,
+    "miles": 69000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-08-29",
+    "price": 41750,
+    "miles": 36000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-01-29",
+    "price": 310000,
+    "miles": 21000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 20000,
+    "n": 5
+   },
+   "2024": {
+    "median": 31500,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1991 Dodge Power Ram W250",
+  "url": "https://driveindex.com/cars/dodge/power-ram-w250/1991",
+  "market_value": 32254,
+  "median": 42375,
+  "p25": null,
+  "p75": null,
+  "min": 18500,
+  "max": 49616,
+  "sales_count": 6,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 90833,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2026-03-01",
+  "listed_sales": [
+   {
+    "date": "2026-03-01",
+    "price": 33701,
+    "miles": 87000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-28",
+    "price": 18500,
+    "miles": 126000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-19",
+    "price": 49616,
+    "miles": 99000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-06-16",
+    "price": 38000,
+    "miles": 89000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-01-30",
+    "price": 48000,
+    "miles": 83000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-06",
+    "price": 46750,
+    "miles": 61000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1961 Ferrari 250 GT Cabriolet Series II",
+  "url": "https://driveindex.com/cars/ferrari/250-gt-cabriolet-series-ii/1961",
+  "market_value": 1169625,
+  "median": 1448750,
+  "p25": 1105000,
+  "p75": 1792500,
+  "min": 231000,
+  "max": 2090000,
+  "sales_count": 15,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": null,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-04-25",
+  "listed_sales": [
+   {
+    "date": "2022-08-18",
+    "price": 1105000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2021-08-12",
+    "price": 1407500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2021-05-22",
+    "price": 1490000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2020-03-06",
+    "price": 1352500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2019-08-15",
+    "price": 1517500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-08-24",
+    "price": 1792500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2015-08-15",
+    "price": 1842500,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2015-03-13",
+    "price": 2090000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2013-11-21",
+    "price": 2035000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2013-08-16",
+    "price": 1100000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2009-01-17",
+    "price": 385000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2006-01-20",
+    "price": 231000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "1966 Ferrari 330 GTC",
+  "url": "https://driveindex.com/cars/ferrari/330-gtc/1966",
+  "market_value": 554350,
+  "median": 585000,
+  "p25": 434000,
+  "p75": 737000,
+  "min": 220000,
+  "max": 759000,
+  "sales_count": 16,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 7000,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-10-09",
+  "listed_sales": [
+   {
+    "date": "2025-10-09",
+    "price": 575000,
+    "miles": 7000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-15",
+    "price": 434000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-11-05",
+    "price": 585000,
+    "miles": 7000,
+    "gearbox": null
+   },
+   {
+    "date": "2019-01-18",
+    "price": 620000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2015-08-15",
+    "price": 759000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2014-08-02",
+    "price": 759000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2013-01-18",
+    "price": 737000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2011-08-20",
+    "price": 313500,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "1969 Ferrari 365 GTC",
+  "url": "https://driveindex.com/cars/ferrari/365-gtc/1969",
+  "market_value": 834350,
+  "median": 742500,
+  "p25": 374000,
+  "p75": 852000,
+  "min": 209000,
+  "max": 1072500,
+  "sales_count": 21,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 14913,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-08-14",
+  "listed_sales": [
+   {
+    "date": "2026-08-14",
+    "price": 841000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-09-17",
+    "price": 760000,
+    "miles": 16156,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-07",
+    "price": 951000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-11-19",
+    "price": 660000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2019-08-16",
+    "price": 852000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2016-08-19",
+    "price": 682000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2015-08-15",
+    "price": 907500,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2014-08-16",
+    "price": 858000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2013-08-16",
+    "price": 759000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2013-03-08",
+    "price": 1072500,
+    "miles": 13670,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "2009 Ferrari 430 Scuderia Spider 16M",
+  "url": "https://driveindex.com/cars/ferrari/430-scuderia-spider-16m/2009",
+  "market_value": 987351,
+  "median": 596400,
+  "p25": 339995,
+  "p75": 916000,
+  "min": 230000,
+  "max": 1980000,
+  "sales_count": 42,
+  "sales_12m": 16,
+  "change_12m_pct": 34.4,
+  "avg_miles": 7213,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 314000,
+  "latest_sale": "2026-09-25",
+  "listed_sales": [
+   {
+    "date": "2026-09-25",
+    "price": 983850,
+    "miles": 10634,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-25",
+    "price": 916000,
+    "miles": 8000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-15",
+    "price": 1050000,
+    "miles": 11000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-14",
+    "price": 1001000,
+    "miles": 12914,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-04",
+    "price": 994350,
+    "miles": 5789,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-28",
+    "price": 1050000,
+    "miles": 10000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-06",
+    "price": 940000,
+    "miles": 6684,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-20",
+    "price": 596400,
+    "miles": 33162,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-14",
+    "price": 1105000,
+    "miles": 5941,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-23",
+    "price": 907000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-17",
+    "price": 1980000,
+    "miles": 141,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-27",
+    "price": 831000,
+    "miles": 3800,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 994350,
+    "n": 11
+   },
+   "2025": {
+    "median": 745000,
+    "n": 5
+   },
+   "2023": {
+    "median": 339995,
+    "n": 5
+   },
+   "2021": {
+    "median": 299350,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2009 Ferrari 430 Scuderia",
+  "url": "https://driveindex.com/cars/ferrari/430-scuderia/2009",
+  "market_value": 684683,
+  "median": 313500,
+  "p25": 276000,
+  "p75": 538500,
+  "min": 179000,
+  "max": 1650000,
+  "sales_count": 32,
+  "sales_12m": 12,
+  "change_12m_pct": null,
+  "avg_miles": 12450,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 233517,
+  "latest_sale": "2026-10-02",
+  "listed_sales": [
+   {
+    "date": "2026-10-02",
+    "price": 702450,
+    "miles": 14167,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-10-02",
+    "price": 538500,
+    "miles": 25454,
+    "gearbox": null
+   },
+   {
+    "date": "2026-09-15",
+    "price": 742350,
+    "miles": 11997,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-26",
+    "price": 926000,
+    "miles": 1300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-15",
+    "price": 962500,
+    "miles": 5360,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-31",
+    "price": 522900,
+    "miles": 14837,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-12",
+    "price": 765450,
+    "miles": 12580,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-06",
+    "price": 668850,
+    "miles": 9430,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-03",
+    "price": 369600,
+    "miles": 22320,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-17",
+    "price": 1650000,
+    "miles": 125,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-19",
+    "price": 448875,
+    "miles": 14716,
+    "gearbox": null
+   },
+   {
+    "date": "2024-12-05",
+    "price": 331000,
+    "miles": 1200,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-15",
+    "price": 290000,
+    "miles": 7308,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-15",
+    "price": 478000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 722400,
+    "n": 10
+   },
+   "2024": {
+    "median": 290000,
+    "n": 6
+   },
+   "2023": {
+    "median": 262465,
+    "n": 4
+   },
+   "2022": {
+    "median": 285500,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2015 Ferrari 458 Speciale A",
+  "url": "https://driveindex.com/cars/ferrari/458-speciale-a/2015",
+  "market_value": 2670000,
+  "median": 962500,
+  "p25": 682000,
+  "p75": 2125000,
+  "min": 476000,
+  "max": 3080000,
+  "sales_count": 18,
+  "sales_12m": 7,
+  "change_12m_pct": null,
+  "avg_miles": 2640,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 320000,
+  "latest_sale": "2026-08-15",
+  "listed_sales": [
+   {
+    "date": "2026-08-15",
+    "price": 2750000,
+    "miles": 311,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-13",
+    "price": 2425000,
+    "miles": 175,
+    "gearbox": null
+   },
+   {
+    "date": "2026-07-22",
+    "price": 2125000,
+    "miles": 2200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-17",
+    "price": 1936000,
+    "miles": 596,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-17",
+    "price": 1430000,
+    "miles": 3417,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-17",
+    "price": 3080000,
+    "miles": 58,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-06-04",
+    "price": 1650000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2022-09-27",
+    "price": 850000,
+    "miles": 3000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-08-20",
+    "price": 962500,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-08-12",
+    "price": 632000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2020-05-15",
+    "price": 476000,
+    "miles": 13000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-03-06",
+    "price": 654000,
+    "miles": 1000,
+    "gearbox": null
+   },
+   {
+    "date": "2018-01-18",
+    "price": 626500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-01-13",
+    "price": 726000,
+    "miles": null,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "2015 Ferrari 458 Speciale",
+  "url": "https://driveindex.com/cars/ferrari/458-speciale/2015",
+  "market_value": 1079051,
+  "median": 588229,
+  "p25": 448600,
+  "p75": 885000,
+  "min": 324500,
+  "max": 1490000,
+  "sales_count": 32,
+  "sales_12m": 10,
+  "change_12m_pct": 35.6,
+  "avg_miles": 5379,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 291744,
+  "latest_sale": "2026-10-01",
+  "listed_sales": [
+   {
+    "date": "2026-10-01",
+    "price": 1016500,
+    "miles": 10000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-15",
+    "price": 1210000,
+    "miles": 6233,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-14",
+    "price": 1022500,
+    "miles": 250,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-13",
+    "price": 1490000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-07-29",
+    "price": 920000,
+    "miles": 11000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-11",
+    "price": 1129000,
+    "miles": 4100,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-06",
+    "price": 912500,
+    "miles": 3470,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-14",
+    "price": 885000,
+    "miles": 4714,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-19",
+    "price": 808500,
+    "miles": 3922,
+    "gearbox": null
+   },
+   {
+    "date": "2025-04-18",
+    "price": 612000,
+    "miles": 17000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-06",
+    "price": 752000,
+    "miles": 945,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-24",
+    "price": 786000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-12-13",
+    "price": 448600,
+    "miles": 9000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 1019500,
+    "n": 8
+   },
+   "2025": {
+    "median": 769000,
+    "n": 4
+   },
+   "2023": {
+    "median": 467000,
+    "n": 3
+   },
+   "2022": {
+    "median": 525000,
+    "n": 5
+   },
+   "2021": {
+    "median": 533500,
+    "n": 4
+   },
+   "2018": {
+    "median": 385000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2020 Ferrari 488 Pista Spider",
+  "url": "https://driveindex.com/cars/ferrari/488-pista-spider/2020",
+  "market_value": 1725214,
+  "median": 885000,
+  "p25": 707500,
+  "p75": 1210000,
+  "min": 599000,
+  "max": 1801000,
+  "sales_count": 13,
+  "sales_12m": 6,
+  "change_12m_pct": null,
+  "avg_miles": 3882,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 398060,
+  "latest_sale": "2026-09-29",
+  "listed_sales": [
+   {
+    "date": "2026-09-29",
+    "price": 1068000,
+    "miles": 19000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-09-11",
+    "price": 1801000,
+    "miles": 907,
+    "gearbox": null
+   },
+   {
+    "date": "2026-09-03",
+    "price": 1510000,
+    "miles": 4800,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-13",
+    "price": 1545000,
+    "miles": 1834,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-27",
+    "price": 1072000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-17",
+    "price": 1210000,
+    "miles": 1363,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-18",
+    "price": 753500,
+    "miles": 4961,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-03-01",
+    "price": 742000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-03-01",
+    "price": 599000,
+    "miles": 2568,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-06",
+    "price": 652000,
+    "miles": 2500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-08-18",
+    "price": 885000,
+    "miles": 286,
+    "gearbox": null
+   },
+   {
+    "date": "2022-07-18",
+    "price": 707500,
+    "miles": 600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-05-28",
+    "price": 605000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2019 Ferrari 488 Pista",
+  "url": "https://driveindex.com/cars/ferrari/488-pista/2019",
+  "market_value": 986311,
+  "median": 564500,
+  "p25": 512000,
+  "p75": 825000,
+  "min": 407000,
+  "max": 999999,
+  "sales_count": 17,
+  "sales_12m": 8,
+  "change_12m_pct": null,
+  "avg_miles": 3308,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 343200,
+  "latest_sale": "2026-09-23",
+  "listed_sales": [
+   {
+    "date": "2026-09-23",
+    "price": 999999,
+    "miles": 1400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-13",
+    "price": 917500,
+    "miles": 4500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-21",
+    "price": 955000,
+    "miles": 5000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-06-10",
+    "price": 874000,
+    "miles": 3000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-12",
+    "price": 785000,
+    "miles": 4000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-02-19",
+    "price": 825000,
+    "miles": 1500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-17",
+    "price": 715000,
+    "miles": 4026,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-24",
+    "price": 512000,
+    "miles": 3800,
+    "gearbox": null
+   },
+   {
+    "date": "2023-07-11",
+    "price": 506019,
+    "miles": 1300,
+    "gearbox": null
+   },
+   {
+    "date": "2023-07-02",
+    "price": 540000,
+    "miles": 1200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-04-01",
+    "price": 551000,
+    "miles": 7000,
+    "gearbox": null
+   },
+   {
+    "date": "2023-01-17",
+    "price": 485000,
+    "miles": 3500,
+    "gearbox": null
+   },
+   {
+    "date": "2022-07-11",
+    "price": 482000,
+    "miles": 5400,
+    "gearbox": null
+   },
+   {
+    "date": "2022-04-04",
+    "price": 544992,
+    "miles": 2000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 874000,
+    "n": 7
+   },
+   "2023": {
+    "median": 523010,
+    "n": 4
+   },
+   "2022": {
+    "median": 544992,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "1974 Ferrari Dino 246 GTS Chairs & Flares",
+  "url": "https://driveindex.com/cars/ferrari/dino-246-gts-chairs--flares/1974",
+  "market_value": 749828,
+  "median": 636250,
+  "p25": 473000,
+  "p75": 786000,
+  "min": 390500,
+  "max": 853000,
+  "sales_count": 10,
+  "sales_12m": 3,
+  "change_12m_pct": null,
+  "avg_miles": 47095,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 14500,
+  "latest_sale": "2026-08-25",
+  "listed_sales": [
+   {
+    "date": "2026-08-25",
+    "price": 725000,
+    "miles": 77000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-06",
+    "price": 786000,
+    "miles": 31835,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-27",
+    "price": 797000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-15",
+    "price": 582500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-05-24",
+    "price": 690000,
+    "miles": 77000,
+    "gearbox": null
+   },
+   {
+    "date": "2022-08-01",
+    "price": 853000,
+    "miles": 57000,
+    "gearbox": null
+   },
+   {
+    "date": "2020-10-01",
+    "price": 540000,
+    "miles": 46000,
+    "gearbox": null
+   },
+   {
+    "date": "2013-08-16",
+    "price": 390500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2013-08-16",
+    "price": 473000,
+    "miles": 36832,
+    "gearbox": null
+   },
+   {
+    "date": "2012-08-17",
+    "price": 467500,
+    "miles": 4000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2017 Ferrari F12tdf",
+  "url": "https://driveindex.com/cars/ferrari/f12tdf/2017",
+  "market_value": 3607375,
+  "median": 1325000,
+  "p25": 1000000,
+  "p75": 1790000,
+  "min": 825000,
+  "max": 4185000,
+  "sales_count": 23,
+  "sales_12m": 7,
+  "change_12m_pct": null,
+  "avg_miles": 2400,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 485000,
+  "latest_sale": "2026-10-08",
+  "listed_sales": [
+   {
+    "date": "2026-10-08",
+    "price": 3596250,
+    "miles": 1595,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-15",
+    "price": 3657500,
+    "miles": 799,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-13",
+    "price": 3635000,
+    "miles": 1059,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-06",
+    "price": 4185000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-19",
+    "price": 1790000,
+    "miles": 1900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-17",
+    "price": 3190000,
+    "miles": 68,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-30",
+    "price": 1546000,
+    "miles": 7000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-03-01",
+    "price": 1242500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-01-27",
+    "price": 1347500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-10-23",
+    "price": 960000,
+    "miles": 7000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-01-26",
+    "price": 1242500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2022-09-09",
+    "price": 1389000,
+    "miles": 2100,
+    "gearbox": null
+   },
+   {
+    "date": "2021-06-16",
+    "price": 1000000,
+    "miles": 80,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-08-15",
+    "price": 825000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 3615625,
+    "n": 6
+   },
+   "2019": {
+    "median": 971250,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "1996 Ferrari F355 Berlinetta",
+  "url": "https://driveindex.com/cars/ferrari/f355-berlinetta/1996",
+  "market_value": 216042,
+  "median": 160000,
+  "p25": 70400,
+  "p75": 205000,
+  "min": 64000,
+  "max": 245000,
+  "sales_count": 13,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 26994,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-08-17",
+  "listed_sales": [
+   {
+    "date": "2026-08-17",
+    "price": 212100,
+    "miles": 39837,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-18",
+    "price": 210000,
+    "miles": 8078,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-08-23",
+    "price": 245000,
+    "miles": 11000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-07-02",
+    "price": 186000,
+    "miles": 18000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-04-08",
+    "price": 205000,
+    "miles": 16777,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-12-01",
+    "price": 160000,
+    "miles": 24233,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-10-11",
+    "price": 164100,
+    "miles": 22000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-03-11",
+    "price": 160000,
+    "miles": 30000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2019-05-09",
+    "price": 64000,
+    "miles": 57000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-10-17",
+    "price": 66000,
+    "miles": 27000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-09-18",
+    "price": 65500,
+    "miles": 36000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-06-14",
+    "price": 73000,
+    "miles": 28000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-01-19",
+    "price": 70400,
+    "miles": 33000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2023": {
+    "median": 205000,
+    "n": 3
+   },
+   "2022": {
+    "median": 160000,
+    "n": 3
+   },
+   "2018": {
+    "median": 68200,
+    "n": 4
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1995 Ferrari F50",
+  "url": "https://driveindex.com/cars/ferrari/f50/1995",
+  "market_value": 11608496,
+  "median": 3772500,
+  "p25": 2310000,
+  "p75": 5395000,
+  "min": 1375000,
+  "max": 12210000,
+  "sales_count": 25,
+  "sales_12m": 4,
+  "change_12m_pct": null,
+  "avg_miles": 3836,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 487725,
+  "latest_sale": "2026-08-13",
+  "listed_sales": [
+   {
+    "date": "2026-08-13",
+    "price": 12105000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-05-16",
+    "price": 9790000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-01-23",
+    "price": 8805000,
+    "miles": 8195,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-01-17",
+    "price": 12210000,
+    "miles": 252,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-15",
+    "price": 9245000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-15",
+    "price": 5505000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-08-17",
+    "price": 4240000,
+    "miles": 7064,
+    "gearbox": null
+   },
+   {
+    "date": "2023-03-04",
+    "price": 5065000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2022-12-10",
+    "price": 5395000,
+    "miles": 625,
+    "gearbox": null
+   },
+   {
+    "date": "2022-08-19",
+    "price": 4625000,
+    "miles": 6200,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-18",
+    "price": 5175000,
+    "miles": 4896,
+    "gearbox": null
+   },
+   {
+    "date": "2021-08-12",
+    "price": 3965000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2021-05-22",
+    "price": 3772500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2020-01-17",
+    "price": 3222500,
+    "miles": 5200,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2019-08-15",
+    "price": 3000000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 10947500,
+    "n": 4
+   },
+   "2022": {
+    "median": 5175000,
+    "n": 3
+   },
+   "2016": {
+    "median": 2310000,
+    "n": 3
+   },
+   "2013": {
+    "median": 1375000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2022 Ferrari F8 Spider",
+  "url": "https://driveindex.com/cars/ferrari/f8-spider/2022",
+  "market_value": 608709,
+  "median": 500000,
+  "p25": 392000,
+  "p75": 601650,
+  "min": 330000,
+  "max": 642500,
+  "sales_count": 19,
+  "sales_12m": 10,
+  "change_12m_pct": 50.4,
+  "avg_miles": 3873,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 306405,
+  "latest_sale": "2026-09-23",
+  "listed_sales": [
+   {
+    "date": "2026-09-23",
+    "price": 608888,
+    "miles": 3600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-09-22",
+    "price": 610050,
+    "miles": 3900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-09-16",
+    "price": 601650,
+    "miles": 3328,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-09-04",
+    "price": 640000,
+    "miles": 342,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-03",
+    "price": 574350,
+    "miles": 8959,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-15",
+    "price": 642500,
+    "miles": 330,
+    "gearbox": null
+   },
+   {
+    "date": "2026-05-13",
+    "price": 561000,
+    "miles": 621,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-18",
+    "price": 542521,
+    "miles": 2000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-07",
+    "price": 538500,
+    "miles": 691,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-02-03",
+    "price": 420000,
+    "miles": 4500,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-15",
+    "price": 500000,
+    "miles": 1892,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-18",
+    "price": 425000,
+    "miles": 512,
+    "gearbox": null
+   },
+   {
+    "date": "2025-07-07",
+    "price": 391000,
+    "miles": 1600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-06-30",
+    "price": 337000,
+    "miles": 11300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-31",
+    "price": 372500,
+    "miles": 8500,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 588000,
+    "n": 10
+   },
+   "2025": {
+    "median": 391000,
+    "n": 7
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2023 Ferrari F8 Spider",
+  "url": "https://driveindex.com/cars/ferrari/f8-spider/2023",
+  "market_value": 578375,
+  "median": 430000,
+  "p25": 403000,
+  "p75": 497500,
+  "min": 376000,
+  "max": 600000,
+  "sales_count": 11,
+  "sales_12m": 4,
+  "change_12m_pct": 19.4,
+  "avg_miles": 1218,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-10-07",
+  "listed_sales": [
+   {
+    "date": "2026-10-07",
+    "price": 600000,
+    "miles": 1400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-21",
+    "price": 497500,
+    "miles": 1871,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-09",
+    "price": 464625,
+    "miles": 2350,
+    "gearbox": null
+   },
+   {
+    "date": "2025-11-18",
+    "price": 450999,
+    "miles": 1000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-15",
+    "price": 505500,
+    "miles": 2200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-18",
+    "price": 380000,
+    "miles": 1800,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-11",
+    "price": 376000,
+    "miles": 116,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-12-21",
+    "price": 425011,
+    "miles": 1400,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-11-27",
+    "price": 403000,
+    "miles": 190,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-29",
+    "price": 430000,
+    "miles": 116,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-08-01",
+    "price": 395000,
+    "miles": 950,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 497500,
+    "n": 3
+   },
+   "2025": {
+    "median": 415500,
+    "n": 4
+   },
+   "2024": {
+    "median": 414006,
+    "n": 4
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2023 Ford Bronco Badlands V6 4-Door",
+  "url": "https://driveindex.com/cars/ford/bronco-badlands-v6-4-door/2023",
+  "market_value": 82611,
+  "median": 68512,
+  "p25": null,
+  "p75": null,
+  "min": 58000,
+  "max": 85500,
+  "sales_count": 6,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 21187,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": 55260,
+  "latest_sale": "2024-01-18",
+  "listed_sales": [
+   {
+    "date": "2024-01-18",
+    "price": 58000,
+    "miles": 125000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-07-29",
+    "price": 85500,
+    "miles": 1700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-06-24",
+    "price": 70000,
+    "miles": 37,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-05-03",
+    "price": 76000,
+    "miles": 300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-04-12",
+    "price": 63500,
+    "miles": 52,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-03-12",
+    "price": 67023,
+    "miles": 31,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1977 Ford F-250 Custom",
+  "url": "https://driveindex.com/cars/ford/f-250-custom/1977",
+  "market_value": 18900,
+  "median": 16625,
+  "p25": null,
+  "p75": null,
+  "min": 10100,
+  "max": 32250,
+  "sales_count": 4,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 63750,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2024-07-27",
+  "listed_sales": [
+   {
+    "date": "2024-07-27",
+    "price": 32250,
+    "miles": 79000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-04-23",
+    "price": 14250,
+    "miles": 30000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-01-16",
+    "price": 19000,
+    "miles": 51000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-03-01",
+    "price": 10100,
+    "miles": 95000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1972 Ford F-250 Sport Custom Highboy",
+  "url": "https://driveindex.com/cars/ford/f-250-sport-custom-highboy/1972",
+  "market_value": 50431,
+  "median": 33250,
+  "p25": 26250,
+  "p75": 46500,
+  "min": 18500,
+  "max": 77500,
+  "sales_count": 8,
+  "sales_12m": 4,
+  "change_12m_pct": null,
+  "avg_miles": 46625,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-09-05",
+  "listed_sales": [
+   {
+    "date": "2026-09-05",
+    "price": 46500,
+    "miles": 60000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-03",
+    "price": 60000,
+    "miles": 67000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-04",
+    "price": 77500,
+    "miles": 6000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-24",
+    "price": 38500,
+    "miles": 16000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-06-17",
+    "price": 18500,
+    "miles": 56000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-04-12",
+    "price": 24250,
+    "miles": 20000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-27",
+    "price": 28000,
+    "miles": 62000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-25",
+    "price": 26250,
+    "miles": 86000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 60000,
+    "n": 3
+   },
+   "2025": {
+    "median": 24250,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1979 Ford F-350 Custom",
+  "url": "https://driveindex.com/cars/ford/f-350-custom/1979",
+  "market_value": 45112,
+  "median": 35250,
+  "p25": null,
+  "p75": null,
+  "min": 15500,
+  "max": 50000,
+  "sales_count": 6,
+  "sales_12m": 3,
+  "change_12m_pct": null,
+  "avg_miles": 65383,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-09-16",
+  "listed_sales": [
+   {
+    "date": "2026-09-16",
+    "price": 45000,
+    "miles": 88000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-04",
+    "price": 40500,
+    "miles": 24000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-21",
+    "price": 50000,
+    "miles": 155000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-05-30",
+    "price": 30000,
+    "miles": 90000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-12-17",
+    "price": 18500,
+    "miles": 31000,
+    "gearbox": null
+   },
+   {
+    "date": "2023-12-05",
+    "price": 15500,
+    "miles": 4300,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1972 Ford Mustang Mach 1 351",
+  "url": "https://driveindex.com/cars/ford/mustang-mach-1-351/1972",
+  "market_value": 19840,
+  "median": 24875,
+  "p25": 18190,
+  "p75": 31250,
+  "min": 15250,
+  "max": 65000,
+  "sales_count": 8,
+  "sales_12m": 3,
+  "change_12m_pct": -7.9,
+  "avg_miles": 45944,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 3053,
+  "latest_sale": "2026-09-16",
+  "listed_sales": [
+   {
+    "date": "2026-09-16",
+    "price": 18190,
+    "miles": 11550,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-23",
+    "price": 30000,
+    "miles": 58000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-10-15",
+    "price": 15250,
+    "miles": 10000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-24",
+    "price": 16500,
+    "miles": 46000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-27",
+    "price": 19750,
+    "miles": 77000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-12-02",
+    "price": 31250,
+    "miles": 58000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-02-22",
+    "price": 49000,
+    "miles": 33000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-10-05",
+    "price": 65000,
+    "miles": 74000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1999 Land Rover Defender 90",
+  "url": "https://driveindex.com/cars/land-rover/defender-90/1999",
+  "market_value": 27614,
+  "median": 32250,
+  "p25": 30000,
+  "p75": 45000,
+  "min": 24000,
+  "max": 100000,
+  "sales_count": 15,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 121651,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2025-12-19",
+  "listed_sales": [
+   {
+    "date": "2025-12-19",
+    "price": 28000,
+    "miles": 95070,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-22",
+    "price": 24000,
+    "miles": 133000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-10-06",
+    "price": 32250,
+    "miles": 114332,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-06-14",
+    "price": 40000,
+    "miles": 223072,
+    "gearbox": null
+   },
+   {
+    "date": "2025-05-12",
+    "price": 45000,
+    "miles": 127381,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-03-15",
+    "price": 44500,
+    "miles": 77050,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-24",
+    "price": 38000,
+    "miles": 105633,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-10",
+    "price": 25250,
+    "miles": 114332,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-03",
+    "price": 31500,
+    "miles": 66487,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-09-02",
+    "price": 25750,
+    "miles": 155000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-25",
+    "price": 100000,
+    "miles": 111,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-13",
+    "price": 45000,
+    "miles": 118060,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-06-19",
+    "price": 30000,
+    "miles": 200081,
+    "gearbox": null
+   },
+   {
+    "date": "2024-04-26",
+    "price": 31500,
+    "miles": 222451,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-02-03",
+    "price": 62500,
+    "miles": 72700,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 35125,
+    "n": 8
+   },
+   "2024": {
+    "median": 31500,
+    "n": 7
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1995 Land Rover Range Rover County LWB",
+  "url": "https://driveindex.com/cars/land-rover/range-rover-county-lwb/1995",
+  "market_value": 40950,
+  "median": 23250,
+  "p25": 18000,
+  "p75": 31500,
+  "min": 13750,
+  "max": 75000,
+  "sales_count": 13,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 117062,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 55000,
+  "latest_sale": "2023-09-20",
+  "listed_sales": [
+   {
+    "date": "2023-09-20",
+    "price": 49500,
+    "miles": 93805,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-08-08",
+    "price": 75000,
+    "miles": 34000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-04-01",
+    "price": 31750,
+    "miles": 159000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-10-21",
+    "price": 31500,
+    "miles": 91000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-10-09",
+    "price": 16250,
+    "miles": 168000,
+    "gearbox": null
+   },
+   {
+    "date": "2020-06-22",
+    "price": 18000,
+    "miles": 79000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-04-20",
+    "price": 19250,
+    "miles": 172000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2019-12-20",
+    "price": 29250,
+    "miles": 67000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2019-05-31",
+    "price": 21000,
+    "miles": 131000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2019-04-26",
+    "price": 23250,
+    "miles": 131000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2019-04-08",
+    "price": 25750,
+    "miles": 129000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2019-03-15",
+    "price": 13750,
+    "miles": 106000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2018-11-26",
+    "price": 15750,
+    "miles": 161000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2020": {
+    "median": 18625,
+    "n": 4
+   },
+   "2019": {
+    "median": 23250,
+    "n": 5
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2014 Land Rover Range Rover Sport Supercharged",
+  "url": "https://driveindex.com/cars/land-rover/range-rover-sport-supercharged/2014",
+  "market_value": 13411,
+  "median": 25400,
+  "p25": 16250,
+  "p75": 30500,
+  "min": 12494,
+  "max": 42500,
+  "sales_count": 14,
+  "sales_12m": 5,
+  "change_12m_pct": -52.6,
+  "avg_miles": 55868,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 79995,
+  "latest_sale": "2026-09-05",
+  "listed_sales": [
+   {
+    "date": "2026-09-05",
+    "price": 12494,
+    "miles": 83000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-27",
+    "price": 16750,
+    "miles": 78000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-15",
+    "price": 14007,
+    "miles": 62000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-07-05",
+    "price": 14450,
+    "miles": 97000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-03",
+    "price": 16250,
+    "miles": 70000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-01",
+    "price": 30500,
+    "miles": 15000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-20",
+    "price": 33500,
+    "miles": 23000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-10-12",
+    "price": 27250,
+    "miles": 26000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-08-08",
+    "price": 30250,
+    "miles": 46000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-01",
+    "price": 25050,
+    "miles": 46000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-04-29",
+    "price": 25750,
+    "miles": 63000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-20",
+    "price": 24200,
+    "miles": 103151,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-04-15",
+    "price": 39369,
+    "miles": 31000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-03-12",
+    "price": 42500,
+    "miles": 39000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 14450,
+    "n": 5
+   },
+   "2024": {
+    "median": 26500,
+    "n": 4
+   },
+   "2023": {
+    "median": 39369,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2016 Land Rover Range Rover Supercharged LWB",
+  "url": "https://driveindex.com/cars/land-rover/range-rover-supercharged-lwb/2016",
+  "market_value": 18800,
+  "median": 36265,
+  "p25": 23500,
+  "p75": 38000,
+  "min": 12000,
+  "max": 57000,
+  "sales_count": 13,
+  "sales_12m": 4,
+  "change_12m_pct": -8.4,
+  "avg_miles": 68167,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 115650,
+  "latest_sale": "2026-06-07",
+  "listed_sales": [
+   {
+    "date": "2026-06-07",
+    "price": 12000,
+    "miles": 121000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-02-26",
+    "price": 17779,
+    "miles": 76000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-02-03",
+    "price": 25250,
+    "miles": 49000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-10-16",
+    "price": 37400,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-06-05",
+    "price": 23500,
+    "miles": 54000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-02-28",
+    "price": 38000,
+    "miles": 62000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-02-06",
+    "price": 21750,
+    "miles": 107000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-21",
+    "price": 31550,
+    "miles": 56000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-03-08",
+    "price": 37000,
+    "miles": 53000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-01-19",
+    "price": 46500,
+    "miles": 66000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-11-28",
+    "price": 42000,
+    "miles": 62000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-11-13",
+    "price": 36265,
+    "miles": 67000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-02-26",
+    "price": 57000,
+    "miles": 45000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 17779,
+    "n": 3
+   },
+   "2025": {
+    "median": 30450,
+    "n": 4
+   },
+   "2024": {
+    "median": 37000,
+    "n": 3
+   },
+   "2023": {
+    "median": 42000,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2018 Land Rover Range Rover Supercharged",
+  "url": "https://driveindex.com/cars/land-rover/range-rover-supercharged/2018",
+  "market_value": 23845,
+  "median": 36000,
+  "p25": 32500,
+  "p75": 44250,
+  "min": 21252,
+  "max": 64531,
+  "sales_count": 11,
+  "sales_12m": 6,
+  "change_12m_pct": null,
+  "avg_miles": 50909,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 112895,
+  "latest_sale": "2026-09-21",
+  "listed_sales": [
+   {
+    "date": "2026-09-21",
+    "price": 21252,
+    "miles": 79000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-09-02",
+    "price": 34388,
+    "miles": 49000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-24",
+    "price": 26250,
+    "miles": 77000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-26",
+    "price": 27000,
+    "miles": 61000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-18",
+    "price": 36000,
+    "miles": 57000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-09",
+    "price": 32500,
+    "miles": 77000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-09-04",
+    "price": 42750,
+    "miles": 36000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-07",
+    "price": 39000,
+    "miles": 46000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-27",
+    "price": 64531,
+    "miles": 7000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-05-08",
+    "price": 44250,
+    "miles": 51000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-05-02",
+    "price": 62000,
+    "miles": 20000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2012 Lexus LFA Nurburgring Package",
+  "url": "https://driveindex.com/cars/lexus/lfa-nurburgring-package/2012",
+  "market_value": 1681307,
+  "median": 1259250,
+  "p25": 885000,
+  "p75": 1625000,
+  "min": 770000,
+  "max": 1875000,
+  "sales_count": 10,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 1004,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 445000,
+  "latest_sale": "2024-01-27",
+  "listed_sales": [
+   {
+    "date": "2024-01-27",
+    "price": 1650000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-11-17",
+    "price": 1875000,
+    "miles": 143,
+    "gearbox": null
+   },
+   {
+    "date": "2022-08-18",
+    "price": 1600000,
+    "miles": 1200,
+    "gearbox": null
+   },
+   {
+    "date": "2022-03-18",
+    "price": 1625000,
+    "miles": 2000,
+    "gearbox": null
+   },
+   {
+    "date": "2021-08-12",
+    "price": 1600000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2019-03-08",
+    "price": 912500,
+    "miles": 1615,
+    "gearbox": null
+   },
+   {
+    "date": "2019-01-19",
+    "price": 918500,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2019-01-17",
+    "price": 885000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-04-14",
+    "price": 770000,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2018-01-19",
+    "price": 825000,
+    "miles": 60,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2012 Lexus LFA",
+  "url": "https://driveindex.com/cars/lexus/lfa/2012",
+  "market_value": 840103,
+  "median": 808000,
+  "p25": 725000,
+  "p75": 860000,
+  "min": 319000,
+  "max": 1105000,
+  "sales_count": 34,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 3668,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 375000,
+  "latest_sale": "2025-10-11",
+  "listed_sales": [
+   {
+    "date": "2025-10-11",
+    "price": 830000,
+    "miles": 5800,
+    "gearbox": null
+   },
+   {
+    "date": "2025-09-05",
+    "price": 785000,
+    "miles": 10000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-13",
+    "price": 810000,
+    "miles": 4400,
+    "gearbox": null
+   },
+   {
+    "date": "2025-04-17",
+    "price": 875000,
+    "miles": 3800,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-13",
+    "price": 951000,
+    "miles": 952,
+    "gearbox": null
+   },
+   {
+    "date": "2024-10-17",
+    "price": 860000,
+    "miles": 3100,
+    "gearbox": null
+   },
+   {
+    "date": "2024-09-06",
+    "price": 875000,
+    "miles": 1700,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-28",
+    "price": 810000,
+    "miles": 3600,
+    "gearbox": null
+   },
+   {
+    "date": "2024-05-18",
+    "price": 880000,
+    "miles": 79,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-08",
+    "price": 903111,
+    "miles": 2600,
+    "gearbox": null
+   },
+   {
+    "date": "2024-03-29",
+    "price": 890000,
+    "miles": 268,
+    "gearbox": null
+   },
+   {
+    "date": "2024-03-01",
+    "price": 731000,
+    "miles": 1468,
+    "gearbox": null
+   },
+   {
+    "date": "2024-01-27",
+    "price": 687500,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-12-21",
+    "price": 725000,
+    "miles": 1500,
+    "gearbox": null
+   },
+   {
+    "date": "2023-11-17",
+    "price": 940000,
+    "miles": 112,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 830000,
+    "n": 5
+   },
+   "2024": {
+    "median": 867500,
+    "n": 8
+   },
+   "2023": {
+    "median": 755000,
+    "n": 7
+   },
+   "2022": {
+    "median": 791500,
+    "n": 4
+   },
+   "2021": {
+    "median": 766500,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2015 McLaren P1",
+  "url": "https://driveindex.com/cars/mclaren/p1/2015",
+  "market_value": 3144960,
+  "median": 1980000,
+  "p25": 1567500,
+  "p75": 2392500,
+  "min": 1089000,
+  "max": 3465000,
+  "sales_count": 16,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 1416,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 1150000,
+  "latest_sale": "2026-06-18",
+  "listed_sales": [
+   {
+    "date": "2026-06-18",
+    "price": 3465000,
+    "miles": 2935,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-07",
+    "price": 2419200,
+    "miles": 894,
+    "gearbox": null
+   },
+   {
+    "date": "2023-12-08",
+    "price": 2095000,
+    "miles": 2700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-08-17",
+    "price": 2012500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-03-03",
+    "price": 2425000,
+    "miles": 130,
+    "gearbox": null
+   },
+   {
+    "date": "2021-06-19",
+    "price": 1567500,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-01-11",
+    "price": 1089000,
+    "miles": 1352,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2019-03-08",
+    "price": 1490000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-12-08",
+    "price": 1435000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-01-19",
+    "price": 1732500,
+    "miles": 1700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2017-03-10",
+    "price": 2392500,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2015-08-15",
+    "price": 1925000,
+    "miles": 200,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "1968 Mercedes-Benz 280SL 4-Speed",
+  "url": "https://driveindex.com/cars/mercedes-benz/280sl-4-speed/1968",
+  "market_value": 90589,
+  "median": 65500,
+  "p25": 65000,
+  "p75": 110000,
+  "min": 45250,
+  "max": 445000,
+  "sales_count": 9,
+  "sales_12m": 6,
+  "change_12m_pct": 67.2,
+  "avg_miles": 35718,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 7469,
+  "latest_sale": "2026-08-06",
+  "listed_sales": [
+   {
+    "date": "2026-08-06",
+    "price": 445000,
+    "miles": 64,
+    "gearbox": null
+   },
+   {
+    "date": "2026-07-21",
+    "price": 110000,
+    "miles": 56000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-02",
+    "price": 105000,
+    "miles": 52000,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-07",
+    "price": 65051,
+    "miles": 12000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-11-21",
+    "price": 65500,
+    "miles": 27400,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-11-15",
+    "price": 65000,
+    "miles": 89000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-07",
+    "price": 45250,
+    "miles": 14000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-11-06",
+    "price": 51000,
+    "miles": 18000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-10-16",
+    "price": 117000,
+    "miles": 53000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 107500,
+    "n": 4
+   },
+   "2025": {
+    "median": 65000,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "1956 Mercedes-Benz 300 Sc Coupe",
+  "url": "https://driveindex.com/cars/mercedes-benz/300-sc-coupe/1956",
+  "market_value": 401495,
+  "median": 475800,
+  "p25": null,
+  "p75": null,
+  "min": 187000,
+  "max": 550000,
+  "sales_count": 8,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": null,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": null,
+  "latest_sale": "2025-08-14",
+  "listed_sales": [
+   {
+    "date": "2025-08-14",
+    "price": 390000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-01-25",
+    "price": 475800,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-08-17",
+    "price": 362500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2021-08-12",
+    "price": 500000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2020-08-14",
+    "price": 485000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2014-01-17",
+    "price": 550000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2007-03-10",
+    "price": 187000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "1954 Mercedes-Benz 300 SL Gullwing Coupe",
+  "url": "https://driveindex.com/cars/mercedes-benz/300-sl-gullwing-coupe/1954",
+  "market_value": 1451750,
+  "median": 1345000,
+  "p25": 1045000,
+  "p75": 1380000,
+  "min": 209000,
+  "max": 1600000,
+  "sales_count": 15,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 40389,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 6940,
+  "latest_sale": "2026-03-06",
+  "listed_sales": [
+   {
+    "date": "2026-03-06",
+    "price": 1462500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-08-12",
+    "price": 1345000,
+    "miles": 40389,
+    "gearbox": null
+   },
+   {
+    "date": "2022-03-04",
+    "price": 1600000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-08-24",
+    "price": 1380000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-01-19",
+    "price": 1155000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2017-03-10",
+    "price": 1358500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2016-08-19",
+    "price": 1045000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2008-08-16",
+    "price": 605000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2002-08-16",
+    "price": 209000,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "1962 Mercedes-Benz 300 SL Roadster",
+  "url": "https://driveindex.com/cars/mercedes-benz/300-sl-roadster/1962",
+  "market_value": 1550813,
+  "median": 1380000,
+  "p25": 951500,
+  "p75": 1550000,
+  "min": 228250,
+  "max": 1831000,
+  "sales_count": 21,
+  "sales_12m": 4,
+  "change_12m_pct": null,
+  "avg_miles": 52011,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 11500,
+  "latest_sale": "2026-09-15",
+  "listed_sales": [
+   {
+    "date": "2026-07-21",
+    "price": 1511000,
+    "miles": 55000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-10-30",
+    "price": 1831000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-01-24",
+    "price": 1325000,
+    "miles": 46500,
+    "gearbox": null
+   },
+   {
+    "date": "2023-03-03",
+    "price": 1792500,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-20",
+    "price": 1550000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-19",
+    "price": 1572500,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-18",
+    "price": 1380000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2022-03-05",
+    "price": 1545000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2018-04-06",
+    "price": 1540000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2014-08-15",
+    "price": 1127500,
+    "miles": 99175,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "2014 Mercedes-Benz ML350 4MATIC",
+  "url": "https://driveindex.com/cars/mercedes-benz/ml350-4matic/2014",
+  "market_value": 23725,
+  "median": 16750,
+  "p25": null,
+  "p75": null,
+  "min": 12750,
+  "max": 34500,
+  "sales_count": 6,
+  "sales_12m": 3,
+  "change_12m_pct": 35.1,
+  "avg_miles": 49000,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-07-21",
+  "listed_sales": [
+   {
+    "date": "2026-07-21",
+    "price": 34500,
+    "miles": 16000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-03-09",
+    "price": 18250,
+    "miles": 31000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-12-29",
+    "price": 20000,
+    "miles": 37000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-30",
+    "price": 12750,
+    "miles": 76000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-07",
+    "price": 14800,
+    "miles": 79000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-23",
+    "price": 15250,
+    "miles": 55000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1996 Mercedes-Benz S420",
+  "url": "https://driveindex.com/cars/mercedes-benz/s420/1996",
+  "market_value": 12163,
+  "median": 12125,
+  "p25": 11200,
+  "p75": 14500,
+  "min": 10877,
+  "max": 63000,
+  "sales_count": 10,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 65310,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": 73900,
+  "latest_sale": "2025-08-20",
+  "listed_sales": [
+   {
+    "date": "2025-08-20",
+    "price": 63000,
+    "miles": 22000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-02",
+    "price": 12250,
+    "miles": 55000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-07-31",
+    "price": 12000,
+    "miles": 54700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-08-03",
+    "price": 11250,
+    "miles": 76000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-06-28",
+    "price": 17550,
+    "miles": 47000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-03-25",
+    "price": 10999,
+    "miles": 60600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-03-21",
+    "price": 14500,
+    "miles": 83000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-01-06",
+    "price": 10877,
+    "miles": 91300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-04-30",
+    "price": 11200,
+    "miles": 82500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-12-11",
+    "price": 12500,
+    "miles": 81000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2011 Mercedes-Benz S550 4MATIC",
+  "url": "https://driveindex.com/cars/mercedes-benz/s550-4matic/2011",
+  "market_value": 11735,
+  "median": 18500,
+  "p25": 12000,
+  "p75": 28500,
+  "min": 6600,
+  "max": 31250,
+  "sales_count": 11,
+  "sales_12m": 5,
+  "change_12m_pct": null,
+  "avg_miles": 46435,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 94600,
+  "latest_sale": "2026-10-02",
+  "listed_sales": [
+   {
+    "date": "2026-10-02",
+    "price": 11500,
+    "miles": 57500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-08",
+    "price": 11000,
+    "miles": 89653,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-27",
+    "price": 15250,
+    "miles": 51200,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-17",
+    "price": 12000,
+    "miles": 86000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-10-16",
+    "price": 6600,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-15",
+    "price": 20250,
+    "miles": 36000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-04",
+    "price": 18500,
+    "miles": 37000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-09-09",
+    "price": 29500,
+    "miles": 21000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-02-13",
+    "price": 23200,
+    "miles": 28000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-08",
+    "price": 31250,
+    "miles": 12000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-06-10",
+    "price": 28500,
+    "miles": 46000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1996 Porsche 911 Carrera Targa (993)",
+  "url": "https://driveindex.com/cars/porsche/911-carrera-targa/1996",
+  "market_value": 105756,
+  "median": 84497,
+  "p25": 53555,
+  "p75": 105000,
+  "min": 40000,
+  "max": 164000,
+  "sales_count": 34,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 57051,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 70700,
+  "latest_sale": "2026-08-08",
+  "listed_sales": [
+   {
+    "date": "2026-08-08",
+    "price": 107000,
+    "miles": 64000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-07",
+    "price": 97000,
+    "miles": 57000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-08-04",
+    "price": 103500,
+    "miles": 113000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-05-23",
+    "price": 104999,
+    "miles": 62000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-31",
+    "price": 120000,
+    "miles": 32000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-03-07",
+    "price": 156800,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-02-25",
+    "price": 83993,
+    "miles": 44000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-12-20",
+    "price": 160000,
+    "miles": 31000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-10-28",
+    "price": 86000,
+    "miles": 63681,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-08-06",
+    "price": 104000,
+    "miles": 41000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-30",
+    "price": 81132,
+    "miles": 82000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-07-08",
+    "price": 120000,
+    "miles": 41000,
+    "gearbox": null
+   },
+   {
+    "date": "2024-06-25",
+    "price": 112000,
+    "miles": 32000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-04-28",
+    "price": 132500,
+    "miles": 49000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-01-10",
+    "price": 164000,
+    "miles": 26000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 104999,
+    "n": 5
+   },
+   "2024": {
+    "median": 116000,
+    "n": 8
+   },
+   "2023": {
+    "median": 86500,
+    "n": 4
+   },
+   "2020": {
+    "median": 54278,
+    "n": 6
+   },
+   "2019": {
+    "median": 46500,
+    "n": 5
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2019 Porsche 911 GT2 RS Clubsport (991.2)",
+  "url": "https://driveindex.com/cars/porsche/911-gt2-rs-clubsport/2019",
+  "market_value": 359199,
+  "median": 412999,
+  "p25": 386000,
+  "p75": 527500,
+  "min": 350000,
+  "max": 603000,
+  "sales_count": 14,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 1560,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": null,
+  "latest_sale": "2026-04-22",
+  "listed_sales": [
+   {
+    "date": "2026-04-22",
+    "price": 360000,
+    "miles": 1300,
+    "gearbox": null
+   },
+   {
+    "date": "2025-07-30",
+    "price": 350000,
+    "miles": 2000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-08-18",
+    "price": 372500,
+    "miles": 870,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-03-13",
+    "price": 575000,
+    "miles": 3300,
+    "gearbox": null
+   },
+   {
+    "date": "2024-02-07",
+    "price": 386000,
+    "miles": 1429,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-05-23",
+    "price": 412999,
+    "miles": 1553,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-12-06",
+    "price": 420000,
+    "miles": 30,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-11-15",
+    "price": 405000,
+    "miles": 1300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-08-12",
+    "price": 406356,
+    "miles": 1553,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-03-26",
+    "price": 603000,
+    "miles": 2900,
+    "gearbox": null
+   },
+   {
+    "date": "2021-11-23",
+    "price": 515000,
+    "miles": 932,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2021-09-02",
+    "price": 548991,
+    "miles": 1553,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2020-03-06",
+    "price": 527500,
+    "miles": null,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2024": {
+    "median": 386000,
+    "n": 3
+   },
+   "2022": {
+    "median": 413178,
+    "n": 4
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2010 Porsche 911 GT3 RS (997.2)",
+  "url": "https://driveindex.com/cars/porsche/911-gt3-rs/2010",
+  "market_value": 586614,
+  "median": 329888,
+  "p25": 219990,
+  "p75": 420997,
+  "min": 126500,
+  "max": 704547,
+  "sales_count": 26,
+  "sales_12m": 7,
+  "change_12m_pct": 79.7,
+  "avg_miles": 15481,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 132800,
+  "latest_sale": "2026-10-01",
+  "listed_sales": [
+   {
+    "date": "2026-10-01",
+    "price": 575000,
+    "miles": 22000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-07-06",
+    "price": 572500,
+    "miles": 10000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-06-22",
+    "price": 704547,
+    "miles": 3580,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-06-09",
+    "price": 550200,
+    "miles": 10063,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-29",
+    "price": 425250,
+    "miles": 34300,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-30",
+    "price": 392175,
+    "miles": 23710,
+    "gearbox": null
+   },
+   {
+    "date": "2025-09-12",
+    "price": 420997,
+    "miles": 12000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-05-29",
+    "price": 294997,
+    "miles": 9000,
+    "gearbox": null
+   },
+   {
+    "date": "2025-01-25",
+    "price": 329888,
+    "miles": 10000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-01-02",
+    "price": 251000,
+    "miles": 45000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-03-18",
+    "price": 340000,
+    "miles": 4176,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-03-12",
+    "price": 344000,
+    "miles": 12000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-19",
+    "price": 368000,
+    "miles": 7000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 561350,
+    "n": 6
+   },
+   "2025": {
+    "median": 312443,
+    "n": 4
+   },
+   "2022": {
+    "median": 251000,
+    "n": 3
+   },
+   "2020": {
+    "median": 132500,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2025 Porsche 911 GT3 RS (992.1)",
+  "url": "https://driveindex.com/cars/porsche/911-gt3-rs/2025",
+  "market_value": 487190,
+  "median": 423500,
+  "p25": 400000,
+  "p75": 480000,
+  "min": 373275,
+  "max": 592200,
+  "sales_count": 22,
+  "sales_12m": 21,
+  "change_12m_pct": null,
+  "avg_miles": 1015,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 241300,
+  "latest_sale": "2026-09-28",
+  "listed_sales": [
+   {
+    "date": "2026-09-28",
+    "price": 486000,
+    "miles": 477,
+    "gearbox": null
+   },
+   {
+    "date": "2026-09-12",
+    "price": 495000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-08-31",
+    "price": 480000,
+    "miles": 2364,
+    "gearbox": null
+   },
+   {
+    "date": "2026-07-02",
+    "price": 435000,
+    "miles": 100,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-30",
+    "price": 592200,
+    "miles": 343,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-06-04",
+    "price": 373275,
+    "miles": 4630,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-05-23",
+    "price": 524500,
+    "miles": 1300,
+    "gearbox": null
+   },
+   {
+    "date": "2026-05-04",
+    "price": 448875,
+    "miles": 3870,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-25",
+    "price": 483500,
+    "miles": 1334,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-18",
+    "price": 401500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-23",
+    "price": 414750,
+    "miles": 85,
+    "gearbox": null
+   },
+   {
+    "date": "2026-02-16",
+    "price": 397000,
+    "miles": 537,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-02-06",
+    "price": 459375,
+    "miles": 24,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-31",
+    "price": 390000,
+    "miles": 2700,
+    "gearbox": null
+   },
+   {
+    "date": "2026-01-06",
+    "price": 396000,
+    "miles": 19,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 448875,
+    "n": 15
+   },
+   "2025": {
+    "median": 417000,
+    "n": 7
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2024 Porsche 911 S/T (992.1)",
+  "url": "https://driveindex.com/cars/porsche/911-st/2024",
+  "market_value": 765208,
+  "median": 648000,
+  "p25": 624000,
+  "p75": 676500,
+  "min": 571000,
+  "max": 805992,
+  "sales_count": 24,
+  "sales_12m": 15,
+  "change_12m_pct": -9.3,
+  "avg_miles": 652,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 290000,
+  "latest_sale": "2026-09-02",
+  "listed_sales": [
+   {
+    "date": "2026-09-02",
+    "price": 805000,
+    "miles": 196,
+    "gearbox": null
+   },
+   {
+    "date": "2026-08-10",
+    "price": 571000,
+    "miles": 5700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-06-11",
+    "price": 619500,
+    "miles": 305,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-14",
+    "price": 585000,
+    "miles": 272,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-13",
+    "price": 627000,
+    "miles": 56,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-05-03",
+    "price": 649600,
+    "miles": 1195,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-21",
+    "price": 613219,
+    "miles": 350,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-04-18",
+    "price": 665500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2026-04-17",
+    "price": 625000,
+    "miles": 114,
+    "gearbox": null
+   },
+   {
+    "date": "2026-03-19",
+    "price": 625000,
+    "miles": 242,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-03-06",
+    "price": 620000,
+    "miles": 98,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2026-02-24",
+    "price": 625000,
+    "miles": 797,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-10-30",
+    "price": 648000,
+    "miles": 542,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-10-15",
+    "price": 624000,
+    "miles": 285,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 625000,
+    "n": 12
+   },
+   "2025": {
+    "median": 666250,
+    "n": 10
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "1974 Porsche 914 2.0L",
+  "url": "https://driveindex.com/cars/porsche/914-20l/1974",
+  "market_value": 40368,
+  "median": 20625,
+  "p25": 16000,
+  "p75": 29750,
+  "min": 11500,
+  "max": 41000,
+  "sales_count": 8,
+  "sales_12m": null,
+  "change_12m_pct": null,
+  "avg_miles": 46589,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 5995,
+  "latest_sale": "2025-03-24",
+  "listed_sales": [
+   {
+    "date": "2025-03-24",
+    "price": 41000,
+    "miles": 70000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-08-06",
+    "price": 40000,
+    "miles": 53000,
+    "gearbox": null
+   },
+   {
+    "date": "2023-05-01",
+    "price": 21000,
+    "miles": 50000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-04-13",
+    "price": 29750,
+    "miles": 104715,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-02-14",
+    "price": 20250,
+    "miles": 7000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2017-02-15",
+    "price": 16000,
+    "miles": 1000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2016-06-21",
+    "price": 14750,
+    "miles": 14000,
+    "gearbox": null
+   },
+   {
+    "date": "2016-02-04",
+    "price": 11500,
+    "miles": 73000,
+    "gearbox": null
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "1987 Porsche 959 Komfort",
+  "url": "https://driveindex.com/cars/porsche/959-komfort/1987",
+  "market_value": 2226875,
+  "median": 1682500,
+  "p25": 1160000,
+  "p75": 1875000,
+  "min": 467500,
+  "max": 2310000,
+  "sales_count": 19,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 9853,
+  "as_of": "2026-10-10",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 225000,
+  "latest_sale": "2026-05-16",
+  "listed_sales": [
+   {
+    "date": "2026-05-16",
+    "price": 2310000,
+    "miles": 3521,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-08-15",
+    "price": 2040000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-01-25",
+    "price": 1457500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-01-16",
+    "price": 1875000,
+    "miles": 7800,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-01-13",
+    "price": 1870000,
+    "miles": 14686,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2023-03-03",
+    "price": 1710000,
+    "miles": 14659,
+    "gearbox": null
+   },
+   {
+    "date": "2023-01-26",
+    "price": 1682500,
+    "miles": 2811,
+    "gearbox": null
+   },
+   {
+    "date": "2022-08-18",
+    "price": 1875000,
+    "miles": 19675,
+    "gearbox": null
+   },
+   {
+    "date": "2022-01-27",
+    "price": 1600000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2020-03-06",
+    "price": 1050000,
+    "miles": 5822,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2018-08-24",
+    "price": 467500,
+    "miles": null,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": false
+ },
+ {
+  "name": "1994 Porsche 964 Turbo 3.6",
+  "url": "https://driveindex.com/cars/porsche/964-turbo-36/1994",
+  "market_value": 540873,
+  "median": 349625,
+  "p25": 301000,
+  "p75": 524999,
+  "min": 165250,
+  "max": 621000,
+  "sales_count": 21,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 40247,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 99000,
+  "latest_sale": "2026-07-03",
+  "listed_sales": [
+   {
+    "date": "2026-07-03",
+    "price": 524999,
+    "miles": 64256,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-09-19",
+    "price": 545000,
+    "miles": 28000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2025-08-15",
+    "price": 621000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2025-01-24",
+    "price": 445000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2024-08-16",
+    "price": 456000,
+    "miles": 36000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2024-03-01",
+    "price": 593500,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-08-17",
+    "price": 555000,
+    "miles": null,
+    "gearbox": null
+   },
+   {
+    "date": "2023-02-15",
+    "price": 301000,
+    "miles": 66463,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2022-08-19",
+    "price": 379000,
+    "miles": 30000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-09-29",
+    "price": 245000,
+    "miles": 45000,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-09-15",
+    "price": 205000,
+    "miles": 34000,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2025": {
+    "median": 545000,
+    "n": 3
+   },
+   "2020": {
+    "median": 205000,
+    "n": 3
+   },
+   "2019": {
+    "median": 320000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2004 Porsche Carrera GT",
+  "url": "https://driveindex.com/cars/porsche/carrera-gt/2004",
+  "market_value": 1549581,
+  "median": 786000,
+  "p25": 715000,
+  "p75": 1210000,
+  "min": 605000,
+  "max": 1980000,
+  "sales_count": 20,
+  "sales_12m": 1,
+  "change_12m_pct": null,
+  "avg_miles": 2774,
+  "as_of": null,
+  "limited_data": false,
+  "stale": false,
+  "msrp": 440000,
+  "latest_sale": "2026-07-04",
+  "listed_sales": [
+   {
+    "date": "2023-06-01",
+    "price": 1462500,
+    "miles": 2300,
+    "gearbox": null
+   },
+   {
+    "date": "2022-03-11",
+    "price": 1865000,
+    "miles": 3700,
+    "gearbox": null
+   },
+   {
+    "date": "2022-01-29",
+    "price": 1980000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2021-09-14",
+    "price": 1310000,
+    "miles": 2700,
+    "gearbox": null
+   },
+   {
+    "date": "2021-08-14",
+    "price": 1210000,
+    "miles": null,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-03-06",
+    "price": 786000,
+    "miles": 766,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2020-01-17",
+    "price": 775000,
+    "miles": 4700,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2019-03-08",
+    "price": 687000,
+    "miles": 4400,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2019-03-08",
+    "price": 775000,
+    "miles": 1600,
+    "gearbox": null
+   },
+   {
+    "date": "2018-08-24",
+    "price": 726000,
+    "miles": 4500,
+    "gearbox": "Manual"
+   },
+   {
+    "date": "2018-08-24",
+    "price": 940000,
+    "miles": 176,
+    "gearbox": null
+   },
+   {
+    "date": "2018-01-19",
+    "price": 715000,
+    "miles": 2900,
+    "gearbox": "Manual"
+   }
+  ],
+  "history_by_year": {
+   "2018": {
+    "median": 726000,
+    "n": 3
+   },
+   "2016": {
+    "median": 671000,
+    "n": 3
+   }
+  },
+  "fully_listed": false
+ },
+ {
+  "name": "2021 Porsche Cayenne",
+  "url": "https://driveindex.com/cars/porsche/cayenne/2021",
+  "market_value": 32482,
+  "median": 51700,
+  "p25": 40500,
+  "p75": 69500,
+  "min": 28100,
+  "max": 88500,
+  "sales_count": 9,
+  "sales_12m": 2,
+  "change_12m_pct": null,
+  "avg_miles": 31951,
+  "as_of": null,
+  "limited_data": false,
+  "stale": true,
+  "msrp": 67500,
+  "latest_sale": "2026-03-31",
+  "listed_sales": [
+   {
+    "date": "2026-03-31",
+    "price": 28100,
+    "miles": 53000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-11-13",
+    "price": 40500,
+    "miles": 36000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-21",
+    "price": 34500,
+    "miles": 71000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-08-06",
+    "price": 40500,
+    "miles": 47000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-07-10",
+    "price": 53000,
+    "miles": 28000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-20",
+    "price": 51700,
+    "miles": 19556,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-06",
+    "price": 69500,
+    "miles": 6000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-09",
+    "price": 88500,
+    "miles": 11000,
+    "gearbox": null
+   },
+   {
+    "date": "2022-07-11",
+    "price": 85500,
+    "miles": 16000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {},
+  "fully_listed": true
+ },
+ {
+  "name": "2023 Porsche Cayenne",
+  "url": "https://driveindex.com/cars/porsche/cayenne/2023",
+  "market_value": 53747,
+  "median": 83500,
+  "p25": 56000,
+  "p75": 102000,
+  "min": 48361,
+  "max": 175000,
+  "sales_count": 12,
+  "sales_12m": 3,
+  "change_12m_pct": -32,
+  "avg_miles": 18533,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 79200,
+  "latest_sale": "2026-10-05",
+  "listed_sales": [
+   {
+    "date": "2026-10-05",
+    "price": 48361,
+    "miles": 47600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-09-16",
+    "price": 51000,
+    "miles": 33700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-08-25",
+    "price": 56000,
+    "miles": 44000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-05-27",
+    "price": 53600,
+    "miles": 37300,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-03-13",
+    "price": 92000,
+    "miles": 29000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-30",
+    "price": 62000,
+    "miles": 8000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-17",
+    "price": 148500,
+    "miles": 4500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-10-25",
+    "price": 75000,
+    "miles": 4105,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-07-26",
+    "price": 99000,
+    "miles": 18,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-06-23",
+    "price": 102000,
+    "miles": 18,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-15",
+    "price": 156000,
+    "miles": 7156,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-01-21",
+    "price": 175000,
+    "miles": 7000,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 51000,
+    "n": 3
+   },
+   "2025": {
+    "median": 77000,
+    "n": 4
+   },
+   "2024": {
+    "median": 102000,
+    "n": 5
+   }
+  },
+  "fully_listed": true
+ },
+ {
+  "name": "2018 Porsche Panamera 4",
+  "url": "https://driveindex.com/cars/porsche/panamera-4/2018",
+  "market_value": 45279,
+  "median": 56500,
+  "p25": 44500,
+  "p75": 92000,
+  "min": 23800,
+  "max": 165000,
+  "sales_count": 13,
+  "sales_12m": 4,
+  "change_12m_pct": null,
+  "avg_miles": 54684,
+  "as_of": "2026-10-11",
+  "limited_data": false,
+  "stale": false,
+  "msrp": 79900,
+  "latest_sale": "2026-08-03",
+  "listed_sales": [
+   {
+    "date": "2026-08-03",
+    "price": 56500,
+    "miles": 48700,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-19",
+    "price": 27000,
+    "miles": 81000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-04-17",
+    "price": 34750,
+    "miles": 61000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2026-01-20",
+    "price": 23800,
+    "miles": 131600,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2025-01-31",
+    "price": 56500,
+    "miles": 77800,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-05-21",
+    "price": 45500,
+    "miles": 41900,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2024-04-19",
+    "price": 44500,
+    "miles": 22427,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-09-28",
+    "price": 70569,
+    "miles": 43500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2023-06-29",
+    "price": 77000,
+    "miles": 30100,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-07-27",
+    "price": 92000,
+    "miles": 34000,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-06-21",
+    "price": 99274,
+    "miles": 29500,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2022-05-21",
+    "price": 132500,
+    "miles": null,
+    "gearbox": "Automatic"
+   },
+   {
+    "date": "2018-08-25",
+    "price": 165000,
+    "miles": null,
+    "gearbox": "Automatic"
+   }
+  ],
+  "history_by_year": {
+   "2026": {
+    "median": 30875,
+    "n": 4
+   },
+   "2022": {
+    "median": 99274,
+    "n": 3
+   }
+  },
+  "fully_listed": true
+ }
+]
