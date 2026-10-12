@@ -10,6 +10,7 @@ PORT=9222
 REA="npx -y rea-agents@6.4.0"
 
 mkdir -p "$OUT"
+OUT="$(cd "$OUT" && pwd)"
 "$CHROME" --headless=new --no-sandbox --remote-debugging-port=$PORT \
   --remote-debugging-address=127.0.0.1 --user-data-dir="$OUT/profile" \
   --password-store=basic ${HTTPS_PROXY:+--proxy-server="$HTTPS_PROXY"} "$URL" &
@@ -26,8 +27,8 @@ $REA inspect-web-page "http://127.0.0.1:$PORT" "$TARGET" --observation-ms 4000 \
 # Static bundle analysis: chunks, endpoint candidates, vendor fingerprints, source maps
 $REA analyze-web-bundle "http://127.0.0.1:$PORT" "$TARGET" --json > "$OUT/bundle.json"
 # Export captured scripts for static JavaScript analysis
-$REA export-web-scripts "$PWD/$OUT/inspect.json" "$PWD/$OUT/scripts" --json > "$OUT/export.json"
-$REA analyze-javascript-application "$PWD/$OUT/scripts/files" --json > "$OUT/app.json"
+$REA export-web-scripts "$OUT/inspect.json" "$OUT/scripts" --json > "$OUT/export.json"
+$REA analyze-javascript-application "$OUT/scripts/files" --json > "$OUT/app.json"
 
 echo "Done. The valuation math lives in the app/(app)/dashboard/page-*.js chunk:"
 grep -l "blendedRate" "$OUT"/scripts/files/isolated/*.js || true

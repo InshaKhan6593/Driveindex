@@ -30,3 +30,12 @@ print(p.forecast3y, p.bear3y, p.bull3y)
 print(analyze_listing(ask=89_985, market_value=114_593, miles=9_182, avg_miles=3_005,
                       collect_score=9, age=6))
 ```
+
+## Also captured with REA: Chat LangChain
+
+[docs/langchain_chatbot/REPORT.md](docs/langchain_chatbot/REPORT.md) explains how the assistant on
+docs.langchain.com knows which page you are on (a `postMessage` of `location.href` from the docs
+page into the chat iframe, appended to your question as a note) and its RAG architecture (a
+tool-calling agent that searches and then reads whole `.mdx` pages through the docs MCP server,
+plus a support KB, link checks and guardrails). Reproduce with
+[scripts/langchain_chat_capture.sh](scripts/langchain_chat_capture.sh).
