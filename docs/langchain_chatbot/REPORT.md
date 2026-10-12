@@ -307,6 +307,41 @@ Sources: the `langchain-ai/docs` repo (commit `8ad078e`), Mintlify's own docs re
 LangChain's `/.well-known/mcp` names the underlying host `langchain-5e9cc07a.main-kill-isr.mintlify.me/mcp`.
 `docs.langchain.com/mcp` is the same server on LangChain's domain.
 
+## 2.8 REA on Mintlify: how its search works (2026-10-12)
+
+Method: `scripts/rea_capture.sh` on `mintlify.com/docs` (26 scripts; React; a Vite-style `_mintlify/assets` build, not
+Next.js). I read the prettified main bundle, recorded the request the search bar sends when a query is typed in headless
+Chromium, then ran the same queries through the search bar endpoint and the MCP search tool
+(`scripts/mintlify_search_probe.py`). Only public pages, their scripts, and requests a visitor's browser makes.
+
+**Search bar client (main bundle).**
+```js
+// mode: authenticated sites -> /_mintlify/api/search; self-hosted -> /_mintlify/api-public/self-hosted-search/<sub>
+POST https://leaves.mintlify.com/api/search/<subdomain>     // AI_MESSAGE_HOST = https://leaves.mintlify.com
+body: {"query": "mcp server", "filters": {"language": "en"}, "pageSize"?: n}
+resp: {"results": [{"page", "header", "content", "score", "metadata": {"title", "breadcrumbs", "icon", "hash", "openapi"}}]}
+```
+The client builds a link to `page#hash`, then groups results by page in navigation order. A site can switch the search bar
+to Algolia instead (`if (e === "algolia")`). The server is Express behind Cloudflare.
+
+**What the two search paths return for the same queries.**
+
+| | Search bar (`leaves.mintlify.com`) | MCP `search_*` tool |
+|---|---|---|
+| Unit | One section per heading (`page`, `header`, `hash`) | One section per heading |
+| Content | Cleaned plain text, 200 to 1,400 characters | Raw MDX of the section, 400 to 9,400 characters on mintlify.com (up to 24,000 on LangChain) |
+| Count | Varies: 11 for "mcp server", **3** for the typo "mpc sever" | Always about 9 or 10, even for the typo |
+| Score | Returned. Unbounded (11 to 55) and grows with query length | Not returned |
+| "mcp server" #1 | `optimize/feedback`; the real MCP page ranks 9th | `ai/model-context-protocol`, the real MCP page |
+| "mpc sever" | Finds the MCP pages (typo-tolerant) | MCP pages first, then unrelated filler ("Delete a project") |
+| Time | about 0.27 s | 0.57 to 0.80 s |
+
+**Reading the evidence.** The search bar behaves like a typo-tolerant keyword engine (BM25-style): additive scores, a
+result count that drops when few terms match, and term-frequency ranking. The MCP tool behaves like vector or hybrid
+search: it always returns a fixed top-k, keeps unrelated filler for a nonsense query, ranks by topic, and is slower
+(a query embedding is the likely extra step). Mintlify's docs describe "semantic and keyword" search without saying
+which path uses which. The embedding model, chunker and database are not visible from outside.
+
 ## 3. Build the same thing yourself (minimal recipe)
 
 1. **Expose your docs as tools.** If your docs are on Mintlify, the `/mcp` endpoint
