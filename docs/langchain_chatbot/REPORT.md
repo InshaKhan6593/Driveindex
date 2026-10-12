@@ -342,6 +342,50 @@ search: it always returns a fixed top-k, keeps unrelated filler for a nonsense q
 (a query embedding is the likely extra step). Mintlify's docs describe "semantic and keyword" search without saying
 which path uses which. The embedding model, chunker and database are not visible from outside.
 
+## 2.9 Mintlify's own statements and open-source equivalents
+
+**Mintlify engineering posts** (primary sources):
+* [How we built a virtual filesystem for our Assistant](https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant)
+  (March 2026):
+  - Docs are "indexed, chunked, and stored in a Chroma database to power our search".
+  - **ChromaFs** puts [just-bash](https://github.com/vercel-labs/just-bash) (Vercel's bash written in TypeScript) on top
+    of Chroma, which explains the `bash: rm: command not found` errors.
+  - The file tree is a gzipped JSON document (`__path_tree__`) holding `isPublic` and `groups` for each path. It is
+    pruned per user before any command runs.
+  - `cat` fetches every chunk with `where: {page: slug}`, sorts by `chunk_index` and joins them.
+  - `grep` becomes a Chroma `$contains` or `$regex` query (coarse filter), then bulk-prefetches the hits into Redis and
+    runs just-bash's grep on only those files (fine filter).
+  - Every write throws `EROFS`. Large OpenAPI specs are lazy pointers into S3.
+  - Session start about 100 ms (a sandbox took about 46 s). 30,000+ conversations a day.
+* [Introducing AI Assistant](https://www.mintlify.com/blog/introducing-ai-assistant-2025) (June 2025): moved from
+  "traditional RAG … keyword-matching … selects relevant pages upfront" to **agentic retrieval** with tool calls, on
+  Claude 4.
+* [Assistant improvements](https://www.mintlify.com/blog/assistant-improvements) (December 2025): Sonnet 4.5 since
+  mid-October 2025. Conversation feedback is analysed in ClickHouse. "Search quality was the assistant's biggest weakness."
+* [Context for agents](https://www.mintlify.com/blog/context-for-agents) (January 2026): `Accept: text/markdown`
+  content negotiation (about 30× fewer tokens), the `llms.txt` pointer placed at the top of every Markdown page, `Link`
+  and `X-Llms-Txt` headers, and `X-Robots-Tag: noindex` on Markdown responses.
+* [Mintlify acquires Trieve](https://www.mintlify.com/blog/mintlify-acquires-trieve-to-improve-rag-search-in-documentation)
+  (July 2025): Trieve "became the backbone of Mintlify's search infrastructure". 23M+ queries a month.
+
+**Open-source code that matches the observed behaviour:**
+* **Trieve** ([devflowinc/trieve](https://github.com/devflowinc/trieve); last commit January 2026):
+  - Dense embeddings (OpenAI or Jina; BGE-M3 in recent versions) plus SPLADE sparse vectors for typo-tolerant
+    "neural full-text" search.
+  - Hybrid search re-ranked with the `bge-reranker` cross-encoder.
+  - Its docs crawler (`server/src/operators/crawl_operator.rs`, `chunk_html`) splits pages at every `<h1>`–`<h6>`.
+    Sections of 5 words or fewer are merged into the next one. Each chunk carries its heading hierarchy, and
+    heading + page title are used as full-text and semantic boost phrases. Chunks are grouped by page and upserted by a
+    hash of URL + heading.
+  - This matches the heading-sized, typo-tolerant results seen in section 2.8. Whether today's search still runs on
+    Trieve's ranking or on Chroma's own search is not stated publicly.
+* **LangChain's previous Chat LangChain** (git history of `langchain-ai/chat-langchain`, removed 2026-02-09):
+  - Classic RAG ingestion: `SitemapLoader` (python.langchain.com, js.langchain.com, docs.langchain.com) →
+    `RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=200)` → OpenAI `text-embedding-3-small` →
+    Weaviate, with LangChain's `index()` API, a `SQLRecordManager` and `cleanup="full"` for incremental re-indexing.
+  - Query side: a LangGraph graph `create_research_plan → conduct_research (researcher subgraph: generate_queries →
+    parallel Send to retrieve_documents) → check_finished → respond`, on Claude 3.5 Haiku.
+
 ## 3. Build the same thing yourself (minimal recipe)
 
 1. **Expose your docs as tools.** If your docs are on Mintlify, the `/mcp` endpoint
