@@ -436,6 +436,49 @@ commit `ae50e7a` locally with `managed_deepagents.runtime.compile_managed_agent`
   vector database; rewrite each follow-up into a standalone question; cite only links present in the context;
   "Hmm, I'm not sure"; temperature 0.
 
+## 2.12 Mintlify's open-source retrieval code: `mintlify/index`
+
+[github.com/mintlify/index](https://github.com/mintlify/index), MIT licence, commit `5847fb4` (2026-08-06), is "*a source
+release of the hosted service*" behind `index.mintlify.com/mcp`, a single `context` tool for coding agents. Ingestion,
+the Chroma corpus and auth stay private (`src/internal/` contains only interfaces). Read from the code:
+
+**Index (Chroma Cloud):**
+* "*hybrid (BM25 + dense) search index*" (`chromaRepository.ts`).
+* Each chunk document starts with a header block, `Title:`, `Breadcrumbs:`, `Keywords:`, `Section:`, then the text
+  (`stripDocumentFrontmatter`). So the embedded and searched text includes the page title and its breadcrumb path.
+* Chunk metadata: `group_id` (the page), `chunkId`, `url`, `subdomain`, `hash` (heading anchor), `breadcrumbs`, and the
+  page's full `markdown`.
+* Access and filtering live in a `tags` field: `PUBLIC`, `USERAUTH:<group>`, `VERSION:<v>`, `LANGUAGE:<l>`,
+  `PRODUCT:<p>`, `HIDDEN`, `code` (`buildFilters`).
+
+**Search pipeline (`engine.ts`, `retrievalConfig.ts`, production values):**
+1. Candidate pool = `max(numResults × 3, 20)` from `SearchService` (engine `bm25`, or `hybrid` with
+   `hybridKnnLimit 100` and reciprocal rank fusion `k = 60`).
+2. Optional dense "relevance gate" (off in production): if the best dense distance is > 0.43, the corpus doesn't cover
+   the query, so drop the docs results. Keep results whose page distance is ≤ 0.5.
+3. Docs and web results are merged with reciprocal rank fusion (`k = 60`).
+4. Rerank the top 12 candidates (5 s timeout):
+   - **hosted reranker:** `0.75·relevance + 0.1·entityMatch + 0.1·officialSource + 0.05·retrievalRank`;
+   - **LLM reranker** (relevance 0–4, temperature 0): `0.55·rel/4 + 0.2·entity + 0.15·official + 0.1·rank`;
+   - **fallback:** a deterministic score.
+5. **Relevance cutoff:** always keep the top 3, then keep only items with relevance ≥ 2 of 4 or relevance score ≥ 0.33.
+6. "Hydrate": fetch the chunk documents and the page markdown by `chunkId` (3 s timeout).
+
+**Context packing (`operations.ts`, `contextAssembly.ts`):** 8 results, at most 6,000 characters per result, 2.5 s
+latency budget, up to 3 queries, at most 2 pages hydrated in full. For a long page, `selectRelevantWindow`:
+- splits the markdown into heading sections;
+- scores each by query-term occurrences, plus 5 if the term is in the heading;
+- keeps the top 3 sections in page order within the character budget, or grows around the best section with its
+  neighbours.
+
+Snippets sent to the reranker are 1,200 characters, centred on the query terms and snapped to the nearest heading.
+
+**Router (`router.ts`):** an LLM decides between `mintlify` (the product's docs are in the catalog of indexed sites; the
+top 300 sites by chunk count go into the prompt) and `web` (Exa), with a 1.5 s timeout.
+
+Caveat: this is the Index product, not the docs-site assistant. The Chroma case study names SPLADE + dense for site
+search; this code names BM25 + dense and defaults to `bm25`.
+
 ## 3. Build the same thing yourself (minimal recipe)
 
 1. **Expose your docs as tools.** If your docs are on Mintlify, the `/mcp` endpoint
