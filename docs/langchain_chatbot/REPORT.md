@@ -194,7 +194,7 @@ the Deep Agents default that repairs dangling tool calls.
 
 | Tool | Input | Returns |
 |---|---|---|
-| `search_docs_by_lang_chain` | `query` | ranked hits, each `Title`, `Link`, `Page` (path) and one `Content` chunk (about 5 KB for "middleware") |
+| `search_docs_by_lang_chain` | `query` | up to 10 hits, **each a separate MCP text block**: `Title`, `Link`, `Page` (path) and `Content` = one whole heading-level section of raw MDX. Hits range from about 250 characters to 24,000; one search returned 12,000 to 56,000 characters in my runs. Python and JS copies of the same page both appear. |
 | `query_docs_filesystem_docs_by_lang_chain` | `command` | stdout of a sandboxed, stateless, read-only shell over an in-memory FS built from doc chunks: `rg grep find tree ls cat head tail stat wc sort uniq cut sed awk jq`. Root: `/api-reference /langsmith /oss /openapi …`. OpenAPI specs are mounted under `/openapi/…`. Output capped at 30 KB |
 | `submit_feedback` | `path`, `feedback` | reports a doc problem to the docs team |
 
@@ -245,6 +245,36 @@ blocked queries and 1% of allowed ones are logged to the LangSmith dataset
 * **Pricing:** fetches `langchain.com/pricing`, caches it in process for 1 hour.
 * **check_links:** async HEAD/GET with an in-memory cache. For domains known to return soft
   404s it reads the first 8 KB and looks for "not found" in the title.
+
+## 2.6 Live tool-call captures (2026-10-12)
+
+I asked three questions through the public guest flow (`stream_mode: updates`) and timed every step.
+I also called the MCP server directly.
+
+| Question | Steps the agent took | Total | Input tokens, first → last model call |
+|---|---|---|---|
+| "How do I stream subagent output to my frontend with useStream?" | guardrail; search ×2 + support search (parallel); read 1 page + 1 article (parallel); search again; `check_links`; answer | 10.9 s | 11.7k → 38.5k |
+| "My LangSmith deployment build fails with ModuleNotFoundError…" | guardrail; search + support search; search ×2; `check_links`; answer (**no page was read**) | 13.1 s | 11.7k → 50.4k |
+| "What does this page's first example do?" + `/oss/python/langgraph/persistence` | guardrail; search + support search; `find / -name "*persistence*"` + article; `head -100 persistence.mdx`; `check_links`; answer | 9.6 s | 11.7k → 22.5k |
+
+* **Step costs:** guardrail about 1 s. Each model call 0.8 to 1.5 s (one took 3.5 s). Mintlify search 1.0 to 1.5 s inside
+  the bot (0.5 s when called directly). Filesystem reads about 0.9 s inside the bot (0.2 to 0.4 s directly). Support KB
+  and `check_links` 0.02 to 0.07 s, because both are cached in process. Model: `gemini-3.5-flash-lite`.
+* **The search results are the real retrieval.** The prompt says search returns "a single line of content", but it
+  returns full sections, so the agent often answers from them without reading a page (question 2). Base context
+  (system prompt plus tool definitions) is about 11.7k tokens, and each search adds 3k to 14k.
+* **Page context did not save a step.** With the page URL in the question, the agent still searched and ran `find`
+  before reading the page.
+* **Wire format:** stateless streamable HTTP (no `mcp-session-id`). Each call is one `POST /mcp` with a JSON-RPC
+  `tools/call`, answered as `text/event-stream` with one `event: message`. The result is
+  `{"content": [{"type": "text", "text": ...}, ...]}` with no `structuredContent`. `langchain-mcp-adapters` passes the
+  block list through as the `ToolMessage` content.
+* **The filesystem tool behaves like a bash interpreter over a virtual, read-only file tree.** Pipes, `&&` and `cd`
+  work inside one call. Errors come back as text with exit codes (`bash: rm: command not found`, exit 127;
+  `No such file or directory`, exit 1), never as MCP `isError`. Output is cut at about 30,000 characters with
+  `... (output truncated)`; for example, `cat` of a 47,330-byte page is cut off.
+* **Resources:** the server exposes one resource, `mintlify://skills/langchain`, an 11k-character skill file in Markdown.
+  The bot did not read it in my runs.
 
 ## 3. Build the same thing yourself (minimal recipe)
 
