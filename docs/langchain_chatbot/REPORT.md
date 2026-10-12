@@ -386,6 +386,30 @@ which path uses which. The embedding model, chunker and database are not visible
   - Query side: a LangGraph graph `create_research_plan → conduct_research (researcher subgraph: generate_queries →
     parallel Send to retrieve_documents) → check_finished → respond`, on Claude 3.5 Haiku.
 
+## 2.10 The exact tool list, rebuilt from their code (2026-10-12)
+
+The server refuses guest reads of `/assistants/*`, `/schemas`, `/graph` and `/openapi.json` (403). `/info` is open: LangGraph
+API 0.13.3, `langgraph` 1.2.11, host revision `0476720` (not a public git commit). I therefore compiled `agent.py` from
+commit `ae50e7a` locally with `managed_deepagents.runtime.compile_managed_agent` (`managed-deepagents==0.3.0`,
+`deepagents==0.7.24`), their real MCP connector, and a stand-in model that records the request.
+
+* **Graph nodes:** `PatchToolCallsMiddleware.before_agent → IngressGuardsMiddleware.before_agent →
+  GuardrailsMiddleware.before_agent → CustomSummarizationMiddleware.before_model → model ⇄ tools`. This is the same
+  sequence as the live stream.
+* **System prompt sent to the model:** exactly `instructions.md` (29,557 characters). Deep Agents adds no text of its own.
+* **15 tools sent to the model** (full schemas in [`agent_tools.json`](agent_tools.json)):
+  - Deep Agents built-ins: `ls`, `read_file(file_path, offset=0, limit=100)`, `write_file`, `edit_file`, `delete`,
+    `glob`, `grep(pattern, path, glob, output_mode, max_count)`, and `task(description, subagent_type)` with the
+    default `general-purpose` sub-agent.
+  - Their own tools: `search_support_articles`, `get_support_article_content`, `fetch_langchain_pricing`, `check_links`.
+  - From the Mintlify MCP server: `search_docs_by_lang_chain`, `query_docs_filesystem_docs_by_lang_chain`,
+    `submit_feedback`.
+* **Size check:** about 19.4k characters of tool definitions plus 29.6k of prompt, roughly 12.2k tokens. The live
+  first model call used 11,716 input tokens, consistent with the same 15 tools in production.
+* **Difference in production:** deployed builds pass a Context Hub `context_repo`, so the prompt is read from Context
+  Hub and the filesystem tools also see `/instructions.md`, `/skills/` and `/memories/` mounted from there (memory
+  disabled). The tool names stay the same.
+
 ## 3. Build the same thing yourself (minimal recipe)
 
 1. **Expose your docs as tools.** If your docs are on Mintlify, the `/mcp` endpoint

@@ -1,0 +1,385 @@
+[
+ {
+  "type": "function",
+  "function": {
+   "name": "ls",
+   "description": "Lists all files in a directory.\n\nThis is useful for exploring the filesystem and finding the right file to read or edit.\nYou should almost ALWAYS use this tool before using the read_file or edit_file tools.",
+   "parameters": {
+    "properties": {
+     "path": {
+      "description": "Absolute path to the directory to list. Must be absolute, not relative.",
+      "type": "string"
+     }
+    },
+    "required": [
+     "path"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "read_file",
+   "description": "Reads a file from the filesystem. Assume any path the user provides is valid; reading a missing file returns an error.\n\nUsage:\n- By default, it reads up to 100 lines starting from the beginning of the file. Use `offset`/`limit` to page through large files instead of reading them whole.\n- A status header, `@@ field | field | ... @@`, sits above the file content, and every line after it is verbatim file content. When content is truncated, there may be an explanation before the header. Never include the header when editing.\n- Speculatively batch multiple `read_file` calls in one response when several files may be useful.\n- An empty file returns a system-reminder warning in place of contents.\n- Large tool results may be offloaded to a file; the tool message gives the path. Read that path here, paging with `offset`/`limit`.\n- Images (`.png`, `.jpg`, etc.), audio, video, and PDFs return multimodal content blocks (https://docs.langchain.com/oss/python/langchain/messages#multimodal).\n- For images and PDFs, pagination via `offset`/`limit` is text-only - supply `file_path` only\n- Always read a file before editing it.",
+   "parameters": {
+    "properties": {
+     "file_path": {
+      "description": "Absolute path to the file to read. Must be absolute, not relative.",
+      "type": "string"
+     },
+     "offset": {
+      "default": 0,
+      "description": "Line number to start reading from (0-indexed). Use for pagination of large files.",
+      "type": "integer"
+     },
+     "limit": {
+      "default": 100,
+      "description": "Maximum number of lines to read. Use for pagination of large files.",
+      "type": "integer"
+     }
+    },
+    "required": [
+     "file_path"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "write_file",
+   "description": "Writes content to a file. Creates the file if it does not exist; replaces it entirely if it does.\n\nUsage:\n- Use this tool when you intend to create a new file or replace the whole file. You do not need to read the file first.\n- Prefer to edit existing files (with the edit_file tool) over creating new ones when possible.",
+   "parameters": {
+    "properties": {
+     "file_path": {
+      "description": "Absolute path where the file should be written. Must be absolute, not relative.",
+      "type": "string"
+     },
+     "content": {
+      "description": "The text content to write to the file. This parameter is required.",
+      "type": "string"
+     }
+    },
+    "required": [
+     "file_path",
+     "content"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "edit_file",
+   "description": "Performs exact string replacements in files.\n\nUsage:\n- You must read the file before editing; this tool errors otherwise.\n- Preserve the exact source indentation from the read output, and never include the read status header in old_string or new_string.\n- Prefer editing an existing file over creating a new one.\n- Only use emojis if the user explicitly requests it.",
+   "parameters": {
+    "properties": {
+     "file_path": {
+      "description": "Absolute path to the file to edit. Must be absolute, not relative.",
+      "type": "string"
+     },
+     "old_string": {
+      "description": "The exact text to find and replace. Must be unique in the file unless replace_all is True.",
+      "type": "string"
+     },
+     "new_string": {
+      "description": "The text to replace old_string with. Must be different from old_string.",
+      "type": "string"
+     },
+     "replace_all": {
+      "default": false,
+      "description": "If True, replace all occurrences of old_string. If False (default), old_string must be unique.",
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "file_path",
+     "old_string",
+     "new_string"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "delete",
+   "description": "Deletes a file or directory from the filesystem.\n\nUsage:\n- Permanently removes the file or directory at the given absolute path.\n- Deleting a directory removes it and everything inside it, recursively. Prefer\n  deleting a directory in one call over deleting each file individually.\n- This cannot be undone, so only delete paths you are sure are no longer needed.",
+   "parameters": {
+    "properties": {
+     "file_path": {
+      "description": "Absolute path to the file to delete. Must be absolute, not relative.",
+      "type": "string"
+     }
+    },
+    "required": [
+     "file_path"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "glob",
+   "description": "Find files matching a glob pattern, returning absolute paths.\n\nSupports `*` (any characters within a path segment), `**` (any directories), `?` (single character), `[abc]` (one character from a set), and `{a,b}` (alternatives), e.g. `*.py`, `src/**/*.py`, `*.{yml,yaml}`.\n\nA pattern without `/` matches the file name at any depth under the search root (`*.py` matches `src/app/main.py`). A pattern containing `/` matches the search-root-relative path (`src/**/*.py`). A leading `/` anchors to the search root (`/*.py` matches only top-level Python files).\n\nLeading-dot names are only matched when the pattern segment itself starts with `.` (use `.env`, or `.github/**/*.yml`). Because `**` will not descend into dot-directories, the bare form `*.yml` is *broader* than `**/*.yml` and is usually what you want.",
+   "parameters": {
+    "properties": {
+     "pattern": {
+      "description": "Glob pattern to match files (e.g., '*.py', '**/*.py', '/subdir/**/*.md'). A pattern without '/' matches the file name at any depth; a pattern containing '/' matches the search-root-relative path; a leading '/' anchors to the search root ('/*.py' matches only top-level files). Leading-dot names are excluded unless the pattern segment starts with '.', so prefer the bare form '*.py' over '**/*.py' -- '**' will not descend into dot-directories like '.github'.",
+      "type": "string"
+     },
+     "path": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Base directory to search from. Defaults to the backend's default root."
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "grep",
+   "description": "Search for a LITERAL text pattern across files (NOT regex).\n\nThe pattern is matched verbatim: regex metacharacters are ordinary characters, not operators. To match any of several strings, run a separate grep for each; `grep(pattern=\"foo|bar\")` searches for the literal text \"foo|bar\", and `.*` or `\\.` match those characters literally.\n\nReturns matching files or content per `output_mode`. Offloaded large tool results live under the artifacts root (`/large_tool_results/` by default); grep that directory to search them when you do not know the exact path.",
+   "parameters": {
+    "properties": {
+     "pattern": {
+      "description": "Text pattern to search for (literal string, not regex).",
+      "type": "string"
+     },
+     "path": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Directory to search in. Defaults to current working directory."
+     },
+     "glob": {
+      "anyOf": [
+       {
+        "type": "string"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Glob pattern (NOT regex) limiting which files are searched (e.g. '*.py', '*.ts'). A pattern without '/' matches the file name at any depth; a pattern containing '/' matches the search-root-relative path (e.g. 'src/**/*.py'). This is an in-tool file filter, not a call to the separate glob tool. Brace expansion (e.g. '*.{ts,tsx}') is not supported on all backends; run a separate search per extension for reliable results."
+     },
+     "output_mode": {
+      "default": "files_with_matches",
+      "description": "Shape of the returned text. 'files_with_matches' (default): newline-separated matching file paths. 'content': matching lines grouped by file under a '<path>:' header, each line indented and formatted '<line_number>: <line text>' (only the matched line, no surrounding context). 'count': one '<path>: <match_count>' line per file.",
+      "enum": [
+       "files_with_matches",
+       "content",
+       "count"
+      ],
+      "type": "string"
+     },
+     "max_count": {
+      "anyOf": [
+       {
+        "exclusiveMinimum": 0,
+        "type": "integer"
+       },
+       {
+        "type": "null"
+       }
+      ],
+      "default": null,
+      "description": "Optional cap on the total number of matches returned across all files. Leave unset to use the configured default. When the cap is hit, results are truncated and a note says so; narrow the pattern or path to see the rest."
+     }
+    },
+    "required": [
+     "pattern"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "task",
+   "description": "Launch an ephemeral subagent to handle a complex, multi-step task.\n\nAvailable agent types and the tools they have access to:\n- general-purpose: General-purpose agent for researching complex questions, searching for files and content, and executing multi-step tasks. When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries use this agent to perform the search for you. This agent has access to all tools as the main agent.\n\nSpecify subagent_type to select the agent. Usage notes:\n- Launch multiple agents concurrently when their tasks are independent, using a single message with multiple tool calls.\n- Each invocation is stateless by default: the agent sees only the prompt you give it and returns a single final report. Put full detail in the prompt and state exactly what it should return \u2014 unless an agent type below says it inherits your conversation instead.\n- The agent's report is not shown to the user; relay a summary yourself.\n- Tell the agent whether to create content, analyze, or only research, since it can't necessarily see the user's intent unless it inherits your conversation, as noted per agent type below.\n- If an agent's description says to use it proactively, do so without waiting to be asked.\n- When only general-purpose is available, use it for any complex, context-heavy task; it has the same capabilities as the main agent.",
+   "parameters": {
+    "properties": {
+     "description": {
+      "description": "A detailed description of the task for the subagent to perform autonomously. Include all necessary context and specify the expected output format.",
+      "type": "string"
+     },
+     "subagent_type": {
+      "description": "The type of subagent to use. Must be one of the available agent types listed in the tool description.",
+      "type": "string"
+     }
+    },
+    "required": [
+     "description",
+     "subagent_type"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "search_support_articles",
+   "description": "Get LangChain support article titles from Pylon KB, filtered by collection(s).\n\nReturns article titles in structured JSON format so the LLM can decide which ones to fetch.\n\nArgs:\n    collections: Comma-separated list of collection names to filter by.\n                Available collections:\n                - \"General\" - General administration and management topics\n                - \"OSS (LangChain and LangGraph)\" - Open source libraries for LangChain and LangGraph\n                - \"LangSmith Observability\" - Tracing, stats, and observability of agents\n                - \"LangSmith Evaluation\" - Datasets, evaluations, and prompts\n                - \"LangSmith Deployment\" - Graph runtime and deployments (formerly LangGraph Platform)\n                - \"SDKs and APIs\" - All things across SDKs and APIs\n                - \"LangSmith Studio\" - Visualizing and debugging agents (formerly LangGraph Studio)\n                - \"Self Hosted\" - Self-hosted LangSmith including deployments\n                - \"Troubleshooting\" - Broad domain issue triage and resolution\n                - \"Security\" - Code scans, key management, and security topics\n\n                Use \"all\" to search all collections (default)\n                Example: \"LangSmith Deployment,LangSmith Observability\" to get articles about both\n\nReturns:\n    JSON string with structure: {\"collections\": \"...\", \"total\": N, \"articles\": [...]}",
+   "parameters": {
+    "properties": {
+     "collections": {
+      "default": "all",
+      "type": "string"
+     }
+    },
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "get_support_article_content",
+   "description": "Fetch the full HTML content of a specific Pylon support article.\n\nUses cached articles from search_support_articles to avoid redundant API calls.\nThis only accepts article IDs returned by search_support_articles; do not pass\ndocs.langchain.com URLs or paths.\n\nArgs:\n    article_id: The article ID from search_support_articles\n\nReturns:\n    Article content with only: id, title, url, collection, content",
+   "parameters": {
+    "properties": {
+     "article_id": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "article_id"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "fetch_langchain_pricing",
+   "description": "ALWAYS use this tool for ANY question about LangChain pricing, plans, or trace limits.\n\nDO NOT use docs search for pricing questions \u2014 it does not have current pricing data.\n\nTriggers: \"how many traces\", \"plus plan\", \"developer plan\", \"enterprise plan\",\n\"how much does\", \"pricing\", \"cost\", \"seats\", \"quota\", \"pay-as-you-go\", \"fleet runs\",\n\"upgrade\", \"billing\", \"what plan\", \"which plan\".\n\nReturns live pricing data directly from https://www.langchain.com/pricing.",
+   "parameters": {
+    "properties": {},
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "check_links",
+   "description": "Check if URLs are valid and accessible before including them in a response.\n\nArgs:\n    urls: List of URLs to validate.\n    timeout: Timeout per request in seconds (default: 10).\n\nReturns:\n    Formatted results showing which URLs are valid/invalid with details.",
+   "parameters": {
+    "properties": {
+     "urls": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array"
+     },
+     "timeout": {
+      "default": 10.0,
+      "type": "number"
+     }
+    },
+    "required": [
+     "urls"
+    ],
+    "type": "object"
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "search_docs_by_lang_chain",
+   "description": "Search across the Docs by LangChain knowledge base to find relevant information, code examples, API references, and guides. Use this tool when you need to answer questions about Docs by LangChain, find specific documentation, understand how features work, or locate implementation details. The search returns contextual content with titles and direct links to the documentation pages. If you need the full content of a specific page, use the query_docs_filesystem tool to `head` or `cat` the page path (append `.mdx` to the path returned from search \u2014 e.g. a result at `/some/page` is read with `head -200 /some/page.mdx`).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "query": {
+      "type": "string",
+      "description": "Search query"
+     }
+    },
+    "required": [
+     "query"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "query_docs_filesystem_docs_by_lang_chain",
+   "description": "Run a read-only shell-like query against a virtualized, in-memory filesystem rooted at `/` that contains ONLY the Docs by LangChain documentation pages and OpenAPI specs. This is NOT a shell on any real machine \u2014 nothing runs on the user's computer, the server host, or any network. The filesystem is a sandbox backed by documentation chunks.\n\nThis is how you read documentation pages: there is no separate \"get page\" tool. To read a page, pass its `.mdx` path to `head` or `cat` \u2014 a page at the URL path `/some/page` lives at `/some/page.mdx`. To search the docs with exact keyword or regex matches, use `rg`. To understand the docs structure, use `tree` or `ls`.\n\n**Paths are specific to this site \u2014 never guess them.** Discover real paths with `tree / -L 2`, `ls /`, or the search tool before reading. If a path does not exist, that only means the guess was wrong; it does NOT mean the topic is undocumented \u2014 use `rg -il \"keyword\" /` to find where it is covered.\n\n**Workflow:** Start with the search tool for broad or conceptual queries like \"how to authenticate\" or \"rate limiting\". Use this tool when you need exact keyword/regex matching, structural exploration, or to read the full content of a specific page by path.\n\nSupported commands: rg (ripgrep), grep, find, tree, ls, cat, head, tail, stat, wc, sort, uniq, cut, sed, awk, jq, plus basic text utilities. No writes, no network, no process control. Run `--help` on any command for usage.\n\nEach call is STATELESS: the working directory always resets to `/` and no shell variables, aliases, or history carry over between calls. If you need to operate in a subdirectory, chain commands in one call with `&&` or pass absolute paths (e.g., `cd /some-directory && ls` or `ls /some-directory`). Do NOT assume that `cd` in one call affects the next call.\n\nExamples (replace the placeholder paths with real ones from `tree` or search):\n- `tree / -L 2` \u2014 see the top-level directory layout\n- `rg -il \"rate limit\" /` \u2014 find all files mentioning \"rate limit\"\n- `rg -C 3 \"apiKey\" /some-directory/` \u2014 show matches with 3 lines of context around each hit\n- `head -80 /some/page.mdx` \u2014 read the top 80 lines of a specific page\n- `head -80 /page-one.mdx /page-two.mdx /section/page-three.mdx` \u2014 read multiple pages in one call\n- `cat /some/page.mdx` \u2014 read a full page when you need everything\n- `cat /openapi/langsmith/langsmith-platform-openapi.json | jq '.paths | keys'` \u2014 list OpenAPI endpoints\n\nOpenAPI specs for this site are mounted at: `/openapi/langsmith/langsmith-platform-openapi.json`, `'/openapi/https://api.host.langchain.com/openapi.json'`, `/openapi/langsmith/agent-server-openapi.json`. Use them to answer questions about endpoints, request/response schemas, parameters, and authentication.\n\nOutput is truncated to 30KB per call. Prefer targeted `rg -C` or `head -N` over broad `cat` on large files. To read only the relevant sections of a large file, use `rg -C 3 \"pattern\" /path/file.mdx`. Batch multiple file reads into a single `head` or `cat` call whenever possible.\n\nWhen referencing pages in your response to the user, convert filesystem paths to URL paths by removing the `.mdx` extension. For example, `/some/page.mdx` becomes `/some/page`.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "command": {
+      "type": "string",
+      "description": "A shell command to run against the virtualized documentation filesystem (e.g., `rg -il \"keyword\" /`, `tree / -L 2`, `head -80 /path/file.mdx`)."
+     }
+    },
+    "required": [
+     "command"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "submit_feedback",
+   "description": "Report a problem with this documentation site so the docs team can fix it. Use when a documentation page is incorrect, outdated, confusing, incomplete, or has a broken example. This is for feedback about the documentation content itself \u2014 not for product support requests or feedback about this tool or assistant.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "path": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The URL path of the documentation page the feedback is about (the page you were reading, without the `.mdx` extension)."
+     },
+     "feedback": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A clear description of the documentation issue or suggestion \u2014 what is incorrect, outdated, missing, or confusing."
+     }
+    },
+    "required": [
+     "path",
+     "feedback"
+    ],
+    "additionalProperties": false
+   }
+  }
+ }
+]
