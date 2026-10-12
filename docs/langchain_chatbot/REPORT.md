@@ -276,6 +276,37 @@ I also called the MCP server directly.
 * **Resources:** the server exposes one resource, `mintlify://skills/langchain`, an 11k-character skill file in Markdown.
   The bot did not read it in my runs.
 
+## 2.7 How the docs reach Mintlify and how Mintlify serves them to agents
+
+Sources: the `langchain-ai/docs` repo (commit `8ad078e`), Mintlify's own docs read through Mintlify's MCP server
+(`https://www.mintlify.com/docs/mcp`), and live checks on docs.langchain.com.
+
+**Publishing (LangChain's side).**
+1. Writers edit `.mdx` pages plus `src/docs.json` (navigation and site config) in `langchain-ai/docs`. One source page
+   can hold both languages, using `:::python` and `:::js` blocks.
+2. On merge, the GitHub Action `publish.yml` runs `make build`. The Python `pipeline/` turns `src/` into `build/`:
+   - Each OSS page is rendered twice, to `build/oss/python/...` and `build/oss/javascript/...`. This is why every
+     search returns Python and JS copies of the same page.
+   - Links are resolved and shared snippets copied.
+   - `ChatLangChainEmbed.js` is copied in from the npm package `@langchain/docs-sandbox`.
+3. The action force-pushes `build/` to the `prod` branch. Mintlify's GitHub App watches that branch and deploys it;
+   PRs get preview branches. LangChain's pipeline does not generate `llms.txt`; Mintlify does.
+
+**What Mintlify builds from the deployed tree (Mintlify's side).**
+
+| Output | Where | What it is |
+|---|---|---|
+| HTML site | `docs.langchain.com/...` | Next.js on Vercel behind Cloudflare. Any `.js` file in the content directory is injected on every page, which is how the chat widget gets there |
+| Markdown version of every page | `<page>.md` (`text/markdown`) | Raw page with a header pointing agents to `llms.txt` |
+| `llms.txt` / `llms-full.txt` | site root | Page index (LangChain's is split into 2 section files for 1,695 pages) and all content in one file (15.9 MB) |
+| Search index | behind the search tool and the site search bar | Pages split into heading-level chunks. Mintlify's docs describe "full-text search and semantic understanding" and a per-chunk relevance score that `boost` multiplies |
+| Virtual filesystem | behind `query_docs_filesystem_*` | The same pages as read-only `.mdx` files, plus OpenAPI specs, queried with shell commands |
+| Search MCP server | `/mcp` (public) and `/authed/mcp` (OAuth, scoped to user groups) | Tools: search, filesystem, `submit_feedback`; skill files as resources. Optional `version` and `language` search filters exist for multi-version or multi-language sites |
+| Discovery | `/.well-known/mcp`, `/.well-known/mcp/server-card.json`, `Link` and `X-Llms-Txt` response headers | Lets agents find the MCP server and `llms.txt` without configuration |
+
+LangChain's `/.well-known/mcp` names the underlying host `langchain-5e9cc07a.main-kill-isr.mintlify.me/mcp`.
+`docs.langchain.com/mcp` is the same server on LangChain's domain.
+
 ## 3. Build the same thing yourself (minimal recipe)
 
 1. **Expose your docs as tools.** If your docs are on Mintlify, the `/mcp` endpoint
