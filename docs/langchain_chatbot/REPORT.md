@@ -410,6 +410,32 @@ commit `ae50e7a` locally with `managed_deepagents.runtime.compile_managed_agent`
   Hub and the filesystem tools also see `/instructions.md`, `/skills/` and `/memories/` mounted from there (memory
   disabled). The tool names stay the same.
 
+## 2.11 More primary sources (2026-10-12)
+
+* **[Chroma case study: Mintlify](https://trychroma.com/customers/mintlify-case-study)** (Chroma, February 2026):
+  - Mintlify's search bar **and** assistant panel run on **Chroma Cloud**, with **one collection per customer** site
+    (tens of thousands) and frequent re-indexing.
+  - Mintlify "*depends heavily on SPLADE*" (sparse keyword search with synonym expansion), combined with dense vectors
+    in hybrid search.
+  - P50 latency 20 ms, P99 under 100 ms. The previous search vendor had outages every 4–5 hours.
+* **Mintlify Assistant API** (`/v2/assistant/{domain}/message`, AI SDK v5 `useChat` stream):
+  - Parameters `currentPath` (the page the user is on, ≤200 characters), `retrievalPageSize` (default 5), `filter`,
+    `context`, `threadId`, `fp`.
+  - The live assistant on mintlify.com shows a CAPTCHA before answering, and the API needs the site owner's key, so I
+    did not capture its tool stream.
+* **[Why We Rebuilt LangChain's Chatbot](https://www.langchain.com/blog/rebuilding-chat-langchain)** (LangChain,
+  November 2025):
+  - Replaced chunk + embed + vector database ("*chunking breaks structure, constant reindexing, vague citations*")
+    with direct access: Mintlify's API for full docs pages, Pylon titles-then-read for the support KB, and ripgrep
+    plus file reads over code uploaded to their deployment.
+  - Two modes: `createAgent` (3–6 tool calls, under 15 s, Claude Haiku 4.5 / GPT-4o mini / nano), and a Deep Agent
+    with doc, KB and codebase sub-agents (1–3 minutes).
+  - This is the earlier version that the UI's codebase tool labels (`read_codebase_file`, `search_public_code`) come
+    from. The current repo uses Gemini Flash Lite and no codebase tools.
+* **[Original Chat LangChain](https://www.langchain.com/blog/langchain-chat)** (January 2023): scrape → chunk → embed →
+  vector database; rewrite each follow-up into a standalone question; cite only links present in the context;
+  "Hmm, I'm not sure"; temperature 0.
+
 ## 3. Build the same thing yourself (minimal recipe)
 
 1. **Expose your docs as tools.** If your docs are on Mintlify, the `/mcp` endpoint
